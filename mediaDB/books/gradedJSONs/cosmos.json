@@ -1,0 +1,22 @@
+{
+  "media_type": "book",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Cosmos",
+    "author": "Carl Sagan",
+    "publication_year": 1980,
+    "genres": [
+      "Non-fiction",
+      "Science",
+      "History"
+    ],
+    "publisher": "Random House",
+    "short_description": "In Cosmos, the late astronomer Carl Sagan casts his gaze over the magnificent mystery of the Universe and attempts to grasp its grandeur.",
+    "criteria_grades": {
+
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

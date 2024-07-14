@@ -1,0 +1,39 @@
+{
+  "media_type": "movie",
+  "graded": false,
+  "criteriaGraded": false,
+  "media_data": {
+    "title": "Hell or High Water",
+    "director": "David Mackenzie",
+    "release_year": 2016,
+    "genres": [
+      "action",
+      "crime",
+      "drama"
+    ],
+    "top_billed_actors": [
+      "Chris Pine",
+      "Ben Foster",
+      "Jeff Bridges"
+    ],
+    "short_description": "A story about two brothers who turn to bank robbery to save their family ranch, and the two Texas Rangers who pursue them.",
+    "criteria_grades": {
+      "Rewatchability": 0,
+      "Casting": 0,
+      "Attention Holding": 0,
+      "Effects": 0,
+      "Cinematography": 0,
+      "Suspension of Disbelief": 0,
+      "Dialogue": 0,
+      "Pacing": 0,
+      "Soundtrack": 0,
+      "Direction": 0,
+      "Story/Plot": 0,
+      "Character Development": 0,
+      "Cultural/Artistic Impact": 0,
+      "Emotional Impact": 0
+    },
+    "quotes": [],
+    "notes":""
+  }
+}

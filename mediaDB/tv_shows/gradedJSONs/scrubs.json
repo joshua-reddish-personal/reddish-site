@@ -1,0 +1,35 @@
+{
+  "media_type": "tv_show",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Scrubs",
+    "creator": "Bill Lawrence",
+    "release_year": 2001,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "top_billed_actors": [
+      "Zach Braff",
+      "Donald Faison",
+      "Sarah Chalke"
+    ],
+    "short_description": "In the unreal world of Sacred Heart Hospital, intern John 'J.D.' Dorian learns the ways of medicine, friendship, and life.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

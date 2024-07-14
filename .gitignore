@@ -1,0 +1,48 @@
+# Ignore built files and directories
+cdk/cdk.out/
+cdk/cdk.context.json
+lambdas/*/dist/
+lambdas/*/node_modules/
+infrastructure/dynamodb/cdk.out
+infrastructure/dynamodb/
+infrastructure/dynamodb/node_modules/
+node_modules/
+*.js
+*.js.map
+*.d.ts
+
+# Ignore CDK deployment files
+cdk/node_modules/
+cdk/.env
+cdk/.aws-sam/
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*~
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+
+# Ignore local environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore macOS system files
+.DS_Store
+._*
+
+# Ignore log files
+*.log
+
+# Ignore compiled TypeScript files
+*.tsbuildinfo
+
+# Ignore test coverage reports
+coverage/
+

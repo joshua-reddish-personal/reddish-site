@@ -1,0 +1,6 @@
+{
+  "hosted-zone:account=xxxx:domainName=reddishreviews.com:region=us-east-1": {
+    "Id": "/hostedzone/Z046621069JGY297BRXC",
+    "Name": "reddishreviews.com."
+  }
+}

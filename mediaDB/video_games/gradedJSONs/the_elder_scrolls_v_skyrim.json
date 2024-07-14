@@ -1,0 +1,21 @@
+{
+  "media_type": "video_game",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "The Elder Scrolls V: Skyrim",
+    "developer": "Bethesda Game Studios",
+    "release_year": 2011,
+    "genres": [
+      "action",
+      "role-playing",
+      "adventure"
+    ],
+    "short_description": "Skyrim is an open world action role-playing video game where players explore a large world filled with quests, dangerous creatures, and diverse environments.",
+    "criteria_grades": {
+
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

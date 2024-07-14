@@ -1,0 +1,37 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Edge of Tomorrow",
+    "director": "Doug Liman",
+    "release_year": 2014,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "top_billed_actors": [
+      "Tom Cruise",
+      "Emily Blunt",
+      "Bill Paxton"
+    ],
+    "short_description": "A military officer is brought into an alien war against an extraterrestrial enemy who can reset the day and know the future. When this officer is enabled with the same power, he teams up with a Special Forces warrior to try and end the war.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "quotes": [],
+    "notes":""
+  }
+}

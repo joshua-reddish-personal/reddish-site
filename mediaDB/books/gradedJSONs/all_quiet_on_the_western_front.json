@@ -1,0 +1,23 @@
+{
+  "media_type": "book",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "All Quiet on the Western Front",
+    "author": "Erich Maria Remarque",
+    "publication_year": 1928,
+    "genres": [
+      "war",
+      "historical fiction",
+      "novel",
+      "classic literature"
+    ],
+    "publisher": "Ullstein Verlag",
+    "short_description": "The book describes the German soldiers' extreme physical and mental stress during the war, and the detachment from civilian life felt by many of these soldiers upon returning home from the front.",
+    "criteria_grades": {
+
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

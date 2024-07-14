@@ -1,0 +1,35 @@
+{
+  "media_type": "movie",
+  "graded": false,
+  "criteriaGraded": false,
+  "media_data": {
+    "title": "The Holdovers",
+    "director": "Alexander Payne",
+    "release_year": 2023,
+    "genres": [
+      "Drama"
+    ],
+    "top_billed_actors": [
+      "Paul Giamatti"
+    ],
+    "short_description": "The film is set in 1970 and focuses on Paul Hunham, played by Paul Giamatti, a universally disliked teacher at a New England prep school who is forced to look after a group of students who, for various reasons, are unable to go home during Christmas break.",
+    "criteria_grades": {
+      "Rewatchability": 0,
+      "Casting": 0,
+      "Attention Holding": 0,
+      "Effects": 0,
+      "Cinematography": 0,
+      "Suspension of Disbelief": 0,
+      "Dialogue": 0,
+      "Pacing": 0,
+      "Soundtrack": 0,
+      "Direction": 0,
+      "Story/Plot": 0,
+      "Character Development": 0,
+      "Cultural/Artistic Impact": 0,
+      "Emotional Impact": 0
+    },
+    "quotes": [],
+    "notes":""
+  }
+}

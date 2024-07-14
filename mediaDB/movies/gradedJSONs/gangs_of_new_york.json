@@ -1,0 +1,36 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Gangs of New York",
+    "director": "Martin Scorsese",
+    "release_year": 2002,
+    "genres": [
+      "crime",
+      "drama"
+    ],
+    "top_billed_actors": [
+      "Leonardo DiCaprio",
+      "Daniel Day-Lewis",
+      "Cameron Diaz"
+    ],
+    "short_description": "In 1862, Amsterdam Vallon returns to the Five Points area of New York City seeking revenge against Bill the Butcher, his father's killer.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "quotes": [],
+    "notes":""
+  }
+}

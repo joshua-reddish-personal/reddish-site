@@ -1,0 +1,1 @@
+I am creating a cdk app, that will create a dynamo table, a cloudfront, an s3 bucket for front end static files, and and apigateway lambda for the backend. Give me the cdk script in python for the cf-s3

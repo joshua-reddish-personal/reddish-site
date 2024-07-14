@@ -1,0 +1,23 @@
+{
+  "media_type": "video_game",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Back 4 Blood",
+    "developer": "Turtle Rock Studios",
+    "release_year": 2021,
+    "genres": [
+      "first-person shooter",
+      "survival",
+      "horror"
+    ],
+    "short_description": "Back 4 Blood is a multiplayer first-person shooter game. It is developed by Turtle Rock Studios and was released in the year 2021. The game offers a thrilling, four-player co-op storyline and PvP gameplay. The game is set post-apocalypse where the players must work together to fight off the infected and survive.",
+    "criteria_grades": {
+
+      },
+    "overall_grade": 0,
+ "quotes": [],
+ "notes":""
+
+  }
+}

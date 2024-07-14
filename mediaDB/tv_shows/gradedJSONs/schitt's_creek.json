@@ -1,0 +1,35 @@
+{
+  "media_type": "tv_show",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Schitt's Creek",
+    "creator": "Eugene Levy, Dan Levy",
+    "release_year": 2015,
+    "genres": [
+      "comedy"
+    ],
+    "top_billed_actors": [
+      "Eugene Levy",
+      "Catherine O'Hara",
+      "Dan Levy",
+      "Emily Hampshire"
+    ],
+    "short_description": "When rich video-store magnate Johnny Rose and his family suddenly find themselves broke, they are forced to live in Schitt's Creek, a small depressing town they once bought as a joke.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

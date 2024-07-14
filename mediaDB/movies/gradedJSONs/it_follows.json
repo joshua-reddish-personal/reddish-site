@@ -1,0 +1,37 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "It Follows",
+    "director": "David Robert Mitchell",
+    "release_year": 2014,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "top_billed_actors": [
+      "Maika Monroe",
+      "Keir Gilchrist",
+      "Olivia Luccardi"
+    ],
+    "short_description": "A young woman is followed by an unknown supernatural force after a sexual encounter.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "quotes": [],
+    "notes":""
+  }
+}

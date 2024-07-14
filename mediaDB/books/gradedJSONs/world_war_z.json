@@ -1,0 +1,22 @@
+{
+  "media_type": "book",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "World War Z",
+    "author": "Max Brooks",
+    "publication_year": 2006,
+    "genres": [
+      "horror",
+      "science fiction",
+      "apocalyptic fiction"
+    ],
+    "publisher": "Crown",
+    "short_description": "An oral history of the world's devastating Zombie War, told by the men and women who witnessed every horrific detail. Unpalatable truths were hidden from humanity to save them from panic, while governments initiated desperate measures to prevent total annihilation.",
+    "criteria_grades": {
+
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

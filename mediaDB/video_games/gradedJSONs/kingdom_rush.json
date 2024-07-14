@@ -1,0 +1,20 @@
+{
+  "media_type": "video_game",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Kingdom Rush",
+    "developer": "Ironhide Game Studio",
+    "release_year": 2011,
+    "genres": [
+      "Tower defense",
+      "Strategy"
+    ],
+    "short_description": "Kingdom Rush is a single-player tower defense game set in a medieval fantasy setting. Players must defend their kingdom against waves of enemies by building towers at strategic locations.",
+    "criteria_grades": {
+
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

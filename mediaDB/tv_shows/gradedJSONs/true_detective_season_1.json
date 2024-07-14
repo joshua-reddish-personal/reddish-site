@@ -1,0 +1,36 @@
+{
+  "media_type": "tv_show",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "True Detective Season 1",
+    "creator": "Nic Pizzolatto",
+    "release_year": 2014,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "top_billed_actors": [
+      "Matthew McConaughey",
+      "Woody Harrelson",
+      "Michelle Monaghan"
+    ],
+    "short_description": "Seasonal anthology series in which police investigations unearth the personal and professional secrets of those involved, both within and outside the law. The first season covers two detectives, Rust Cohle and Martin Hart, who revisit a homicide case in which they both worked in 1995, looking for answers that may reveal dark and haunting personal secrets about themselves.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

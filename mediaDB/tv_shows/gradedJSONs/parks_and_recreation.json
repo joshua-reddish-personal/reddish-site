@@ -1,0 +1,34 @@
+{
+  "media_type": "tv_show",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Parks and Recreation",
+    "creator": "Greg Daniels, Michael Schur",
+    "release_year": 2009,
+    "genres": [
+      "comedy"
+    ],
+    "top_billed_actors": [
+      "Amy Poehler",
+      "Rashida Jones",
+      "Aziz Ansari"
+    ],
+    "short_description": "The absurd antics of an Indiana town's public officials as they pursue sundry projects to make their city a better place.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "media_type": "book",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Scholomance is Scholomance",
+    "author": "Unknown",
+    "publication_year": 2015,
+    "genres": [
+      "Fantasy",
+      "Dark Humor",
+      "Adventure"
+    ],
+    "publisher": "Unknown",
+    "short_description": "An enchanting tale of a mystical school 'Scholomance,' where everyday is a struggle for survival and getting out alive is a graduation itself. A dark, twisted, humorous and adventurous journey in the magical world of Scholomance.",
+    "criteria_grades": {
+
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

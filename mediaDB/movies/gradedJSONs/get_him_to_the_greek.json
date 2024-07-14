@@ -1,0 +1,36 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Get Him to the Greek",
+    "director": "Nicholas Stoller",
+    "release_year": 2010,
+    "genres": [
+      "Comedy",
+      "Music"
+    ],
+    "top_billed_actors": [
+      "Jonah Hill",
+      "Russell Brand",
+      "Elisabeth Moss"
+    ],
+    "short_description": "A record company intern is hired to accompany out-of-control British rock star Aldous Snow to a concert at L.A.'s Greek Theater.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "quotes": [],
+    "notes":""
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "media_type": "video_game",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Baldur's Gate 3",
+    "developer": "Larian Studios",
+    "release_year": 2020,
+    "genres": [
+      "role-playing",
+      "strategy"
+    ],
+    "short_description": "Baldur's Gate 3 is an immersive, visually stunning role-playing game with a focus on detailed storytelling and strategic combat. The game offers deep interactive dialogue choices, cinematic moments, and a dynamic world that changes based on player decisions.",
+    "criteria_grades": {
+
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

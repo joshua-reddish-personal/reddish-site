@@ -1,0 +1,22 @@
+{
+  "media_type": "book",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "The Stormlight Archive",
+    "author": "Brandon Sanderson",
+    "publication_year": 2010,
+    "genres": [
+      "fantasy",
+      "epic",
+      "high fantasy"
+    ],
+    "publisher": "Tor Books",
+    "short_description": "The Stormlight Archive is an ongoing epic fantasy novel series written by American author Brandon Sanderson. The series is expected to consist of ten books, in which the first book, The Way of Kings, was published on August 31, 2010. It tells the story of Roshar, a world of stone and storms, with a rich past and a towering future.",
+    "criteria_grades": {
+
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

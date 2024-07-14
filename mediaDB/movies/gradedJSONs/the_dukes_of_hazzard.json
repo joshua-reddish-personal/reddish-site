@@ -1,0 +1,37 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteriaGraded": false,
+  "media_data": {
+    "title": "The Dukes of Hazzard",
+    "director": "Jay Chandrasekhar",
+    "release_year": 2005,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "top_billed_actors": [
+      "Johnny Knoxville",
+      "Seann William Scott",
+      "Jessica Simpson"
+    ],
+    "short_description": "Cousins Bo, Luke, and Daisy Duke, and their uncle Jesse, egg on the authorities of Hazzard County, Boss Hogg and Sheriff Coltrane.",
+    "criteria_grades": {
+      "Rewatchability": 0,
+      "Casting": 0,
+      "Attention Holding": 0,
+      "Effects": 0,
+      "Cinematography": 0,
+      "Suspension of Disbelief": 0,
+      "Dialogue": 0,
+      "Pacing": 0,
+      "Soundtrack": 0,
+      "Story/Plot": 0,
+      "Character Development": 0,
+      "Cultural/Artistic Impact": 0,
+      "Emotional Impact": 0
+    },
+    "notes": "Favorite Scenes, Favorite Lines"
+  }
+}

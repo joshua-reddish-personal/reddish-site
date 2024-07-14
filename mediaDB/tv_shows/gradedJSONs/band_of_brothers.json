@@ -1,0 +1,36 @@
+{
+  "media_type": "tv_show",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Band of Brothers",
+    "creator": "Stephen E. Ambrose, Tom Hanks, Steven Spielberg",
+    "release_year": 2001,
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "top_billed_actors": [
+      "Damian Lewis",
+      "Scott Grimes",
+      "Ron Livingston"
+    ],
+    "short_description": "The story of Easy Company, 506th Regiment of the 101st Airborne Division, from their training in jump school through to the end of World War II.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "media_type": "book",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "The Kingkiller Chronicles",
+    "author": "Patrick Rothfuss",
+    "publication_year": 2007,
+    "genres": [
+      "fantasy",
+      "fiction",
+      "adventure"
+    ],
+    "publisher": "DAW Books",
+    "short_description": "A high fantasy series that follows Kvothe, an adventurer and musician, as he recalls his life's adventures to a scribe, including his quest to uncover the truth about the mysterious group known as the Chandrian.",
+    "criteria_grades": {
+
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

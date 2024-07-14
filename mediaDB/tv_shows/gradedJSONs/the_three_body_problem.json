@@ -1,0 +1,19 @@
+{
+  "media_type": "tv_show",
+  "graded": true,
+  "criteriaGraded": false,
+  "media_data": {
+    "title": "The Three-Body Problem",
+    "creator": "Liu Cixin, adapted by David Benioff, D.B. Weiss, and Alexander Woo",
+    "release_year": 2023,
+    "genres": [
+      "Drama",
+      "Sci-Fi",
+      "Mystery"
+    ],
+    "top_billed_actors": [
+      "TBA"
+    ],
+    "short_desscription": "Based on the renowned science fiction novel by Liu Cixin, 'The Three-Body Problem' Chronicles the first contact between humanity and an alien civilization."
+  }
+}

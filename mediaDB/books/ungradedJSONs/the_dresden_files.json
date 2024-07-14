@@ -1,0 +1,17 @@
+{
+  "media_type": "book",
+  "graded": false,
+  "criteriaGraded": false,
+  "media_data": {
+    "title": "The Dresden Files",
+    "author": "Jim Butcher",
+    "publication_year": 2000,
+    "genres": [
+      "fantasy",
+      "mystery",
+      "urban fantasy"
+    ],
+    "publisher": "Roc Books",
+    "short_description": "A series following Harry Dresden, Chicago's first (and only) Wizard P.I., as he solves mysteries and battles dark magical forces."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteriaGraded": false,
+  "media_data": {
+    "title": "Mad Max: Fury Road",
+    "director": "George Miller",
+    "release_year": 2015,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "top_billed_actors": [
+      "Tom Hardy",
+      "Charlize Theron",
+      "Nicholas Hoult"
+    ],
+    "short_description": "In a post-apocalyptic wasteland, Max teams up with Furiosa to escape from the cult leader Immortan Joe and his army in a high-speed, action-packed chase.",
+    "criteria_grades": {
+      "Rewatchability": 0,
+      "Casting": 0,
+      "Attention Holding": 0,
+      "Effects": 0,
+      "Cinematography": 0,
+      "Suspension of Disbelief": 0,
+      "Dialogue": 0,
+      "Pacing": 0,
+      "Soundtrack": 0,
+      "Story/Plot": 0,
+      "Character Development": 0,
+      "Cultural/Artistic Impact": 0,
+      "Emotional Impact": 0
+    },
+    "quotes": [],
+    "notes": ""
+  }
+}

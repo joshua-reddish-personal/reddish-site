@@ -1,0 +1,55 @@
+name: Add Media From Short
+
+on:
+  workflow_dispatch:
+    inputs:
+      media_type:
+        description: 'Media Type'
+        required: true
+      media_title:
+        description: 'Media Title'
+        required: true
+      graded:
+        description: 'Graded'
+        required: true
+
+jobs:
+  run_python_script:
+    runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+        # cache: 'pip' # caching pip dependencies
+
+    - name: Install Python Dependencies
+      run: |
+        pip install openai
+        echo ${{github.event.inputs.graded}}
+
+    - name: Run Python Script - Graded True
+      if: ${{ github.event.inputs.graded == 'true' }}
+      working-directory: ./scripts
+      run: |
+        python ./genMediaJSON.py --media_type "${{ github.event.inputs.media_type }}" --title "${{ github.event.inputs.media_title }}" --proceed --graded
+
+    - name: Run Python Script - Graded False
+      if: ${{ github.event.inputs.graded == 'false' }}
+      working-directory: ./scripts
+      run: |
+        python ./genMediaJSON.py --media_type "${{ github.event.inputs.media_type }}" --title "${{ github.event.inputs.media_title }}" --proceed
+
+    - name: Commit Changes
+      run: |
+        git config --global user.name '${{ github.actor }}'
+        git config --global user.email 'joshreddish7@gmail.com'
+        git add .
+        git commit -m "Added the ${{github.event.inputs.media_type}} ${{ github.event.inputs.media_type }} to the media Database"
+        git push

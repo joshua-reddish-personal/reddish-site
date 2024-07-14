@@ -1,0 +1,37 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Prey",
+    "director": "Thomas Sieben",
+    "release_year": 2022,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Thriller"
+    ],
+    "top_billed_actors": [
+      "David Kross",
+      "Hanno Koffler",
+      "Maria Ehrich"
+    ],
+    "short_description": "PREY is a mysterious and gory chiller that starts somewhat out. The brother is getting ready for his wedding while the younger brother and his friends are getting ready for a wild weekend",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "quotes": [],
+    "notes":""
+  }
+}

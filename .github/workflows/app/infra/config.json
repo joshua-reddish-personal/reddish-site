@@ -1,0 +1,8 @@
+{
+    "AWS_ACCOUNT": "xxxx",
+    "AWS_REGION": "us-east-1",
+    "COGNITO_USER_POOL_ID": "arn:aws:cognito-idp:us-east-1:xxxx:userpool/us-east-1_OOlpEtqfR",
+    "COGNITO_USER_POOL_CLIENT_ID": "2e39d0nd9iana3vmnvo6cojapu",
+    "DYNAMO_MEDIA_TABLE_ARN": "arn:aws:dynamodb:us-east-1:xxxx:table/mediaTable",
+    "DYNAMO_USER_TABLE_ARN": "arn:aws:dynamodb:us-east-1:xxxx:table/userTable"
+}

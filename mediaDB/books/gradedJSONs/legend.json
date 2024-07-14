@@ -1,0 +1,22 @@
+{
+  "media_type": "book",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Legend",
+    "author": "David Gemmell",
+    "publication_year": 1984,
+    "genres": [
+      "fantasy",
+      "adventure",
+      "action"
+    ],
+    "publisher": "Arrow Books",
+    "short_description": "A story of a hero named Druss who must defend his fortress Dros Delnoch against an invading horde of Nadir warriors.",
+    "criteria_grades": {
+
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "media_type": "movie",
+  "graded": false,
+  "criteriaGraded": false,
+  "media_data": {
+    "title": "Threads",
+    "director": "Mick Jackson",
+    "release_year": 1984,
+    "genres": [
+      "Drama",
+      "War",
+      "Sci-Fi"
+    ],
+    "top_billed_actors": [
+      "Karen Meagher",
+      "Reece Dinsdale",
+      "David Brierly"
+    ],
+    "short_description": "A graphic, disturbing film about the effects of a devastating nuclear holocaust on small-town residents of eastern England.",
+    "criteria_grades": {
+      "Rewatchability": 0,
+      "Casting": 0,
+      "Attention Holding": 0,
+      "Effects": 0,
+      "Cinematography": 0,
+      "Suspension of Disbelief": 0,
+      "Dialogue": 0,
+      "Pacing": 0,
+      "Soundtrack": 0,
+      "Story/Plot": 0,
+      "Character Development": 0,
+      "Cultural/Artistic Impact": 0,
+      "Emotional Impact": 0
+    },
+    "quotes": [],
+    "notes":""
+  }
+}

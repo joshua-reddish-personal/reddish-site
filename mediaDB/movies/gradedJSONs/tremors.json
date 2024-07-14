@@ -1,0 +1,36 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Tremors",
+    "director": "Ron Underwood",
+    "release_year": 1990,
+    "genres": [
+      "Comedy",
+      "Horror"
+    ],
+    "top_billed_actors": [
+      "Kevin Bacon",
+      "Fred Ward",
+      "Finn Carter"
+    ],
+    "short_description": "Natives of a small isolated town defend themselves against strange underground creatures which are killing them one by one.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "quotes": [],
+    "notes":""
+  }
+}

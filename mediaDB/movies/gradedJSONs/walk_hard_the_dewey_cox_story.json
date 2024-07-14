@@ -1,0 +1,37 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Walk Hard: The Dewey Cox Story",
+    "director": "Jake Kasdan",
+    "release_year": 2007,
+    "genres": [
+      "Comedy",
+      "Music",
+      "Biography"
+    ],
+    "top_billed_actors": [
+      "John C. Reilly",
+      "Jenna Fischer",
+      "David Krumholtz"
+    ],
+    "short_description": "Singer Dewey Cox overcomes adversity to become a musical legend.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "quotes": [],
+    "notes":""
+  }
+}

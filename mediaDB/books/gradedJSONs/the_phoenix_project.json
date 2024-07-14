@@ -1,0 +1,22 @@
+{
+  "media_type": "book",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "The Phoenix Project",
+    "author": "Gene Kim",
+    "publication_year": 2013,
+    "genres": [
+      "Business",
+      "Technology",
+      "Fiction"
+    ],
+    "publisher": "IT Revolution Press",
+    "short_description": "A novel about Information Technology operations and how a company can undo itself and reshape into a new form like a 'Phoenix'.",
+    "criteria_grades": {
+
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

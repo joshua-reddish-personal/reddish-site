@@ -1,0 +1,13 @@
+# Dependency directories
+node_modules/
+
+# TypeScript compiled directory
+dist/
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# System Files
+.DS_Store
+Thumbs.db

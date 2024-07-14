@@ -1,0 +1,37 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteria_graded": true,
+  "media_data": {
+    "title": "Starship Troopers",
+    "director": "Paul Verhoeven",
+    "release_year": 1997,
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ],
+    "top_billed_actors": [
+      "Casper Van Dien",
+      "Dina Meyer",
+      "Denise Richards"
+    ],
+    "short_description": "Humans in a fascistic, militaristic future wage war with giant alien bugs in a fight for survival.",
+    "criteria_grades": {
+        "rewatchability": 9,
+        "casting": 8,
+        "attention_holding": 10,
+        "effects": 10,
+        "cinematography": 8,
+        "suspension_of_disbelief": 9,
+        "dialogue": 9,
+        "pacing": 10,
+        "soundtrack": 8,
+        "plot": 8,
+        "character_development": 9
+      },
+    "overall_grade": 89.8,
+    "quotes": ["Would you like to know more?", "The enemry cannot push a button, if you disable his hand", "I'm doing my part","C'mon you apes, you wanna live forever?"],
+    "notes":"One of my favorite movies of all time. One of my earliest memories is watching parts of it with my dad when it came out on television. It always ran too late for me to finish it, so one day I asked my older brother to record it for me on VHS. When I went back to watch it, he had tried to pause the recording to skip ads. He never resumed the recording. It wouldnt be until later that I actually saw it, and eventually read the book as well in high school. Shoutout to Helldivers 2, for prompting me to watch it for the dozenth time!"
+  }
+}

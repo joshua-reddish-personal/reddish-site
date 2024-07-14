@@ -1,0 +1,20 @@
+{
+  "media_type": "video_game",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Bloons Tower Defense 6",
+    "developer": "Ninja Kiwi",
+    "release_year": 2018,
+    "genres": [
+      "Strategy",
+      "Tower Defense"
+    ],
+    "short_description": "Bloons Tower Defense 6 is a strategy game developed by Ninja Kiwi. The player uses different types of towers to prevent balloons (bloons) from reaching the end of a set track.",
+    "criteria_grades": {
+
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

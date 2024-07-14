@@ -1,0 +1,35 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "test movie 2",
+    "director": "John doe 1",
+    "release_year": 2000,
+    "genres": [
+      "tragedy"
+    ],
+    "top_billed_actors": [
+      "jon majors",
+      "jane doe",
+      "Kenneth Branagh"
+    ],
+    "short_description": "Will smith and jane doe go on an adventure",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 40,
+    "quotes": [],
+    "notes":""
+  }
+}

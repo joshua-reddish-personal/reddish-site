@@ -1,0 +1,36 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "The Gray Man",
+    "director": "Anthony Russo, Joe Russo",
+    "release_year": 2022,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "top_billed_actors": [
+      "Ryan Gosling",
+      "Chris Evans",
+      "Ana de Armas"
+    ],
+    "short_description": "A CIA operative turned assassin looks to stay alive long enough to stave off an international catastrophe while unexpectedly falling in love.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "quotes": [],
+    "notes":""
+  }
+}

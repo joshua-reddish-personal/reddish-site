@@ -1,0 +1,37 @@
+{
+  "media_type": "movie",
+  "graded": false,
+  "criteriaGraded": false,
+  "media_data": {
+    "title": "Good Will Hunting",
+    "director": "Gus Van Sant",
+    "release_year": 1997,
+    "genres": [
+      "Drama"
+    ],
+    "top_billed_actors": [
+      "Robin Williams",
+      "Matt Damon",
+      "Ben Affleck",
+      "Stellan Skarsg\u00e5rd"
+    ],
+    "short_description": "Will Hunting, a janitor at M.I.T., has a gift for mathematics, but needs help from a psychologist to find direction in his life.",
+    "criteria_grades": {
+      "Rewatchability": 0,
+      "Casting": 0,
+      "Attention Holding": 0,
+      "Effects": 0,
+      "Cinematography": 0,
+      "Suspension of Disbelief": 0,
+      "Dialogue": 0,
+      "Pacing": 0,
+      "Soundtrack": 0,
+      "Story/Plot": 0,
+      "Character Development": 0,
+      "Cultural/Artistic Impact": 0,
+      "Emotional Impact": 0
+    },
+    "quotes": [],
+    "notes":""
+  }
+}

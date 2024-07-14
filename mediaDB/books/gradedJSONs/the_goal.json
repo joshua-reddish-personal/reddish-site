@@ -1,0 +1,22 @@
+{
+  "media_type": "book",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "The Goal",
+    "author": "Eliyahu M. Goldratt",
+    "publication_year": 1984,
+    "genres": [
+      "Management",
+      "Business",
+      "Non-fiction"
+    ],
+    "publisher": "North River Press",
+    "short_description": "A business novel that introduces the Theory of Constraints, exploring concepts of bottlenecks, throughput, and flow in an industrial environment. The protagonists work towards improving company performance using these novel ideas.",
+    "criteria_grades": {
+
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

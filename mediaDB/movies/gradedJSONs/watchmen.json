@@ -1,0 +1,38 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Watchmen",
+    "director": "Zack Snyder",
+    "release_year": 2009,
+    "genres": [
+      "action",
+      "drama",
+      "mystery",
+      "sci-fi"
+    ],
+    "top_billed_actors": [
+      "Jackie Earle Haley",
+      "Patrick Wilson",
+      "Carla Gugino"
+    ],
+    "short_description": "In 1985 where former superheroes exist, the murder of a colleague sends active vigilante Rorschach into his own sprawling investigation, uncovering something that could completely change the course of history as we know it.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "quotes": [],
+    "notes":""
+  }
+}

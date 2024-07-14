@@ -1,0 +1,36 @@
+{
+  "media_type": "tv_show",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Ted Lasso Season 1",
+    "creator": "Bill Lawrence, Jason Sudeikis",
+    "release_year": 2020,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Sport"
+    ],
+    "top_billed_actors": [
+      "Jason Sudeikis",
+      "Stephen Manas",
+      "Brendan Hunt"
+    ],
+    "short_description": "Follows US American Football coach Ted Lasso heading to the UK to manage a struggling London soccer team.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "500 Days of Summer",
+    "director": "Marc Webb",
+    "release_year": 2009,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "top_billed_actors": [
+      "Zooey Deschanel",
+      "Joseph Gordon-Levitt"
+    ],
+    "short_description": "An offbeat romantic comedy about a woman who doesn't believe true love exists, and the young man who falls for her.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "quotes": [],
+    "notes":""
+  }
+}

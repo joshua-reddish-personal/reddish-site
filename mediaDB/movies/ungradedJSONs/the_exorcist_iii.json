@@ -1,0 +1,39 @@
+{
+  "media_type": "movie",
+  "graded": false,
+  "criteriaGraded": false,
+  "media_data": {
+    "title": "The Exorcist III",
+    "director": "William Peter Blatty",
+    "release_year": 1990,
+    "genres": [
+      "Drama",
+      "Horror",
+      "Mystery"
+    ],
+    "top_billed_actors": [
+      "George C. Scott",
+      "Ed Flanders",
+      "Brad Dourif"
+    ],
+    "short_description": "A police lieutenant uncovers more than he bargained for as his investigation of a series of murders, which have all the hallmarks of the deceased Gemini serial killer, leads him to question the patients of a psychiatric ward.",
+    "criteria_grades": {
+      "Rewatchability": 0,
+      "Casting": 0,
+      "Attention Holding": 0,
+      "Effects": 0,
+      "Cinematography": 0,
+      "Suspension of Disbelief": 0,
+      "Dialogue": 0,
+      "Pacing": 0,
+      "Soundtrack": 0,
+      "Direction": 0,
+      "Story/Plot": 0,
+      "Character Development": 0,
+      "Cultural/Artistic Impact": 0,
+      "Emotional Impact": 0
+    },
+    "quotes": [],
+    "notes":""
+  }
+}

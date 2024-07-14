@@ -1,0 +1,22 @@
+{
+  "media_type": "book",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "publication_year": 1925,
+    "genres": [
+      "novel",
+      "historical",
+      "romance"
+    ],
+    "publisher": "Charles Scribner's Sons",
+    "short_description": "The Great Gatsby is a tale of luxury, love, and loss in the 1920s. Jay Gatsby, a young, mysterious millionaire, falls in love with Daisy Buchanan. His unflinching pursuit of his dream ultimately leads to tragic consequences.",
+    "criteria_grades": {
+
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

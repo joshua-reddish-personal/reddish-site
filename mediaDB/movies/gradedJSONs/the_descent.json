@@ -1,0 +1,37 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "The Descent",
+    "director": "Neil Marshall",
+    "release_year": 2005,
+    "genres": [
+      "Adventure",
+      "Horror",
+      "Thriller"
+    ],
+    "top_billed_actors": [
+      "Shauna Macdonald",
+      "Natalie Mendoza",
+      "Alex Reid"
+    ],
+    "short_description": "A caving expedition goes horrifically wrong, as the explorers become trapped and ultimately pursued by a strange breed of predators.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "quotes": [],
+    "notes":""
+  }
+}

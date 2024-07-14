@@ -1,0 +1,36 @@
+{
+  "media_type": "tv_show",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Rick and Morty",
+    "creator": "Dan Harmon, Justin Roiland",
+    "release_year": 2013,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "top_billed_actors": [
+      "Justin Roiland",
+      "Chris Parnell",
+      "Spencer Grammer"
+    ],
+    "short_description": "An animated series that follows the exploits of a super scientist and his not-so-bright grandson.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "media_type": "book",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Ender's Game",
+    "author": "Orson Scott Card",
+    "publication_year": 1985,
+    "genres": [
+      "Science Fiction",
+      "Young Adult"
+    ],
+    "publisher": "Tor Books",
+    "short_description": "Set in the future, the story focuses on young Ender Wiggin who is recruited by the international military forces to save the world from an invading alien species. His strategic mind becomes humanity's last hope.",
+    "criteria_grades": {
+
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

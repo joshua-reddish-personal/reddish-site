@@ -1,0 +1,19 @@
+{
+  "media_type": "tv_show",
+  "graded": true,
+  "criteriaGraded": false,
+  "media_data": {
+    "title": "Lessons in Chemistry",
+    "creator": "Susannah Grant",
+    "release_year": 2023,
+    "genres": [
+      "Drama"
+    ],
+    "top_billed_actors": [
+      "Brie Larson",
+      "Lewis Pullman",
+      "Aja Naomi King"
+    ],
+    "short_description": "Set in the 1960s, 'Lessons in Chemistry' follows Elizabeth Zott, a chemist whose career takes an unexpected turn."
+  }
+}

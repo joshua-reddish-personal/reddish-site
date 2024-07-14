@@ -1,0 +1,20 @@
+{
+  "media_type": "tv_show",
+  "graded": true,
+  "criteriaGraded": false,
+  "media_data": {
+    "title": "Masters of the Air",
+    "creator": "Steven Spielberg, Tom Hanks",
+    "release_year": 2023,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "top_billed_actors": [
+      "Austin Butler",
+      "Callum Turner",
+      "Anthony Boyle"
+    ],
+    "short_description": "A miniseries focusing on the aerial wars fought by the men of the Eighth Air Force during World War II."
+  }
+}

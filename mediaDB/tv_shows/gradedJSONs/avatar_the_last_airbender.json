@@ -1,0 +1,37 @@
+{
+  "media_type": "tv_show",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Avatar: The Last Airbender",
+    "creator": "Michael Dante DiMartino and Bryan Konietzko",
+    "release_year": 2005,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Animation",
+      "Fantasy"
+    ],
+    "top_billed_actors": [
+      "Zach Tyler",
+      "Mae Whitman",
+      "Jack De Sena"
+    ],
+    "short_description": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "notes":"Favorite Scenes, Favorite Lines"
+  }
+}

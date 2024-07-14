@@ -1,0 +1,37 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Mississippi Grind",
+    "director": "Anna Boden, Ryan Fleck",
+    "release_year": 2015,
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Adventure"
+    ],
+    "top_billed_actors": [
+      "Ben Mendelsohn",
+      "Ryan Reynolds",
+      "Yvonne Landry"
+    ],
+    "short_description": "Down on his luck and facing financial hardship, a man teams up with a younger charismatic poker player in an attempt to change his luck. The two set off on a road trip through the South with visions of winning back what's been lost.",
+    "criteria_grades": {
+        "rewatchability": 0,
+        "casting": 0,
+        "attention_holding": 0,
+        "effects": 0,
+        "cinematography": 0,
+        "suspension_of_disbelief": 0,
+        "dialogue": 0,
+        "pacing": 0,
+        "soundtrack": 0,
+        "plot": 0,
+        "character_development": 0
+      },
+    "overall_grade": 0,
+    "quotes": [],
+    "notes":""
+  }
+}

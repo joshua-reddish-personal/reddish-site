@@ -1,0 +1,37 @@
+{
+  "media_type": "movie",
+  "graded": false,
+  "criteriaGraded": false,
+  "media_data": {
+    "title": "Sinbad of the Seven Seas",
+    "director": "Enzo G. Castellari",
+    "release_year": 1989,
+    "genres": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "top_billed_actors": [
+      "Lou Ferrigno",
+      "John Steiner",
+      "Roland Wybenga"
+    ],
+    "short_description": "Sinbad, the legendary hero, embarks on a quest to retrieve five magical stones and save the city of Basra from the evil vizier, Jaffar.",
+    "criteria_grades": {
+      "Rewatchability": 0,
+      "Casting": 0,
+      "Attention Holding": 0,
+      "Effects": 0,
+      "Cinematography": 0,
+      "Suspension of Disbelief": 0,
+      "Dialogue": 0,
+      "Pacing": 0,
+      "Soundtrack": 0,
+      "Story/Plot": 0,
+      "Character Development": 0,
+      "Cultural/Artistic Impact": 0,
+      "Emotional Impact": 0
+    },
+    "quotes": [],
+    "notes":""
+  }
+}
