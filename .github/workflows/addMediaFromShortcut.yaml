@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+    permissions:
+      contents: write
 
     steps:
     - name: Checkout Repository
