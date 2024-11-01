@@ -26,11 +26,11 @@ jobs:
 
       - name: Install Persistent Infra Dependencies
         run: npm install
-        working-directory: app/persistentInfra
+        working-directory: app/infra
 
       - name: Build CDK
         run: npm run build
-        working-directory: app/persistentInfra
+        working-directory: app/infra
 
       - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v4
@@ -41,7 +41,7 @@ jobs:
   
       - name: Synth Infra
         run: npm run synth
-        working-directory: app/persistentInfra
+        working-directory: app/infra
 
       - name: Sts GetCallerIdentity
         run: |
@@ -49,4 +49,4 @@ jobs:
 
       - name: Deploy Infra
         run: npm run deploy
-        working-directory: app/persistentInfra
+        working-directory: app/infra

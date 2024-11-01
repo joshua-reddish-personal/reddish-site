@@ -10,7 +10,7 @@ import * as cforigins from 'aws-cdk-lib/aws-cloudfront-origins';
 import * as acm from 'aws-cdk-lib/aws-certificatemanager';
 import * as route53 from 'aws-cdk-lib/aws-route53';
 import * as targets from 'aws-cdk-lib/aws-route53-targets';
-import { apigwLambdas } from './apigwLambdas';
+// import { apigwLambdas } from './apigwLambdas';
 import { join } from 'path';
 
 export class InfraStack extends cdk.Stack {
@@ -48,28 +48,28 @@ export class InfraStack extends cdk.Stack {
       ],
     });
 
-    const api = new apigwLambdas(this, 'backendAPIGW');
+    // const api = new apigwLambdas(this, 'backendAPIGW');
 
-    const apiKey = api.restAPI.addApiKey('reddishReviewsAPIKey', {
-      apiKeyName: 'reddishReviewsBackendAPIKey',
-    });
+    // const apiKey = api.restAPI.addApiKey('reddishReviewsAPIKey', {
+    //   apiKeyName: 'reddishReviewsBackendAPIKey',
+    // });
 
-    // Create a usage plan
-    const usagePlan = api.restAPI.addUsagePlan('usagePlan', {
-      name: 'reddishReviewsUsagePlan',
-      throttle: {
-        burstLimit: 20,
-        rateLimit: 100,
-      },
-      apiStages: [
-        {
-          api: api.restAPI,
-          stage: api.restAPI.deploymentStage,
-        },
-      ],
-    });
+    // // Create a usage plan
+    // const usagePlan = api.restAPI.addUsagePlan('usagePlan', {
+    //   name: 'reddishReviewsUsagePlan',
+    //   throttle: {
+    //     burstLimit: 20,
+    //     rateLimit: 100,
+    //   },
+    //   apiStages: [
+    //     {
+    //       api: api.restAPI,
+    //       stage: api.restAPI.deploymentStage,
+    //     },
+    //   ],
+    // });
 
-    usagePlan.addApiKey(apiKey);
+    // usagePlan.addApiKey(apiKey);
 
     const originRequestPolicy =
       cloudfront.OriginRequestPolicy.fromOriginRequestPolicyId(
@@ -86,29 +86,29 @@ export class InfraStack extends cdk.Stack {
 
     const distribution = new cloudfront.Distribution(this, 'distribution', {
       defaultBehavior: {
-        origin: new cforigins.S3Origin(bucket),
+        origin: new cforigins.S3StaticWebsiteOrigin(bucket),
         viewerProtocolPolicy: cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
         originRequestPolicy: originRequestPolicy,
         responseHeadersPolicy: responseHeadersPolicy,
       },
-      additionalBehaviors: {
-        '/api/*': {
-          origin: new cforigins.RestApiOrigin(api.restAPI, {
-            customHeaders: { 'x-api-key': apiKey.keyId },
-          }),
-          allowedMethods: cloudfront.AllowedMethods.ALLOW_ALL,
-          viewerProtocolPolicy:
-            cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
-          originRequestPolicy: originRequestPolicy,
-          responseHeadersPolicy: responseHeadersPolicy,
-        },
-      },
+      // additionalBehaviors: {
+      //   '/api/*': {
+      //     origin: new cforigins.RestApiOrigin(api.restAPI, {
+      //       customHeaders: { 'x-api-key': apiKey.keyId },
+      //     }),
+      //     allowedMethods: cloudfront.AllowedMethods.ALLOW_ALL,
+      //     viewerProtocolPolicy:
+      //       cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
+      //     originRequestPolicy: originRequestPolicy,
+      //     responseHeadersPolicy: responseHeadersPolicy,
+      //   },
+      // },
       certificate: certificate,
       defaultRootObject: 'index.html',
       domainNames: ['reddishreviews.com'],
     });
 
-    const s3SourcePath = join(__dirname, '../../frontend');
+    const s3SourcePath = join(__dirname, '../../personal-site/out');
 
     new s3Deploy.BucketDeployment(this, 'reddishReviewS3Deployment', {
       sources: [s3Deploy.Source.asset(s3SourcePath)],
