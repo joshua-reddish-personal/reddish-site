@@ -11,12 +11,12 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'Joshua Reddish\'s Personal Page',
+    template: '%s | Joshua Reddish\'s Personal Page',
   },
   description: 'This is my portfolio.',
   openGraph: {
-    title: 'My Portfolio',
+    title: 'Joshua Reddish\'s Personal Site',
     description: 'This is my portfolio.',
     url: baseUrl,
     siteName: 'My Portfolio',
@@ -25,14 +25,14 @@ export const metadata: Metadata = {
   },
   robots: {
     index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
+    // follow: true,
+    // googleBot: {
+    //   index: true,
+    //   follow: true,
+    //   'max-video-preview': -1,
+    //   'max-image-preview': 'large',
+    //   'max-snippet': -1,
+    // },
   },
 }
 
@@ -57,8 +57,8 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Footer />
-          <Analytics />
-          <SpeedInsights />
+          {/* <Analytics />
+          <SpeedInsights /> */}
         </main>
       </body>
     </html>
