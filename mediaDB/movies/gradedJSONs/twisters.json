@@ -1,0 +1,34 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteriaGraded": false,
+  "media_data": {
+    "title": "Twisters",
+    "director": "DATA_NOT_FOUND",
+    "release_year": "DATA_NOT_FOUND",
+    "genres": [
+      "DATA_NOT_FOUND"
+    ],
+    "top_billed_actors": [
+      "DATA_NOT_FOUND"
+    ],
+    "short_description": "DATA_NOT_FOUND",
+    "criteria_grades": {
+      "Rewatchability": 0,
+      "Casting": 0,
+      "Attention Holding": 0,
+      "Effects": 0,
+      "Cinematography": 0,
+      "Suspension of Disbelief": 0,
+      "Dialogue": 0,
+      "Pacing": 0,
+      "Soundtrack": 0,
+      "Story/Plot": 0,
+      "Character Development": 0,
+      "Cultural/Artistic Impact": 0,
+      "Emotional Impact": 0
+    },
+    "quotes": [],
+    "notes": ""
+  }
+}
