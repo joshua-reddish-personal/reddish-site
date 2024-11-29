@@ -27,25 +27,10 @@ export class InfraStack extends cdk.Stack {
       publicReadAccess: true,
       blockPublicAccess: s3.BlockPublicAccess.BLOCK_ACLS, // This only blocks public ACLs
       websiteIndexDocument: 'index.html',
-      websiteErrorDocument: 'error.html',
+      websiteErrorDocument: '404.html',
       removalPolicy: cdk.RemovalPolicy.DESTROY,
       autoDeleteObjects: true,
       versioned: true,
-      lifecycleRules: [
-        {
-          expiration: cdk.Duration.days(30),
-          transitions: [
-            {
-              storageClass: s3.StorageClass.INTELLIGENT_TIERING,
-              transitionAfter: cdk.Duration.days(7),
-            },
-            {
-              storageClass: s3.StorageClass.GLACIER,
-              transitionAfter: cdk.Duration.days(14),
-            },
-          ],
-        },
-      ],
     });
 
     // const api = new apigwLambdas(this, 'backendAPIGW');

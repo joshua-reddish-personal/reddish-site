@@ -15,7 +15,7 @@ export default function Page() {
       </p>
 
       <p className="mb-4">
-        {`I have also created reddishReviews, a curated collection of my favorite media! Feel free to explore the reddishReviews tab to discover some great recommendations!`}
+        {`I have also created reddish-reviews, a curated collection of my favorite media! Feel free to explore the reddishReviews tab to discover some great recommendations!`}
       </p>
 
       {/* <div className="my-8">
