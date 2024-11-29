@@ -46,10 +46,10 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/joshua-reddish-personal/reddish-site"
+            href="https://www.linkedin.com/in/joshua-r-4a8a13b3/"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">view source</p>
+            <p className="ml-2 h-7">LinkedIn</p>
           </a>
         </li>
       </ul>
