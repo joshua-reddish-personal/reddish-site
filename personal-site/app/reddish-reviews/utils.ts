@@ -1,26 +1,38 @@
 import fs from 'fs'
 import path from 'path'
 
-type Metadata = {
+export type BlogMetadata = {
   title: string
   publishedAt: string
   summary: string
   image?: string
 }
 
-function parseFrontmatter(fileContent: string) {
+export type MediaMetadata = {
+  mediaType: string
+  title: string
+  image?: string
+}
+
+export type Metadata = BlogMetadata | MediaMetadata
+
+function parseFrontmatter(fileContent: string): { metadata: Metadata, content: string } {
   let frontmatterRegex = /---\s*([\s\S]*?)\s*---/
   let match = frontmatterRegex.exec(fileContent)
-  let frontMatterBlock = match![1]
+  if (!match) {
+    throw new Error('Invalid frontmatter format')
+  }
+  let frontMatterBlock = match[1]
   let content = fileContent.replace(frontmatterRegex, '').trim()
   let frontMatterLines = frontMatterBlock.trim().split('\n')
+
   let metadata: Partial<Metadata> = {}
 
   frontMatterLines.forEach((line) => {
     let [key, ...valueArr] = line.split(': ')
     let value = valueArr.join(': ').trim()
     value = value.replace(/^['"](.*)['"]$/, '$1') // Remove quotes
-    metadata[key.trim() as keyof Metadata] = value
+    metadata[key.trim() as keyof (Metadata)] = value as any
   })
 
   return { metadata: metadata as Metadata, content }
@@ -49,8 +61,44 @@ function getMDXData(dir) {
   })
 }
 
-export function getBlogPosts() {
-  return getMDXData(path.join(process.cwd(), 'app', 'reddish-reviews', 'posts'))
+export function getMovies() {
+  const mediaData = getMDXData(path.join(process.cwd(), 'app', 'reddish-reviews', 'movies', 'media'))
+
+  return mediaData.map((data) => ({
+      metadata: data.metadata as MediaMetadata,
+      slug: data.slug,
+      content: data.content,
+    }))
+}
+
+export function getVideoGames() {
+  const mediaData = getMDXData(path.join(process.cwd(), 'app', 'reddish-reviews', 'video-games', 'media'))
+
+  return mediaData.map((data) => ({
+      metadata: data.metadata as MediaMetadata,
+      slug: data.slug,
+      content: data.content,
+    }))
+}
+
+export function getBooks() {
+  const mediaData = getMDXData(path.join(process.cwd(), 'app', 'reddish-reviews', 'books', 'media'))
+
+  return mediaData.map((data) => ({
+      metadata: data.metadata as MediaMetadata,
+      slug: data.slug,
+      content: data.content,
+    }))
+}
+
+export function getTVShows() {
+  const mediaData = getMDXData(path.join(process.cwd(), 'app', 'reddish-reviews', 'tv-shows', 'media'))
+
+  return mediaData.map((data) => ({
+      metadata: data.metadata as MediaMetadata,
+      slug: data.slug,
+      content: data.content,
+    }))
 }
 
 export function formatDate(date: string, includeRelative = false) {

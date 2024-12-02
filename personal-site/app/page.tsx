@@ -11,11 +11,11 @@ export default function Page() {
       </p>
 
       <p className="mb-4">
-        {`I am a DevOps Engineer at Asurion, where I specialize in Infrastructure as Code and Serverless Application Architectures. I am also learning about front-end development, which is why I created this page using Next.js!`}
+        {`I am a DevOps Engineer, and I specialize in Infrastructure as Code and Serverless Application Architectures. I am also learning about front-end development, which is why I created this page using Next.js!`}
       </p>
 
       <p className="mb-4">
-        {`I have also created reddish-reviews, a curated collection of my favorite media! Feel free to explore the reddishReviews tab to discover some great recommendations!`}
+        {`I have also created reddish-reviews, a curated collection of my favorite media! Feel free to explore the reddish-reviews tab to discover some great recommendations!`}
       </p>
 
       {/* <div className="my-8">
