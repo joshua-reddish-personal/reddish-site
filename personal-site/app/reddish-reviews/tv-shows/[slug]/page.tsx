@@ -1,20 +1,20 @@
 import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
 import Header from 'app/components/header'
-import { getMovies } from 'app/reddish-reviews/utils'
+import { getTVShows } from 'app/reddish-reviews/utils'
 import { baseUrl } from 'app/sitemap'
 
 export async function generateStaticParams() {
-  let movies = getMovies()
+  let tvShows = getTVShows()
 
-  return movies.map((post) => ({
+  return tvShows.map((post) => ({
     slug: post.slug,
   }))
 }
 
 export function generateMetadata({ params }) {
-  let movie = getMovies().find((movie) => movie.slug === params.slug)
-  if (!movie) {
+  let tvShow = getTVShows().find((tvShow) => tvShow.slug === params.slug)
+  if (!tvShow) {
     return
   }
 
@@ -22,7 +22,7 @@ export function generateMetadata({ params }) {
     title,
     mediaType,
     // image,
-  } = movie.metadata
+  } = tvShow.metadata
   // let ogImage = image
   //   ? image
   //   : `${baseUrl}/og?title=${encodeURIComponent(title)}`
@@ -33,10 +33,10 @@ export function generateMetadata({ params }) {
   }
 }
 
-export default function Movie({ params }) {
-  let movie = getMovies().find((movie) => movie.slug === params.slug)
+export default function TVShow({ params }) {
+  let tvShow = getTVShows().find((tvShow) => tvShow.slug === params.slug)
 
-  if (!movie) {
+  if (!tvShow) {
     notFound()
   }
 
@@ -50,22 +50,22 @@ export default function Movie({ params }) {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
-            headline: movie.metadata.title,
-            mediaType: movie.metadata.mediaType,
-            // image: movie.metadata.image
-            //   ? `${baseUrl}${movie.metadata.image}`
-            //   : `/og?title=${encodeURIComponent(movie.metadata.title)}`,
-            url: `${baseUrl}/reddish-reviews/movies/${movie.slug}`,
+            headline: tvShow.metadata.title,
+            mediaType: tvShow.metadata.mediaType,
+            // image: tvShow.metadata.image
+            //   ? `${baseUrl}${tvShow.metadata.image}`
+            //   : `/og?title=${encodeURIComponent(tvShow.metadata.title)}`,
+            url: `${baseUrl}/reddish-reviews/tv-shows/${tvShow.slug}`,
           }),
         }}
       />
       <h1 className="title font-semibold text-2xl tracking-tighter">
-        {movie.metadata.title}
+        {tvShow.metadata.title}
       </h1>
       <div className="flex justify-between items-center mt-2 mb-8 text-sm">
       </div>
       <article className="prose">
-        <CustomMDX source={movie.content} />
+        <CustomMDX source={tvShow.content} />
       </article>
     </section>
   )

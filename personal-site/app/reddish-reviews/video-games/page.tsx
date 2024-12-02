@@ -11,7 +11,7 @@ export default function Page() {
     <section>
       <Header></Header>
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">reddish-reviews: video games</h1>
-      <MediaList mediaType="videoGames" />
+      <MediaList mediaType="video-games" />
     </section>
   )
 }

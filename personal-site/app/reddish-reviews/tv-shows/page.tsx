@@ -10,8 +10,8 @@ export default function Page() {
   return (
     <section>
       <Header></Header>
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">reddish-reviews: movies</h1>
-      <MediaList mediaType="tvShows" />
+      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">reddish-reviews: tv shows</h1>
+      <MediaList mediaType="tv-shows" />
     </section>
   )
 }

@@ -20,7 +20,7 @@ export default function Header({ children }: HeaderProps) {
                     <Link href="/reddish-reviews/tv-shows" className="text-white mr-4">
                         TV Shows
                     </Link>
-                    <Link href="/reddish-reviews/video-games" className="text-white">
+                    <Link href="/reddish-reviews/video-games" className="text-white mr-4">
                         Video Games
                     </Link>
                 </div>

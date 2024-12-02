@@ -17,10 +17,6 @@ export default function Page() {
       <p className="mb-4">
         {`I have also created reddish-reviews, a curated collection of my favorite media! Feel free to explore the reddish-reviews tab to discover some great recommendations!`}
       </p>
-
-      {/* <div className="my-8">
-        <BlogPosts />
-      </div> */}
     </section>
   )
 }

@@ -4,11 +4,11 @@ import { getBooks, getMovies, getVideoGames, getTVShows } from 'app/reddish-revi
 const mediaTypeToFunctionMap = {
   movies: getMovies,
   books: getBooks,
-  videoGames: getVideoGames,
-  tvShows: getTVShows,
+  'video-games': getVideoGames,
+  'tv-shows': getTVShows,
 }
 
-type MediaType = 'movies' | 'books' | 'videoGames' | 'tvShows'
+type MediaType = 'movies' | 'books' | 'video-games' | 'tv-shows'
 
 export function MediaList({ mediaType }: { mediaType: MediaType }) {
   const fetchFunction = mediaTypeToFunctionMap[mediaType]
