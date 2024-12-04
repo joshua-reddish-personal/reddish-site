@@ -1,7 +1,7 @@
 {
   "media_type": "tv_show",
   "graded": true,
-  "criteria_graded": false,
+  "criteria_graded": true,
   "media_data": {
     "title": "The Legend of Vox Machina",
     "creator": "Matthew Mercer",
