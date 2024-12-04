@@ -1,0 +1,22 @@
+{
+  "media_type": "tv_show",
+  "graded": true,
+  "criteriaGraded": false,
+  "media_data": {
+    "title": "Stranger Things",
+    "creator": "The Duffer Brothers",
+    "release_year": 2016,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Horror"
+    ],
+    "top_billed_actors": [
+      "Millie Bobby Brown",
+      "Finn Wolfhard",
+      "Winona Ryder",
+      "David Harbour"
+    ],
+    "short_description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying supernatural forces in order to get him back."
+  }
+}
