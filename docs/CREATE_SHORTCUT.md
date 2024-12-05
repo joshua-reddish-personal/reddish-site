@@ -23,4 +23,3 @@
 
 7. Tap Done.
 8. Enter a name for your shortcut and tap Add to Home Screen.
-9. Now, here is the workflow dispatch to a GitHub Actions workflow you requested:

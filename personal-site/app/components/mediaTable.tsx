@@ -1,12 +1,12 @@
-// components/Header.tsx
+// components/MediaTable.tsx
 import Link from 'next/link'
 import { ReactNode } from 'react'
 
-type HeaderProps = {
+type MediaTableProps = {
     children?: ReactNode
 }
 // TO DO: Add shading to the current link
-export default function Header({ children }: HeaderProps) {
+export default function MediaTable({ children }: MediaTableProps) {
     return (
         <div>
             <nav className="bg-gray-800 p-4">

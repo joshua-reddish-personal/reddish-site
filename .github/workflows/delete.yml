@@ -7,6 +7,7 @@ on:
 
 env:
   AWS_REGION : us-east-1 #Change to reflect your Region
+  AWS_ROLE_ARN: arn:aws:iam::xxxx:role/GitHubAction-AssumeRoleWithAction
 
 # Permission can be added at job level or workflow level    
 permissions:
@@ -20,33 +21,26 @@ jobs:
       - name: Git clone the repository
         uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Install Node
+        uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
 
       - name: Install Infra Dependencies
-        run: npm install
         working-directory: app/infra
+        run: npm install
 
-      # - name: Build Infra
-      #   run: npm run build
-      #   working-directory: app/infra
-
-      - name: configure aws credentials
+      - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::xxxx:role/GitHubAction-AssumeRoleWithAction
+          role-to-assume: ${{env.AWS_ROLE_ARN}}
           role-session-name: GitHub_to_AWS_via_FederatedOIDC
           aws-region: ${{ env.AWS_REGION }}
-  
-      # - name: Synth Infra
-      #   run: npm run synth
-      #   working-directory: app/infra
 
       - name: Sts GetCallerIdentity
         run: |
           aws sts get-caller-identity
 
       - name: Delete Infra
-        run: npm run destroy
         working-directory: app/infra
+        run: npm run destroy

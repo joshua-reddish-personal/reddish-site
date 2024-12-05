@@ -1,5 +1,5 @@
 import { MediaList } from 'app/components/media'
-import Header from 'app/components/header'
+import MediaTable from 'app/components/mediaTable'
 
 export const metadata = {
   title: 'reddish-reviews: Movies',
@@ -9,7 +9,7 @@ export const metadata = {
 export default function Page() {
   return (
     <section>
-      <Header></Header>
+     <MediaTable></MediaTable>
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">reddish-reviews: books</h1>
       <MediaList mediaType="books" />
     </section>

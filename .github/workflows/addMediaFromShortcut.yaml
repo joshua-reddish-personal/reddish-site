@@ -34,7 +34,6 @@ jobs:
     - name: Install Python Dependencies
       run: |
         pip install openai
-        echo ${{github.event.inputs.graded}}
 
     - name: Run Python Script - Graded True
       if: ${{ github.event.inputs.graded == 'true' }}
@@ -51,7 +50,7 @@ jobs:
     - name: Commit Changes
       run: |
         git config --global user.name '${{ github.actor }}'
-        git config --global user.email 'joshreddish7@icloud.com'
+        git config --global user.email '${{ github.actor }}@users.noreply.github.com'
         git add .
         git commit -m "Added the ${{github.event.inputs.media_type}} ${{ github.event.inputs.media_type }} to the media Database"
         git push

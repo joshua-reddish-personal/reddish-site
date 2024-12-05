@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
-import Header from 'app/components/header'
+import MediaTable from 'app/components/mediaTable'
 import { getMovies } from 'app/reddish-reviews/utils'
 import { baseUrl } from 'app/sitemap'
 
@@ -42,7 +42,7 @@ export default function Movie({ params }) {
 
   return (
     <section>
-    <Header></Header>
+   <MediaTable></MediaTable>
       <script
         type="application/ld+json"
         suppressHydrationWarning
