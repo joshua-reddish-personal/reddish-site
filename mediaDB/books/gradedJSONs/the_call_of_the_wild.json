@@ -1,0 +1,16 @@
+{
+  "media_type": "book",
+  "graded": true,
+  "criteriaGraded": false,
+  "media_data": {
+    "title": "The Call of the Wild",
+    "author": "Jack London",
+    "publication_year": 1903,
+    "genres": [
+      "Adventure",
+      "Fiction"
+    ],
+    "publisher": "Macmillan Publishers",
+    "short_description": "The story of a domestic dog named Buck who is stolen from his home and sold into the brutal existence of an Alaskan sled dog, to eventually lead a wolf pack."
+  }
+}
