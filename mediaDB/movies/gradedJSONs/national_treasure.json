@@ -1,7 +1,7 @@
 {
   "media_type": "movie",
   "graded": true,
-  "criteria_graded": false,
+  "criteria_graded": true,
   "media_data": {
     "title": "National Treasure",
     "director": "Jon Turteltaub",
@@ -18,12 +18,12 @@
     ],
     "short_description": "A historian races to find the legendary Templar Treasure before a team of mercenaries.",
     "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+      "Story": 88,
+      "Character Development": 85,
+      "Visual Presentation": 83
     },
-    "overall_grade": 0,
+    "overall_grade": 85,
     "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
+    "notes": "favorite scenes are when they buy am extra declaration, adding lemon juice to back of doc, lighting the treasure room up"
   }
 }
