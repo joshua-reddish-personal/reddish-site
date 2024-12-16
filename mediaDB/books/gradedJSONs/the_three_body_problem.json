@@ -1,7 +1,7 @@
 {
   "media_type": "book",
   "graded": true,
-  "criteriaGraded": false,
+  "criteria_graded": false,
   "media_data": {
     "title": "The Three-Body Problem",
     "author": "Liu Cixin",
@@ -12,6 +12,13 @@
       "Chinese Literature"
     ],
     "publisher": "Chongqing Publishing House",
-    "short_description": "The first book in the Remembrance of Earth's Past trilogy, 'The Three-Body Problem' is a groundbreaking science fiction novel that touches upon physics, history, and political intrigue, centralized around an impending alien invasion from a civilization in the Alpha Centauri system."
+    "short_description": "The first book in the Remembrance of Earth's Past trilogy, 'The Three-Body Problem' is a groundbreaking science fiction novel that touches upon physics, history, and political intrigue, centralized around an impending alien invasion from a civilization in the Alpha Centauri system.",
+    "criteria_grades": {
+      "Story": 0,
+      "Character Development": 0,
+      "Immersion": 0
+    },
+    "overall_grade": 0,
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

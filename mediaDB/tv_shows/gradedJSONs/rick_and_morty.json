@@ -18,19 +18,11 @@
     ],
     "short_description": "An animated series that follows the exploits of a super scientist and his not-so-bright grandson.",
     "criteria_grades": {
-        "rewatchability": 0,
-        "casting": 0,
-        "attention_holding": 0,
-        "effects": 0,
-        "cinematography": 0,
-        "suspension_of_disbelief": 0,
-        "dialogue": 0,
-        "pacing": 0,
-        "soundtrack": 0,
-        "plot": 0,
-        "character_development": 0
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Visual Presentation": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

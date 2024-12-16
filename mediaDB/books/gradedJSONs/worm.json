@@ -12,9 +12,11 @@
     "publisher": null,
     "short_description": "The book 'Worm' by Wildbowpig is thought to be unpublished, and there is little to no information available about its genre, publisher or a short description at this time.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Immersion": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

@@ -13,9 +13,11 @@
     ],
     "short_description": "Skyrim is an open world action role-playing video game where players explore a large world filled with quests, dangerous creatures, and diverse environments.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Gameplay": 0,
+      "Graphics": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

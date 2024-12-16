@@ -14,9 +14,11 @@
     "publisher": "IT Revolution Press",
     "short_description": "A novel about Information Technology operations and how a company can undo itself and reshape into a new form like a 'Phoenix'.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Immersion": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

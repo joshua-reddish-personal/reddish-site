@@ -1,11 +1,23 @@
 {
-  "title": "Risk of Rain 2",
-  "developer": "Hopoo Games",
-  "release_year": 2020,
-  "genres": [
-    "action",
-    "roguelike",
-    "third-person shooter"
-  ],
-  "short_description": "Risk of Rain 2 is a roguelike third-person shooter game. Players must try to survive several different levels, fighting off creatures and bosses, while dealing with an increasing difficulty level the longer they survive."
+  "media_type": "video_game",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "Risk of Rain 2",
+    "developer": "Hopoo Games",
+    "release_year": 2020,
+    "genres": [
+      "action",
+      "roguelike",
+      "third-person shooter"
+    ],
+    "short_description": "Risk of Rain 2 is a roguelike third-person shooter game. Players must try to survive several different levels, fighting off creatures and bosses, while dealing with an increasing difficulty level the longer they survive.",
+    "criteria_grades": {
+      "Story": 0,
+      "Gameplay": 0,
+      "Graphics": 0
+    },
+    "overall_grade": 0,
+    "notes": "Favorite Scenes, Favorite Lines"
+  }
 }

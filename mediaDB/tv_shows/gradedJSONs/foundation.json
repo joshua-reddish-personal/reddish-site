@@ -1,7 +1,7 @@
 {
   "media_type": "tv_show",
   "graded": true,
-  "criteriaGraded": false,
+  "criteria_graded": false,
   "media_data": {
     "title": "Foundation",
     "creator": "David S. Goyer, Josh Friedman",
@@ -15,6 +15,13 @@
       "Lee Pace",
       "Lou Llobell"
     ],
-    "short_description": "A complex saga of humans scattered on planets throughout the galaxy all living under the rule of the Galactic Empire."
+    "short_description": "A complex saga of humans scattered on planets throughout the galaxy all living under the rule of the Galactic Empire.",
+    "criteria_grades": {
+      "Story": 0,
+      "Character Development": 0,
+      "Visual Presentation": 0
+    },
+    "overall_grade": 0,
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

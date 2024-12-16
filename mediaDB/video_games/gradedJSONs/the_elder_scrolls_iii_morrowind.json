@@ -12,9 +12,11 @@
     ],
     "short_description": "Elder Scrolls III: Morrowind is an open-world action role-playing video game where the player's character is tasked with resolving a prophecy of a legendary hero.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Gameplay": 0,
+      "Graphics": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

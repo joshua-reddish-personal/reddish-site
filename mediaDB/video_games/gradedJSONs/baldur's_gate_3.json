@@ -12,9 +12,11 @@
     ],
     "short_description": "Baldur's Gate 3 is an immersive, visually stunning role-playing game with a focus on detailed storytelling and strategic combat. The game offers deep interactive dialogue choices, cinematic moments, and a dynamic world that changes based on player decisions.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Gameplay": 0,
+      "Graphics": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

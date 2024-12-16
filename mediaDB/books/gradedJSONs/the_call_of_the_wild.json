@@ -1,7 +1,7 @@
 {
   "media_type": "book",
   "graded": true,
-  "criteriaGraded": false,
+  "criteria_graded": false,
   "media_data": {
     "title": "The Call of the Wild",
     "author": "Jack London",
@@ -11,6 +11,13 @@
       "Fiction"
     ],
     "publisher": "Macmillan Publishers",
-    "short_description": "The story of a domestic dog named Buck who is stolen from his home and sold into the brutal existence of an Alaskan sled dog, to eventually lead a wolf pack."
+    "short_description": "The story of a domestic dog named Buck who is stolen from his home and sold into the brutal existence of an Alaskan sled dog, to eventually lead a wolf pack.",
+    "criteria_grades": {
+      "Story": 0,
+      "Character Development": 0,
+      "Immersion": 0
+    },
+    "overall_grade": 0,
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

@@ -13,24 +13,16 @@
     ],
     "top_billed_actors": [
       "Cherami Leigh",
-      "Y\u016bki Kaji",
+      "Yūki Kaji",
       "Rosa Salazar"
     ],
     "short_description": "An anime set in the same universe as Cyberpunk 2077, explores the struggle of the people living in a dystopian future, handling loss, trauma, and survival in Night City.",
     "criteria_grades": {
-        "rewatchability": 0,
-        "casting": 0,
-        "attention_holding": 0,
-        "effects": 0,
-        "cinematography": 0,
-        "suspension_of_disbelief": 0,
-        "dialogue": 0,
-        "pacing": 0,
-        "soundtrack": 0,
-        "plot": 0,
-        "character_development": 0
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Visual Presentation": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

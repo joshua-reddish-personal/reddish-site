@@ -1,7 +1,7 @@
 {
   "media_type": "movie",
   "graded": false,
-  "criteriaGraded": false,
+  "criteria_graded": false,
   "media_data": {
     "title": "Brick",
     "director": "Rian Johnson",

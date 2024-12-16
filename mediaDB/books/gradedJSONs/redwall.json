@@ -13,9 +13,11 @@
     "publisher": "Ace Books",
     "short_description": "The first book of the Redwall series, introduces the reader to the peaceful life in Redwall Abbey, which is threatened by the arrival of the evil rat, Cluny the Scourge.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Immersion": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

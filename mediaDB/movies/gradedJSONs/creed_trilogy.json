@@ -15,22 +15,14 @@
       "Sylvester Stallone",
       "Tessa Thompson"
     ],
-    "short_description": "The movie follows the life of Adonis Creed, the son of famous boxer Apollo Creed, as he struggles with his life in and out of the ring. He finds an unlikely mentor in the form of Rocky Balboa, his father\u2019s old friend and rival, who helps him navigate his life and personal relationships while preparing for the boxing championship.",
+    "short_description": "The movie follows the life of Adonis Creed, the son of famous boxer Apollo Creed, as he struggles with his life in and out of the ring. He finds an unlikely mentor in the form of Rocky Balboa, his father’s old friend and rival, who helps him navigate his life and personal relationships while preparing for the boxing championship.",
     "criteria_grades": {
-        "rewatchability": 0,
-        "casting": 0,
-        "attention_holding": 0,
-        "effects": 0,
-        "cinematography": 0,
-        "suspension_of_disbelief": 0,
-        "dialogue": 0,
-        "pacing": 0,
-        "soundtrack": 0,
-        "plot": 0,
-        "character_development": 0
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Visual Presentation": 0
+    },
     "overall_grade": 0,
     "quotes": [],
-    "notes":""
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

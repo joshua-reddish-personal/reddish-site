@@ -12,28 +12,28 @@ async def generate_media_data(title, media_type):
             "Generate metadata for a book.",
             "Provide information similar to what can be found on Good Reads, Wikipedia, or when googling the title.",
             'The returned JSON format should be: {"title": "string", "author": "string", "publication_year": "number", "genres": ["fiction", "mystery", "thriller"], "publisher": "string", "short_description": "string"}'
-            "If you can't find valid data, respond with 'DATA_NOT_FOUND'"
+            "If you can't find valid data, respond with 'DATA_NOT_FOUND'",
         )
     elif media_type == "movie":
         system_message = (
             "Generate metadata for a movie.",
             "Provide information similar to what can be found on IMDB or when googling the title.",
             'The returned JSON format should be: {"title": "string", "director": "string", "release_year": "number", "genres": ["action", "adventure", "sci-fi"], "top_billed_actors": ["John Smith", "Jane Doe"], "short_description": "string"}'
-            "If you can't find valid data, respond with 'DATA_NOT_FOUND'"
+            "If you can't find valid data, respond with 'DATA_NOT_FOUND'",
         )
     elif media_type == "tv_show":
         system_message = (
             "Generate metadata for a TV show.",
             "Provide information similar to what can be found on IMDB or when googling the title.",
             'The returned JSON format should be: {"title": "string", "creator": "string", "release_year": "number", "genres": ["action", "adventure", "sci-fi"], "top_billed_actors": ["John Smith", "Jane Doe"], "short_description": "string"}'
-            "If you can't find valid data, respond with 'DATA_NOT_FOUND'"
+            "If you can't find valid data, respond with 'DATA_NOT_FOUND'",
         )
     elif media_type == "video_game":
         system_message = (
             "Generate metadata for a video game.",
             "Provide information similar to what can be found on Wikipedia or when googling the title.",
             'The returned JSON format should be: {"title": "string", "developer": "string", "release_year": "number", "genres": ["drama", "comedy", "mystery"], "short_description": "string"}'
-            "If you can't find valid data, respond with 'DATA_NOT_FOUND'"
+            "If you can't find valid data, respond with 'DATA_NOT_FOUND'",
         )
     else:
         return None  # Invalid media type
@@ -43,12 +43,9 @@ async def generate_media_data(title, media_type):
         async with AsyncOpenAI() as client:
             response = await client.chat.completions.create(
                 model="gpt-4-0125-preview",
-                response_format={ "type": "json_object" },
+                response_format={"type": "json_object"},
                 messages=[
-                    {
-                        "role": "system", 
-                        "content": f"{system_message}"
-                    },
+                    {"role": "system", "content": f"{system_message}"},
                     {
                         "role": "user",
                         "content": f"{title} is {title}",
@@ -91,7 +88,9 @@ async def prompt_media_details(media_type, title, proceed=False):
                     return media_data
 
         except json.JSONDecodeError:
-            print(f"OpenAI response is not valid JSON.",)
+            print(
+                f"OpenAI response is not valid JSON.",
+            )
 
     return None
 
@@ -110,7 +109,7 @@ async def process_media_title(media_type, title, proceed, graded, retry=False):
             final_output = {
                 "media_type": media_type,
                 "graded": graded,
-                "criteriaGraded": False,
+                "criteria_graded": False,
                 "media_data": {"title": title, "error": "Failed to process"},
             }
         else:
@@ -119,10 +118,16 @@ async def process_media_title(media_type, title, proceed, graded, retry=False):
             safe_title = re.sub(r"[^a-zA-Z0-9_]", "_", safe_title)
             if media_type == "movie":
                 media_data.update(MOVIE_ADDITIONAL_DATA)
+            elif media_type == "book":
+                media_data.update(BOOK_ADDITIONAL_DATA)
+            elif media_type == "video_game":
+                media_data.update(VIDEO_GAME_ADDITIONAL_DATA)
+            elif media_type == "tv_show":
+                media_data.update(TV_ADDITIONAL_DATA)
             final_output = {
                 "media_type": media_type,
                 "graded": graded,
-                "criteriaGraded": False,
+                "criteria_graded": False,
                 "media_data": media_data,
             }
     else:
@@ -136,7 +141,7 @@ async def process_media_title(media_type, title, proceed, graded, retry=False):
             final_output = {
                 "media_type": media_type,
                 "graded": graded,
-                "criteriaGraded": False,
+                "criteria_graded": False,
                 "media_data": {
                     "title": title,
                     "error": "Failed to process after retry",
@@ -187,22 +192,34 @@ MEDIA_TYPE_MAP = {
 
 MOVIE_ADDITIONAL_DATA = {
     "criteria_grades": {
-        "Rewatchability": 0,
-        "Casting": 0,
-        "Attention Holding": 0,
-        "Effects": 0,
-        "Cinematography": 0,
-        "Suspension of Disbelief": 0,
-        "Dialogue": 0,
-        "Pacing": 0,
-        "Soundtrack": 0,
-        "Story/Plot": 0,
+        "Story": 0,
         "Character Development": 0,
-        "Cultural/Artistic Impact": 0,
-        "Emotional Impact": 0,
+        "Visual Presentation": 0,
     },
     "quotes": [],
-    "notes":""
+    "notes": "",
+}
+
+TV_ADDITIONAL_DATA = {
+    "criteria_grades": {
+        "Story": 0,
+        "Character Development": 0,
+        "Visual Presentation": 0,
+    },
+    "quotes": [],
+    "notes": "",
+}
+
+BOOK_ADDITIONAL_DATA = {
+    "criteria_grades": {"Story": 0, "Character Development": 0, "Immersion": 0},
+    "quotes": [],
+    "notes": "",
+}
+
+VIDEO_GAME_ADDITIONAL_DATA = {
+    "criteria_grades": {"Story": 0, "Gameplay": 0, "Graphics": 0},
+    "quotes": [],
+    "notes": "",
 }
 
 

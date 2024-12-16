@@ -14,9 +14,11 @@
     "publisher": "Arrow Books",
     "short_description": "A story of a hero named Druss who must defend his fortress Dros Delnoch against an invading horde of Nadir warriors.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Immersion": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

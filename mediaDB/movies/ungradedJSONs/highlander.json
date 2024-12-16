@@ -1,7 +1,7 @@
 {
   "media_type": "movie",
   "graded": false,
-  "criteriaGraded": false,
+  "criteria_graded": false,
   "media_data": {
     "title": "Highlander",
     "director": "Russell Mulcahy",
@@ -33,6 +33,7 @@
       "Emotional Impact": 0
     },
     "quotes": [],
-    "notes": ""
+    "notes": "Favorite Scenes, Favorite Lines",
+    "overall_grade": 0
   }
 }

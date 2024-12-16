@@ -13,9 +13,11 @@
     ],
     "short_description": "The sequel to Total War: Warhammer, Warhammer: Total War 2 is a strategy game set in Games Workshop's Warhammer Fantasy fictional universe.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Gameplay": 0,
+      "Graphics": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

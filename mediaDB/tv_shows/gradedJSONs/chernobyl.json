@@ -1,7 +1,7 @@
 {
   "media_type": "tv_show",
   "graded": true,
-  "criteriaGraded": false,
+  "criteria_graded": false,
   "media_data": {
     "title": "Chernobyl",
     "creator": "Craig Mazin",
@@ -13,9 +13,16 @@
     ],
     "top_billed_actors": [
       "Jared Harris",
-      "Stellan Skarsg\u00e5rd",
+      "Stellan Skarsgård",
       "Emily Watson"
     ],
-    "short_description": "A dramatization of the true story of the April 1986 nuclear plant disaster at Chernobyl, focusing on the men and women who sacrificed to save Europe from unimaginable disaster."
+    "short_description": "A dramatization of the true story of the April 1986 nuclear plant disaster at Chernobyl, focusing on the men and women who sacrificed to save Europe from unimaginable disaster.",
+    "criteria_grades": {
+      "Story": 0,
+      "Character Development": 0,
+      "Visual Presentation": 0
+    },
+    "overall_grade": 0,
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

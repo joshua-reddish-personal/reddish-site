@@ -1,7 +1,7 @@
 {
   "media_type": "tv_show",
   "graded": true,
-  "criteriaGraded": false,
+  "criteria_graded": false,
   "media_data": {
     "title": "Lessons in Chemistry",
     "creator": "Susannah Grant",
@@ -14,6 +14,13 @@
       "Lewis Pullman",
       "Aja Naomi King"
     ],
-    "short_description": "Set in the 1960s, 'Lessons in Chemistry' follows Elizabeth Zott, a chemist whose career takes an unexpected turn."
+    "short_description": "Set in the 1960s, 'Lessons in Chemistry' follows Elizabeth Zott, a chemist whose career takes an unexpected turn.",
+    "criteria_grades": {
+      "Story": 0,
+      "Character Development": 0,
+      "Visual Presentation": 0
+    },
+    "overall_grade": 0,
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

@@ -13,9 +13,11 @@
     ],
     "short_description": "An immersive post-apocalyptic video game, set in a world recovering from a nuclear war, with multiple game paths influenced by player actions and decisions.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Gameplay": 0,
+      "Graphics": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

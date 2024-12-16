@@ -12,9 +12,11 @@
     ],
     "short_description": "Third installment in the Total War series set in the Warhammer fantasy world, featuring diverse factions, grand strategy mechanics and real-time tactical battles.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Gameplay": 0,
+      "Graphics": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

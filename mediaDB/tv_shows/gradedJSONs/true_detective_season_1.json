@@ -18,19 +18,11 @@
     ],
     "short_description": "Seasonal anthology series in which police investigations unearth the personal and professional secrets of those involved, both within and outside the law. The first season covers two detectives, Rust Cohle and Martin Hart, who revisit a homicide case in which they both worked in 1995, looking for answers that may reveal dark and haunting personal secrets about themselves.",
     "criteria_grades": {
-        "rewatchability": 0,
-        "casting": 0,
-        "attention_holding": 0,
-        "effects": 0,
-        "cinematography": 0,
-        "suspension_of_disbelief": 0,
-        "dialogue": 0,
-        "pacing": 0,
-        "soundtrack": 0,
-        "plot": 0,
-        "character_development": 0
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Visual Presentation": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

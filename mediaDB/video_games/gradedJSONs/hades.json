@@ -12,9 +12,11 @@
     ],
     "short_description": "Hades is a roguelike action role-playing video game focusing on protagonist Zagreus's escape from the Underworld to reach Mount Olympus, with assistance from the Olympian gods.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Gameplay": 0,
+      "Graphics": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

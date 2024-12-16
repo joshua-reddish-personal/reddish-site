@@ -12,9 +12,11 @@
     ],
     "short_description": "Kingdom Rush is a single-player tower defense game set in a medieval fantasy setting. Players must defend their kingdom against waves of enemies by building towers at strategic locations.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Gameplay": 0,
+      "Graphics": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

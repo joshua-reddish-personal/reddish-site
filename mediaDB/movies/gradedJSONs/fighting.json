@@ -14,24 +14,16 @@
     "top_billed_actors": [
       "Channing Tatum",
       "Terrence Howard",
-      "Luis Guzm\u00e1n"
+      "Luis Guzmán"
     ],
     "short_description": "In New York City, a young counterfeiter is introduced to the world of underground street fighting by a seasoned scam artist, who becomes his manager on the bare-knuckling brawling circuit.",
     "criteria_grades": {
-        "rewatchability": 0,
-        "casting": 0,
-        "attention_holding": 0,
-        "effects": 0,
-        "cinematography": 0,
-        "suspension_of_disbelief": 0,
-        "dialogue": 0,
-        "pacing": 0,
-        "soundtrack": 0,
-        "plot": 0,
-        "character_development": 0
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Visual Presentation": 0
+    },
     "overall_grade": 0,
     "quotes": [],
-    "notes":""
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

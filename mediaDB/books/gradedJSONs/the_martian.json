@@ -14,9 +14,11 @@
     "publisher": "Crown",
     "short_description": "Astronaut Mark Watney becomes stranded alone on Mars and must improvise in order to survive. It has been described as an Apollo 13 meets Cast Away.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Immersion": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

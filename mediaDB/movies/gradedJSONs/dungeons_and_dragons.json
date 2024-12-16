@@ -18,20 +18,12 @@
     ],
     "short_description": "A group of friends are thrown into a fantasy world and must learn to navigate its perils in an action-packed adventure based on the popular role-playing game.",
     "criteria_grades": {
-        "rewatchability": 0,
-        "casting": 0,
-        "attention_holding": 0,
-        "effects": 0,
-        "cinematography": 0,
-        "suspension_of_disbelief": 0,
-        "dialogue": 0,
-        "pacing": 0,
-        "soundtrack": 0,
-        "plot": 0,
-        "character_development": 0
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Visual Presentation": 0
+    },
     "overall_grade": 0,
     "quotes": [],
-    "notes":""
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

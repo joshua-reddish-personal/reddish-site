@@ -13,9 +13,11 @@
     ],
     "short_description": "An action role-playing video game where player takes the role of Commander Shepard through a galaxy on the brink of destruction.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Gameplay": 0,
+      "Graphics": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

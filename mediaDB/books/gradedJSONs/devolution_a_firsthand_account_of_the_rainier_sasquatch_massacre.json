@@ -14,9 +14,11 @@
     "publisher": "Del Rey Books",
     "short_description": "A chilling saga of survival in the aftermath of a devastating, mysterious disaster, as told by a community residing near Mount Rainier who find themselves encountering a terrifying threat: creatures legend says are supposedly extinct.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Immersion": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

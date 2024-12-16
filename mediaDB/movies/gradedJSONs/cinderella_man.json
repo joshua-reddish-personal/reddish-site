@@ -13,25 +13,17 @@
     ],
     "top_billed_actors": [
       "Russell Crowe",
-      "Ren\u00e9e Zellweger",
+      "Renée Zellweger",
       "Paul Giamatti"
     ],
     "short_description": "The true story of boxer James J. Braddock who, in the 1930s, goes from a failed prizefighter to heavyweight boxing champion, with the help of manager Joe Gould.",
     "criteria_grades": {
-        "rewatchability": 0,
-        "casting": 0,
-        "attention_holding": 0,
-        "effects": 0,
-        "cinematography": 0,
-        "suspension_of_disbelief": 0,
-        "dialogue": 0,
-        "pacing": 0,
-        "soundtrack": 0,
-        "plot": 0,
-        "character_development": 0
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Visual Presentation": 0
+    },
     "overall_grade": 0,
     "quotes": [],
-    "notes":""
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

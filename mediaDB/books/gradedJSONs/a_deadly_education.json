@@ -1,7 +1,7 @@
 {
   "media_type": "book",
   "graded": true,
-  "criteriaGraded": false,
+  "criteria_graded": false,
   "media_data": {
     "title": "A Deadly Education",
     "author": "Naomi Novik",
@@ -12,6 +12,13 @@
       "fiction"
     ],
     "publisher": "Del Rey Books",
-    "short_description": "A Deadly Education is set in a magical school called the Scholomance, where failure means certain death. The story follows Galadriel 'El' Higgins, a powerful, albeit reluctantly so, sorceress who must navigate the school's many dangers - both human and monster alike - to survive until graduation."
+    "short_description": "A Deadly Education is set in a magical school called the Scholomance, where failure means certain death. The story follows Galadriel 'El' Higgins, a powerful, albeit reluctantly so, sorceress who must navigate the school's many dangers - both human and monster alike - to survive until graduation.",
+    "criteria_grades": {
+      "Story": 0,
+      "Character Development": 0,
+      "Immersion": 0
+    },
+    "overall_grade": 0,
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

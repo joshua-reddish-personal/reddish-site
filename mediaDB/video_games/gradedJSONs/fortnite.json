@@ -13,9 +13,11 @@
     ],
     "short_description": "Fortnite is a free-to-play Battle Royale game with various game modes for every type of game player. Players can fight alone (Solo), with one additional player (Duos), or with a group of up to three others (Squads).",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Gameplay": 0,
+      "Graphics": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

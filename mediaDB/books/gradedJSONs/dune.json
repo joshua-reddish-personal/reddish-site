@@ -14,9 +14,11 @@
     "publisher": "Chilton Books",
     "short_description": "Set in the distant future amidst a feudal interstellar society, Dune tells the story of young Paul Atreides as he and his family accept control of the desert planet Arrakis.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Immersion": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

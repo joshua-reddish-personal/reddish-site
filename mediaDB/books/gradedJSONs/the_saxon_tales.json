@@ -15,9 +15,11 @@
     "publisher": "HarperCollins",
     "short_description": "An epic historical fiction series set in the Danish Kingdom - England during the 9th and 10th century. It follows the life of Uhtred of Bebbanburg, a Saxon nobleman who is captured and raised by Vikings.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Immersion": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

@@ -13,9 +13,11 @@
     "publisher": "Pan Books",
     "short_description": "An eccentric galactic traveler named Ford Prefect brings Earthling Arthur Dent on a wild journey through space, after the annihilation of Earth.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Immersion": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

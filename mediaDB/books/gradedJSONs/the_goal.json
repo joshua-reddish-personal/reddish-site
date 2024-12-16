@@ -14,9 +14,11 @@
     "publisher": "North River Press",
     "short_description": "A business novel that introduces the Theory of Constraints, exploring concepts of bottlenecks, throughput, and flow in an industrial environment. The protagonists work towards improving company performance using these novel ideas.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Immersion": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

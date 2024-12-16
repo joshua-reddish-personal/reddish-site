@@ -1,0 +1,34 @@
+{
+  "media_type": "movie",
+  "graded": true,
+  "criteria_graded": true,
+  "media_data": {
+    "title": "Starship Troopers",
+    "director": "Paul Verhoeven",
+    "release_year": 1997,
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ],
+    "top_billed_actors": [
+      "Casper Van Dien",
+      "Dina Meyer",
+      "Denise Richards"
+    ],
+    "short_description": "Humans in a fascistic, militaristic future wage war with giant alien bugs in a fight for survival.",
+    "criteria_grades": {
+      "Storytelling": 92,
+      "Character Development": 88,
+      "Emotional and Artistic Impact": 98
+    },
+    "overall_grade": 0,
+    "quotes": [
+      "Would you like to know more?",
+      "The enemy cannot push a button, if you disable his hand",
+      "I'm doing my part",
+      "C'mon you apes, you wanna live forever?"
+    ],
+    "notes": "Favorite Scenes, Favorite Lines"
+  }
+}

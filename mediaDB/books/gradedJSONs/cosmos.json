@@ -14,9 +14,11 @@
     "publisher": "Random House",
     "short_description": "In Cosmos, the late astronomer Carl Sagan casts his gaze over the magnificent mystery of the Universe and attempts to grasp its grandeur.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Immersion": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

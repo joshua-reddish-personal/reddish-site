@@ -12,26 +12,18 @@
       "Thriller"
     ],
     "top_billed_actors": [
-      "Alexander Skarsg\u00e5rd",
+      "Alexander Skarsgård",
       "Millie Bobby Brown",
       "Rebecca Hall"
     ],
     "short_description": "The epic next chapter in the cinematic Monsterverse pits two of the greatest icons in motion picture history against each other - the fearsome Godzilla and the mighty Kong - with humanity caught in the balance.",
     "criteria_grades": {
-        "rewatchability": 0,
-        "casting": 0,
-        "attention_holding": 0,
-        "effects": 0,
-        "cinematography": 0,
-        "suspension_of_disbelief": 0,
-        "dialogue": 0,
-        "pacing": 0,
-        "soundtrack": 0,
-        "plot": 0,
-        "character_development": 0
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Visual Presentation": 0
+    },
     "overall_grade": 0,
     "quotes": [],
-    "notes":""
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

@@ -1,8 +1,8 @@
 {
-  "title": "halo_combat_evolved",
+  "media_type": "video_game",
   "graded": true,
   "criteria_graded": false,
-  "data": {
+  "media_data": {
     "title": "Halo: Combat Evolved",
     "developer": "Bungie",
     "release_year": 2001,
@@ -11,9 +11,11 @@
     ],
     "short_description": "Halo: Combat Evolved is a 2001 military science fiction first-person shooter video game developed by Bungie and published by Microsoft Game Studios. In the game, players experience gameplay in a 3D environment almost entirely from a first-person view.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Gameplay": 0,
+      "Graphics": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }

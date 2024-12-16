@@ -13,9 +13,11 @@
     "publisher": "Doubleday",
     "short_description": "The Chronicles of Amber is a series of fantasy novels which revolves around the protagonist who must discover his royal heritage while navigating complex familial webs in a mysterious and compelling parallel universe.",
     "criteria_grades": {
-
-      },
+      "Story": 0,
+      "Character Development": 0,
+      "Immersion": 0
+    },
     "overall_grade": 0,
-    "notes":"Favorite Scenes, Favorite Lines"
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }
