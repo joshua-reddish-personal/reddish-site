@@ -1,0 +1,15 @@
+{
+  "media_type": "tv_show",
+  "graded": true,
+  "criteria_graded": false,
+  "media_data": {
+    "title": "DATA_NOT_FOUND",
+    "criteria_grades": {
+      "Story": 0,
+      "Character Development": 0,
+      "Visual Presentation": 0
+    },
+    "quotes": [],
+    "notes": ""
+  }
+}
