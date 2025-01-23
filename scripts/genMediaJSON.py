@@ -120,7 +120,7 @@ async def process_media_title(media_type, title, proceed, retry=False):
             metadata.update(VIDEO_GAME_ADDITIONAL_DATA)
         elif media_type == "tv_show":
             metadata.update(TV_ADDITIONAL_DATA)
-        content.update == (CONTENT)
+        content.update(CONTENT)
         final_output = {
             "metadata": {**metadata, "media_type": media_type},
             "content": content,
