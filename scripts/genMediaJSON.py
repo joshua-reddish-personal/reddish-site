@@ -107,8 +107,8 @@ async def process_media_title(media_type, title, proceed, retry=False):
             "metadata": {"media_type": media_type, "title": title, "error": "Failed to process"},
         }
     else:
-        metadata = media_data.metadata
-        content = media_data.content
+        metadata = media_data["metadata"]
+        content = media_data["content"]
         # Process normally if valid data is found
         safe_title = metadata.get("title", title).lower().replace(" ", "_")
         safe_title = re.sub(r"[^a-zA-Z0-9_]", "_", safe_title)
