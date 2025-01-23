@@ -1,0 +1,1040 @@
+./mediaDB/video_games/gradedJSONs/kingdom_rush.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/risk_of_rain_2.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/hades.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/back_4_blood.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/warhammer_total_war_1.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/the_elder_scrolls_iii_morrowind.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/the_elder_scrolls_iv_oblivion.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/fortnite.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/warzone.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/the_elder_scrolls_v_skyrim.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/dead_cells.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/rome_total_war.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/bloons_tower_defense_6.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/halo_combat_evolved.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/league_of_legends.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/fallout_new_vegas.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/baldur's_gate_3.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/the_witcher_3_wild_hunt.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/warhammer_total_war_2.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/divinity_ii.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/mass_effect.json
+Missing keys:
+metadata
+content
+
+./mediaDB/video_games/gradedJSONs/warhammer_total_war_3.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/band_of_brothers.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/silo.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/stranger_things.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/futurama.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/peacemaker.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/silicon_valley.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/grey's_anatomy.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/south_park.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/secret_level.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/jack_ryan.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/invincible.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/masters_of_the_air.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/entourage.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/true_detective_season_1.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/parks_and_recreation.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/avatar_the_last_airbender.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/the_wire.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/maniac.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/the_three_body_problem.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/malcolm_in_the_middle.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/supernatural.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/scrubs.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/ted_lasso_season_1.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/survivor.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/cyberpunk_edgerunner.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/rick_and_morty.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/justified.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/reacher.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/foundation.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/schitt's_creek.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/lessons_in_chemistry.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/the_expanse.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/that_'70s_show.json
+Missing keys:
+metadata
+content
+
+./mediaDB/tv_shows/gradedJSONs/chernobyl.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/inglourious_basterds.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_devil_wears_prada.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/love_actually.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_lord_of_the_rings__the_return_of_the_king.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_descent.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/old_school.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/mr____mrs__smith.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/transformers.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/accepted.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/fighting.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_lord_of_the_rings_the__fellowship_of_the_ring.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/dope.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_avengers.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/rocky.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/godzilla_minus_one.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/holidate.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/pitch_perfect.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/mid90s.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_bourne_identity.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/independence_day.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/cinderella_man.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/walk_hard_the_dewey_cox_story.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/rambo_first_blood.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/american_pie.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/get_him_to_the_greek.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/king_arthur.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/se7en.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/deliver_us_from_evil.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_grand_budapest_hotel.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/mad_max__fury_road.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/hidalgo.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_man_from_u_n_c_l_e_.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/kingdom_of_heaven_director_s_cut.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_unbearable_weight_of_massive_talent.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/godzilla_king_of_the_monsters.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/up_in_the_air.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/across_the_universe.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/kingsman_the_secret_service.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_big_short.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/happy_gilmore.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_wolf_of_wall_street.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/pacific_rim.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/eurotrip.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/snitch.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_peanut_butter_falcon.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/step_brothers_director_s_cut.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/tales_from_earthsea.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/barbershop.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/oppenheimer.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/creed_trilogy.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/casino_royale.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/drive.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/joe_dirt.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_40_year_old_virgin.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/10_things_i_hate_about_you.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/godzilla.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/django_unchained.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_harder_they_fall.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/fast_five.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/gridiron_gang.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_matrix.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/super_troopers.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/it_follows.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/national_treasure.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/mississippi_grind.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/28_days_later.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/dungeons_and_dragons.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/just_mercy.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/gangs_of_new_york.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/ocean_s_eleven.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/prey.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/wild_wild_west.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/kung_fu_hustle.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/boyhood.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/monty_python_and_the_holy_grail.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/blade.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/road_trip.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/this_is_the_end.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_waterboy.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/master_and_commander__the_far_side_of_the_world.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/tombstone.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_nice_guys.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/a_quiet_place.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_lord_of_the_rings__the_two_towers.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/jackie_brown.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/shaun_of_the_dead.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/once_upon_a_time_in_hollywood.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_mummy.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/rogue.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/500_days_of_summer.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_dukes_of_hazzard.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/clerks.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/watchmen.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/gran_torino.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_crazies.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/straight_outta_compton.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/balls_out_gary_the_tennis_coach.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/kung_fu_panda.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/collateral.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/it_s_a_wonderful_life.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/don_t_look_up.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/unbroken.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/a_knight_s_tale.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/extraction.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/tremors.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/waiting_is_waiting.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/road_house.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/blade_ii.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/dodgeball_a_true_underdog_story.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/kong_skull_island.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/pirates_of_the_caribbean_the_curse_of_the_black_pearl.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/fury.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/superbad.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/godzilla_vs__kong.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/dazed_and_confused.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/american_hustle.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/legion.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/the_gray_man.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/edge_of_tomorrow.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/pulp_fiction.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/sherlock_holmes.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/death_on_the_nile.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/twisters.json
+Missing keys:
+metadata
+content
+
+./mediaDB/movies/gradedJSONs/reign_of_fire.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/brokenBook.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/the_martian.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/chronicles_of_amber.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/worm.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/the_kingkiller_chronicles.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/redwall.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/world_war_z.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/the_call_of_the_wild.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/a_deadly_education.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/dune.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/the_goal.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/the_great_gatsby.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/a_song_of_ice_and_fire.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/all_quiet_on_the_western_front.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/the_phoenix_project.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/the_moon_is_a_harsh_mistress.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/hitchhiker's_guide_to_the_galaxy.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/devolution_a_firsthand_account_of_the_rainier_sasquatch_massacre.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/talion_revenant.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/the_saxon_tales.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/the_three_body_problem.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/cosmos.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/ender's_game.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/mistborn.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/the_stormlight_archive.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/inheritance_cycle.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/scholomance_series.json
+Missing keys:
+metadata
+content
+
+./mediaDB/books/gradedJSONs/legend.json
+Missing keys:
+metadata
+content
+
