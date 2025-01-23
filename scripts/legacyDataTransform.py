@@ -2,7 +2,7 @@ import os
 import json
 
 # Define the directory containing the legacy JSON files
-movie_dir = '/Users/joshreddish/development/reddish-site/mediaDB/movies/gradedJSONs'
+movie_dir = '/Users/joshreddish/development/reddish-site/mediaDB/books/gradedJSONs'
 
 def transform_legacy_to_new_format(file_path):
     with open(file_path, 'r') as file:
