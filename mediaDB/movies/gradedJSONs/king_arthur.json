@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "King Arthur",
-    "director": "Antoine Fuqua",
-    "release_year": 2004,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Drama"
-    ],
-    "top_billed_actors": [
-      "Clive Owen",
-      "Ioan Gruffudd",
-      "Keira Knightley"
-    ],
-    "short_description": "A demystified take on the tale of King Arthur and the Knights of the Round Table.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "King Arthur",
+        "director": "Antoine Fuqua",
+        "release_year": 2004,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "top_billed_actors": [
+            "Clive Owen",
+            "Ioan Gruffudd",
+            "Keira Knightley"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A demystified take on the tale of King Arthur and the Knights of the Round Table.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

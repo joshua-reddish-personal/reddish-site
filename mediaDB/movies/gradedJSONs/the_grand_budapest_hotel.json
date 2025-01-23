@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "The Grand Budapest Hotel",
-    "director": "Wes Anderson",
-    "release_year": 2014,
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Adventure"
-    ],
-    "top_billed_actors": [
-      "Ralph Fiennes",
-      "F. Murray Abraham",
-      "Mathieu Amalric"
-    ],
-    "short_description": "A whimsical and adventurous tale chronicling the exploits of a concierge and his lobby boy, who get involved in the theft and recovery of a valuable Renaissance painting.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "The Grand Budapest Hotel",
+        "director": "Wes Anderson",
+        "release_year": 2014,
+        "genres": [
+            "Comedy",
+            "Drama",
+            "Adventure"
+        ],
+        "top_billed_actors": [
+            "Ralph Fiennes",
+            "F. Murray Abraham",
+            "Mathieu Amalric"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A whimsical and adventurous tale chronicling the exploits of a concierge and his lobby boy, who get involved in the theft and recovery of a valuable Renaissance painting.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

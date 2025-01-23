@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Ocean's Eleven",
-    "director": "Steven Soderbergh",
-    "release_year": 2001,
-    "genres": [
-      "thriller",
-      "crime",
-      "comedy"
-    ],
-    "top_billed_actors": [
-      "George Clooney",
-      "Brad Pitt",
-      "Julia Roberts"
-    ],
-    "short_description": "Danny Ocean and his eleven accomplices plan to rob three Las Vegas casinos simultaneously.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Ocean's Eleven",
+        "director": "Steven Soderbergh",
+        "release_year": 2001,
+        "genres": [
+            "thriller",
+            "crime",
+            "comedy"
+        ],
+        "top_billed_actors": [
+            "George Clooney",
+            "Brad Pitt",
+            "Julia Roberts"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Danny Ocean and his eleven accomplices plan to rob three Las Vegas casinos simultaneously.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

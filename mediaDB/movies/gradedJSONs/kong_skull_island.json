@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Kong: Skull Island",
-    "director": "Jordan Vogt-Roberts",
-    "release_year": 2017,
-    "genres": [
-      "action",
-      "adventure",
-      "fantasy"
-    ],
-    "top_billed_actors": [
-      "Tom Hiddleston",
-      "Samuel L. Jackson",
-      "Brie Larson"
-    ],
-    "short_description": "A team of scientists explore an uncharted island in the Pacific, venturing into the domain of the mighty Kong, and must fight to escape a primal Eden.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Kong: Skull Island",
+        "director": "Jordan Vogt-Roberts",
+        "release_year": 2017,
+        "genres": [
+            "action",
+            "adventure",
+            "fantasy"
+        ],
+        "top_billed_actors": [
+            "Tom Hiddleston",
+            "Samuel L. Jackson",
+            "Brie Larson"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A team of scientists explore an uncharted island in the Pacific, venturing into the domain of the mighty Kong, and must fight to escape a primal Eden.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

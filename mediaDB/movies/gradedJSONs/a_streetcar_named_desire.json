@@ -1,38 +1,37 @@
 {
-  "media_type": "movie",
-  "graded": false,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "A Streetcar Named Desire",
-    "director": "Elia Kazan",
-    "release_year": 1951,
-    "genres": [
-      "Drama"
-    ],
-    "top_billed_actors": [
-      "Vivien Leigh",
-      "Marlon Brando",
-      "Kim Hunter",
-      "Karl Malden"
-    ],
-    "short_description": "Disturbed Blanche DuBois moves in with her sister in New Orleans and is tormented by her brutish brother-in-law while her reality crumbles around her.",
-    "criteria_grades": {
-      "Rewatchability": 0,
-      "Casting": 0,
-      "Attention Holding": 0,
-      "Effects": 0,
-      "Cinematography": 0,
-      "Suspension of Disbelief": 0,
-      "Dialogue": 0,
-      "Pacing": 0,
-      "Soundtrack": 0,
-      "Story/Plot": 0,
-      "Character Development": 0,
-      "Cultural/Artistic Impact": 0,
-      "Emotional Impact": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "A Streetcar Named Desire",
+        "director": "Elia Kazan",
+        "release_year": 1951,
+        "genres": [
+            "Drama"
+        ],
+        "top_billed_actors": [
+            "Vivien Leigh",
+            "Marlon Brando",
+            "Kim Hunter",
+            "Karl Malden"
+        ],
+        "criteria_grades": {
+            "Rewatchability": 0,
+            "Casting": 0,
+            "Attention Holding": 0,
+            "Effects": 0,
+            "Cinematography": 0,
+            "Suspension of Disbelief": 0,
+            "Dialogue": 0,
+            "Pacing": 0,
+            "Soundtrack": 0,
+            "Story/Plot": 0,
+            "Character Development": 0,
+            "Cultural/Artistic Impact": 0,
+            "Emotional Impact": 0
+        }
     },
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines",
-    "overall_grade": 0
-  }
+    "content": {
+        "short_description": "Disturbed Blanche DuBois moves in with her sister in New Orleans and is tormented by her brutish brother-in-law while her reality crumbles around her.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

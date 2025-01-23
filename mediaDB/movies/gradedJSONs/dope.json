@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Dope",
-    "director": "Rick Famuyiwa",
-    "release_year": 2015,
-    "genres": [
-      "Comedy",
-      "Crime",
-      "Drama"
-    ],
-    "top_billed_actors": [
-      "Shameik Moore",
-      "Tony Revolori",
-      "Kiersey Clemons"
-    ],
-    "short_description": "A high-school senior finds himself in an adventure where he's dealing with thugs, trying to get into college, and attempting to get the girl of his dreams.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Dope",
+        "director": "Rick Famuyiwa",
+        "release_year": 2015,
+        "genres": [
+            "Comedy",
+            "Crime",
+            "Drama"
+        ],
+        "top_billed_actors": [
+            "Shameik Moore",
+            "Tony Revolori",
+            "Kiersey Clemons"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A high-school senior finds himself in an adventure where he's dealing with thugs, trying to get into college, and attempting to get the girl of his dreams.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

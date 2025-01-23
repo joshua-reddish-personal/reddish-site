@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Joe Dirt",
-    "director": "Dennie Gordon",
-    "release_year": 2001,
-    "genres": [
-      "Adventure",
-      "Comedy",
-      "Drama"
-    ],
-    "top_billed_actors": [
-      "David Spade",
-      "Brittany Daniel",
-      "Dennis Miller"
-    ],
-    "short_description": "A white trash loser named Joe Dirt embarks on a journey to find his parents who abandoned him at a young age at the Grand Canyon.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Joe Dirt",
+        "director": "Dennie Gordon",
+        "release_year": 2001,
+        "genres": [
+            "Adventure",
+            "Comedy",
+            "Drama"
+        ],
+        "top_billed_actors": [
+            "David Spade",
+            "Brittany Daniel",
+            "Dennis Miller"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A white trash loser named Joe Dirt embarks on a journey to find his parents who abandoned him at a young age at the Grand Canyon.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

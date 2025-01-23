@@ -1,28 +1,27 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "The Harder They Fall",
-    "director": "Jeymes Samuel",
-    "release_year": 2021,
-    "genres": [
-      "Western",
-      "Drama"
-    ],
-    "top_billed_actors": [
-      "Jonathan Majors",
-      "Idris Elba",
-      "Zazie Beetz"
-    ],
-    "short_description": "When an outlaw discovers his enemy is being released from prison, he reunites his gang to seek revenge in this Western.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "The Harder They Fall",
+        "director": "Jeymes Samuel",
+        "release_year": 2021,
+        "genres": [
+            "Western",
+            "Drama"
+        ],
+        "top_billed_actors": [
+            "Jonathan Majors",
+            "Idris Elba",
+            "Zazie Beetz"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "When an outlaw discovers his enemy is being released from prison, he reunites his gang to seek revenge in this Western.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

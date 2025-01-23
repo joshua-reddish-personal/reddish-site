@@ -1,30 +1,29 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Watchmen",
-    "director": "Zack Snyder",
-    "release_year": 2009,
-    "genres": [
-      "action",
-      "drama",
-      "mystery",
-      "sci-fi"
-    ],
-    "top_billed_actors": [
-      "Jackie Earle Haley",
-      "Patrick Wilson",
-      "Carla Gugino"
-    ],
-    "short_description": "In 1985 where former superheroes exist, the murder of a colleague sends active vigilante Rorschach into his own sprawling investigation, uncovering something that could completely change the course of history as we know it.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Watchmen",
+        "director": "Zack Snyder",
+        "release_year": 2009,
+        "genres": [
+            "action",
+            "drama",
+            "mystery",
+            "sci-fi"
+        ],
+        "top_billed_actors": [
+            "Jackie Earle Haley",
+            "Patrick Wilson",
+            "Carla Gugino"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "In 1985 where former superheroes exist, the murder of a colleague sends active vigilante Rorschach into his own sprawling investigation, uncovering something that could completely change the course of history as we know it.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

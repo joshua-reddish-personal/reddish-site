@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Independence Day",
-    "director": "Roland Emmerich",
-    "release_year": 1996,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "top_billed_actors": [
-      "Will Smith",
-      "Bill Pullman",
-      "Jeff Goldblum"
-    ],
-    "short_description": "The Earth is under attack by extraterrestrials and it's up to a group of survivors to stop them on the Fourth of July.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Independence Day",
+        "director": "Roland Emmerich",
+        "release_year": 1996,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "top_billed_actors": [
+            "Will Smith",
+            "Bill Pullman",
+            "Jeff Goldblum"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "The Earth is under attack by extraterrestrials and it's up to a group of survivors to stop them on the Fourth of July.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

@@ -1,8 +1,6 @@
 {
-  "media_type": "movie",
-  "graded": false,
-  "criteria_graded": false,
-  "media_data": {
+  "metadata": {
+    "media_type": "movie",
     "title": "Brick",
     "director": "Rian Johnson",
     "release_year": 2005,
@@ -15,7 +13,15 @@
       "Joseph Gordon-Levitt",
       "Lukas Haas",
       "Emilie de Ravin"
-    ],
+    ]
+  },
+  "content": {
     "short_description": "A teenage loner pushes his way into the underworld of a high school crime ring to investigate the disappearance of his ex-girlfriend.",
-  } 
+    "criteria_grades": {
+      "Storytelling": 0,
+      "Character Development": 0,
+      "Emotional and Artistic Impact": 0
+    },
+    "quotes": []
+  }
 }

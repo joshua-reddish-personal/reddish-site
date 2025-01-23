@@ -1,28 +1,27 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "The 40 Year Old Virgin",
-    "director": "Judd Apatow",
-    "release_year": 2005,
-    "genres": [
-      "Comedy",
-      "Romance"
-    ],
-    "top_billed_actors": [
-      "Steve Carell",
-      "Catherine Keener",
-      "Paul Rudd"
-    ],
-    "short_description": "Goaded by his buddies, a nerdy guy who's never done the deed only finds the pressure mounting when he meets a single mother.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "The 40 Year Old Virgin",
+        "director": "Judd Apatow",
+        "release_year": 2005,
+        "genres": [
+            "Comedy",
+            "Romance"
+        ],
+        "top_billed_actors": [
+            "Steve Carell",
+            "Catherine Keener",
+            "Paul Rudd"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Goaded by his buddies, a nerdy guy who's never done the deed only finds the pressure mounting when he meets a single mother.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

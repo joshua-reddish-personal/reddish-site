@@ -1,40 +1,39 @@
 {
-  "media_type": "movie",
-  "graded": false,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "The Rock",
-    "director": "Michael Bay",
-    "release_year": 1996,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Thriller"
-    ],
-    "top_billed_actors": [
-      "Sean Connery",
-      "Nicolas Cage",
-      "Ed Harris"
-    ],
-    "short_description": "A mild-mannered chemist and an ex-con must lead the counterstrike when a rogue group of military men, led by a renegade general, threaten a nerve gas attack from Alcatraz against San Francisco.",
-    "criteria_grades": {
-      "Rewatchability": 0,
-      "Casting": 0,
-      "Attention Holding": 0,
-      "Effects": 0,
-      "Cinematography": 0,
-      "Suspension of Disbelief": 0,
-      "Dialogue": 0,
-      "Pacing": 0,
-      "Soundtrack": 0,
-      "Direction": 0,
-      "Story/Plot": 0,
-      "Character Development": 0,
-      "Cultural/Artistic Impact": 0,
-      "Emotional Impact": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "The Rock",
+        "director": "Michael Bay",
+        "release_year": 1996,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Thriller"
+        ],
+        "top_billed_actors": [
+            "Sean Connery",
+            "Nicolas Cage",
+            "Ed Harris"
+        ],
+        "criteria_grades": {
+            "Rewatchability": 0,
+            "Casting": 0,
+            "Attention Holding": 0,
+            "Effects": 0,
+            "Cinematography": 0,
+            "Suspension of Disbelief": 0,
+            "Dialogue": 0,
+            "Pacing": 0,
+            "Soundtrack": 0,
+            "Direction": 0,
+            "Story/Plot": 0,
+            "Character Development": 0,
+            "Cultural/Artistic Impact": 0,
+            "Emotional Impact": 0
+        }
     },
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines",
-    "overall_grade": 0
-  }
+    "content": {
+        "short_description": "A mild-mannered chemist and an ex-con must lead the counterstrike when a rogue group of military men, led by a renegade general, threaten a nerve gas attack from Alcatraz against San Francisco.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

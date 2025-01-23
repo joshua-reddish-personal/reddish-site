@@ -1,28 +1,27 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Once Upon a Time in Hollywood",
-    "director": "Quentin Tarantino",
-    "release_year": 2019,
-    "genres": [
-      "Comedy",
-      "Drama"
-    ],
-    "top_billed_actors": [
-      "Leonardo DiCaprio",
-      "Brad Pitt",
-      "Margot Robbie"
-    ],
-    "short_description": "A faded television actor and his stunt double strive to achieve fame and success in the film industry during the final years of Hollywood's Golden Age in 1969 Los Angeles.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Once Upon a Time in Hollywood",
+        "director": "Quentin Tarantino",
+        "release_year": 2019,
+        "genres": [
+            "Comedy",
+            "Drama"
+        ],
+        "top_billed_actors": [
+            "Leonardo DiCaprio",
+            "Brad Pitt",
+            "Margot Robbie"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A faded television actor and his stunt double strive to achieve fame and success in the film industry during the final years of Hollywood's Golden Age in 1969 Los Angeles.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

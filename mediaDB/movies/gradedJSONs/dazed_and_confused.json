@@ -1,28 +1,27 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Dazed and Confused",
-    "director": "Richard Linklater",
-    "release_year": 1993,
-    "genres": [
-      "comedy",
-      "drama"
-    ],
-    "top_billed_actors": [
-      "Jason London",
-      "Wiley Wiggins",
-      "Matthew McConaughey"
-    ],
-    "short_description": "The adventures of high school and junior high students on the last day of school in May 1976.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Dazed and Confused",
+        "director": "Richard Linklater",
+        "release_year": 1993,
+        "genres": [
+            "comedy",
+            "drama"
+        ],
+        "top_billed_actors": [
+            "Jason London",
+            "Wiley Wiggins",
+            "Matthew McConaughey"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "The adventures of high school and junior high students on the last day of school in May 1976.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

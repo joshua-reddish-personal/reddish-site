@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Just Mercy",
-    "director": "Destin Daniel Cretton",
-    "release_year": 2019,
-    "genres": [
-      "Drama",
-      "Biography",
-      "Crime"
-    ],
-    "top_billed_actors": [
-      "Michael B. Jordan",
-      "Jamie Foxx",
-      "Brie Larson"
-    ],
-    "short_description": "World-renowned civil rights defense attorney Bryan Stevenson works to free a wrongly condemned death row prisoner.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Just Mercy",
+        "director": "Destin Daniel Cretton",
+        "release_year": 2019,
+        "genres": [
+            "Drama",
+            "Biography",
+            "Crime"
+        ],
+        "top_billed_actors": [
+            "Michael B. Jordan",
+            "Jamie Foxx",
+            "Brie Larson"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "World-renowned civil rights defense attorney Bryan Stevenson works to free a wrongly condemned death row prisoner.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Across the Universe",
-    "director": "Julie Taymor",
-    "release_year": 2007,
-    "genres": [
-      "Drama",
-      "Fantasy",
-      "Musical"
-    ],
-    "top_billed_actors": [
-      "Evan Rachel Wood",
-      "Jim Sturgess",
-      "Joe Anderson"
-    ],
-    "short_description": "The music of The Beatles and the Vietnam War form the backdrop for the romance between an upper-class American girl and a poor Liverpudlian artist.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Across the Universe",
+        "director": "Julie Taymor",
+        "release_year": 2007,
+        "genres": [
+            "Drama",
+            "Fantasy",
+            "Musical"
+        ],
+        "top_billed_actors": [
+            "Evan Rachel Wood",
+            "Jim Sturgess",
+            "Joe Anderson"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "The music of The Beatles and the Vietnam War form the backdrop for the romance between an upper-class American girl and a poor Liverpudlian artist.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

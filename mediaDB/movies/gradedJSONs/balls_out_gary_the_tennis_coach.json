@@ -1,28 +1,27 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Balls Out: Gary the Tennis Coach",
-    "director": "Danny Leiner",
-    "release_year": 2009,
-    "genres": [
-      "Sport",
-      "Comedy"
-    ],
-    "top_billed_actors": [
-      "Seann William Scott",
-      "Randy Quaid",
-      "Brando Eaton"
-    ],
-    "short_description": "A high school janitor has not recovered from his failed career as a tennis pro. He begins coaching his beloved sport to a group of misfits and leads them to the Nebraska State Championships.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Balls Out: Gary the Tennis Coach",
+        "director": "Danny Leiner",
+        "release_year": 2009,
+        "genres": [
+            "Sport",
+            "Comedy"
+        ],
+        "top_billed_actors": [
+            "Seann William Scott",
+            "Randy Quaid",
+            "Brando Eaton"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A high school janitor has not recovered from his failed career as a tennis pro. He begins coaching his beloved sport to a group of misfits and leads them to the Nebraska State Championships.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

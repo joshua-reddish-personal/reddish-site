@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Pacific Rim",
-    "director": "Guillermo del Toro",
-    "release_year": 2013,
-    "genres": [
-      "action",
-      "adventure",
-      "sci-fi"
-    ],
-    "top_billed_actors": [
-      "Charlie Hunnam",
-      "Idris Elba",
-      "Rinko Kikuchi"
-    ],
-    "short_description": "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Pacific Rim",
+        "director": "Guillermo del Toro",
+        "release_year": 2013,
+        "genres": [
+            "action",
+            "adventure",
+            "sci-fi"
+        ],
+        "top_billed_actors": [
+            "Charlie Hunnam",
+            "Idris Elba",
+            "Rinko Kikuchi"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Godzilla",
-    "director": "Gareth Edwards",
-    "release_year": 2014,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "top_billed_actors": [
-      "Aaron Taylor-Johnson",
-      "Elizabeth Olsen",
-      "Bryan Cranston"
-    ],
-    "short_description": "The world is beset by the appearance of monstrous creatures, but one of them may be the only one who can save humanity.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Godzilla",
+        "director": "Gareth Edwards",
+        "release_year": 2014,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "top_billed_actors": [
+            "Aaron Taylor-Johnson",
+            "Elizabeth Olsen",
+            "Bryan Cranston"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "The world is beset by the appearance of monstrous creatures, but one of them may be the only one who can save humanity.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

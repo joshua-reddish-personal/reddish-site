@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Cinderella Man",
-    "director": "Ron Howard",
-    "release_year": 2005,
-    "genres": [
-      "Biography",
-      "Drama",
-      "Sport"
-    ],
-    "top_billed_actors": [
-      "Russell Crowe",
-      "Renée Zellweger",
-      "Paul Giamatti"
-    ],
-    "short_description": "The true story of boxer James J. Braddock who, in the 1930s, goes from a failed prizefighter to heavyweight boxing champion, with the help of manager Joe Gould.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Cinderella Man",
+        "director": "Ron Howard",
+        "release_year": 2005,
+        "genres": [
+            "Biography",
+            "Drama",
+            "Sport"
+        ],
+        "top_billed_actors": [
+            "Russell Crowe",
+            "Ren\u00e9e Zellweger",
+            "Paul Giamatti"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "The true story of boxer James J. Braddock who, in the 1930s, goes from a failed prizefighter to heavyweight boxing champion, with the help of manager Joe Gould.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

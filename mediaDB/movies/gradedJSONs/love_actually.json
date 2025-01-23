@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Love Actually",
-    "director": "Richard Curtis",
-    "release_year": 2003,
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Romance"
-    ],
-    "top_billed_actors": [
-      "Hugh Grant",
-      "Martine McCutcheon",
-      "Liam Neeson"
-    ],
-    "short_description": "Follows the lives of eight very different couples in dealing with their love lives in various loosely interrelated tales all set during a frantic month before Christmas in London, England.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Love Actually",
+        "director": "Richard Curtis",
+        "release_year": 2003,
+        "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
+        ],
+        "top_billed_actors": [
+            "Hugh Grant",
+            "Martine McCutcheon",
+            "Liam Neeson"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Follows the lives of eight very different couples in dealing with their love lives in various loosely interrelated tales all set during a frantic month before Christmas in London, England.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

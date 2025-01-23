@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Se7en",
-    "director": "David Fincher",
-    "release_year": 1995,
-    "genres": [
-      "crime",
-      "mystery",
-      "thriller"
-    ],
-    "top_billed_actors": [
-      "Brad Pitt",
-      "Morgan Freeman",
-      "Gwyneth Paltrow"
-    ],
-    "short_description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Se7en",
+        "director": "David Fincher",
+        "release_year": 1995,
+        "genres": [
+            "crime",
+            "mystery",
+            "thriller"
+        ],
+        "top_billed_actors": [
+            "Brad Pitt",
+            "Morgan Freeman",
+            "Gwyneth Paltrow"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

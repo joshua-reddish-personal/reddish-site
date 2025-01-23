@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "A Knight's Tale",
-    "director": "Brian Helgeland",
-    "release_year": 2001,
-    "genres": [
-      "Adventure",
-      "Action",
-      "Romance"
-    ],
-    "top_billed_actors": [
-      "Heath Ledger",
-      "Shannyn Sossamon",
-      "Paul Bettany"
-    ],
-    "short_description": "After his master dies, a peasant squire, fueled by his desire for food and glory, creates a new identity for himself as a knight.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "A Knight's Tale",
+        "director": "Brian Helgeland",
+        "release_year": 2001,
+        "genres": [
+            "Adventure",
+            "Action",
+            "Romance"
+        ],
+        "top_billed_actors": [
+            "Heath Ledger",
+            "Shannyn Sossamon",
+            "Paul Bettany"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "After his master dies, a peasant squire, fueled by his desire for food and glory, creates a new identity for himself as a knight.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

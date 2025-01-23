@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "The Bourne Identity",
-    "director": "Doug Liman",
-    "release_year": 2002,
-    "genres": [
-      "action",
-      "thriller",
-      "mystery"
-    ],
-    "top_billed_actors": [
-      "Matt Damon",
-      "Franka Potente",
-      "Chris Cooper"
-    ],
-    "short_description": "A man is picked up by a fishing boat, bullet-riddled and without memory, then races to elude assassins and recover from amnesia.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "The Bourne Identity",
+        "director": "Doug Liman",
+        "release_year": 2002,
+        "genres": [
+            "action",
+            "thriller",
+            "mystery"
+        ],
+        "top_billed_actors": [
+            "Matt Damon",
+            "Franka Potente",
+            "Chris Cooper"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "notes": "Favorite Scenes, Favorite Lines",
-    "overall_grade": 0,
-    "quotes": []
-  }
+    "content": {
+        "short_description": "A man is picked up by a fishing boat, bullet-riddled and without memory, then races to elude assassins and recover from amnesia.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

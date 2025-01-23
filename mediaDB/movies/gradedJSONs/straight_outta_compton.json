@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Straight Outta Compton",
-    "director": "F. Gary Gray",
-    "release_year": 2015,
-    "genres": [
-      "Biography",
-      "Drama",
-      "History"
-    ],
-    "top_billed_actors": [
-      "O'Shea Jackson Jr.",
-      "Corey Hawkins",
-      "Jason Mitchell"
-    ],
-    "short_description": "The group NWA emerges from the mean streets of Compton in Los Angeles, California, in the mid-1980s and revolutionizes Hip Hop culture with their music and tales about life in the hood.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Straight Outta Compton",
+        "director": "F. Gary Gray",
+        "release_year": 2015,
+        "genres": [
+            "Biography",
+            "Drama",
+            "History"
+        ],
+        "top_billed_actors": [
+            "O'Shea Jackson Jr.",
+            "Corey Hawkins",
+            "Jason Mitchell"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "The group NWA emerges from the mean streets of Compton in Los Angeles, California, in the mid-1980s and revolutionizes Hip Hop culture with their music and tales about life in the hood.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

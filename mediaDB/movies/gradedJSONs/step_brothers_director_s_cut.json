@@ -1,27 +1,26 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Step Brothers: Director's Cut",
-    "director": "Adam McKay",
-    "release_year": 2008,
-    "genres": [
-      "Comedy"
-    ],
-    "top_billed_actors": [
-      "Will Ferrell",
-      "John C. Reilly",
-      "Mary Steenburgen"
-    ],
-    "short_description": "Two aimless middle-aged losers still living at home are forced against their will to become roommates when their parents marry.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Step Brothers: Director's Cut",
+        "director": "Adam McKay",
+        "release_year": 2008,
+        "genres": [
+            "Comedy"
+        ],
+        "top_billed_actors": [
+            "Will Ferrell",
+            "John C. Reilly",
+            "Mary Steenburgen"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Two aimless middle-aged losers still living at home are forced against their will to become roommates when their parents marry.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

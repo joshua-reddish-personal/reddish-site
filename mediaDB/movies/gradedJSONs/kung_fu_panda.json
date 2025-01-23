@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Kung Fu Panda",
-    "director": "John Stevenson, Mark Osborne",
-    "release_year": 2008,
-    "genres": [
-      "animation",
-      "action",
-      "adventure"
-    ],
-    "top_billed_actors": [
-      "Jack Black",
-      "Dustin Hoffman",
-      "Angelina Jolie"
-    ],
-    "short_description": "The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Kung Fu Panda",
+        "director": "John Stevenson, Mark Osborne",
+        "release_year": 2008,
+        "genres": [
+            "animation",
+            "action",
+            "adventure"
+        ],
+        "top_billed_actors": [
+            "Jack Black",
+            "Dustin Hoffman",
+            "Angelina Jolie"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "The Unbearable Weight of Massive Talent",
-    "director": "Tom Gormican",
-    "release_year": 2022,
-    "genres": [
-      "Action",
-      "Comedy",
-      "Thriller"
-    ],
-    "top_billed_actors": [
-      "Nicolas Cage",
-      "Pedro Pascal",
-      "Neil Patrick Harris"
-    ],
-    "short_description": "A cash-strapped Nicolas Cage agrees to make a paid appearance at a billionaire super fan's birthday party, but is really an informant for the CIA since the fan is a drug kingpin and gets cast in a Tarantino movie.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "The Unbearable Weight of Massive Talent",
+        "director": "Tom Gormican",
+        "release_year": 2022,
+        "genres": [
+            "Action",
+            "Comedy",
+            "Thriller"
+        ],
+        "top_billed_actors": [
+            "Nicolas Cage",
+            "Pedro Pascal",
+            "Neil Patrick Harris"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A cash-strapped Nicolas Cage agrees to make a paid appearance at a billionaire super fan's birthday party, but is really an informant for the CIA since the fan is a drug kingpin and gets cast in a Tarantino movie.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

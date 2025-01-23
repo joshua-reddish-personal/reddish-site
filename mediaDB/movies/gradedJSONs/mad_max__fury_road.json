@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Mad Max: Fury Road",
-    "director": "George Miller",
-    "release_year": 2015,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "top_billed_actors": [
-      "Tom Hardy",
-      "Charlize Theron",
-      "Nicholas Hoult"
-    ],
-    "short_description": "In a post-apocalyptic wasteland, Max teams up with Furiosa to escape from the cult leader Immortan Joe and his army in a high-speed, action-packed chase.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Mad Max: Fury Road",
+        "director": "George Miller",
+        "release_year": 2015,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "top_billed_actors": [
+            "Tom Hardy",
+            "Charlize Theron",
+            "Nicholas Hoult"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines",
-    "overall_grade": 0
-  }
+    "content": {
+        "short_description": "In a post-apocalyptic wasteland, Max teams up with Furiosa to escape from the cult leader Immortan Joe and his army in a high-speed, action-packed chase.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

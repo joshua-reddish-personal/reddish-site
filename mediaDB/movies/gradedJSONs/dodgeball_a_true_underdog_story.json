@@ -1,28 +1,27 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "DodgeBall: A True Underdog Story",
-    "director": "Rawson Marshall Thurber",
-    "release_year": 2004,
-    "genres": [
-      "Comedy",
-      "Sport"
-    ],
-    "top_billed_actors": [
-      "Ben Stiller",
-      "Christine Taylor",
-      "Vince Vaughn"
-    ],
-    "short_description": "A group of misfits enter a Las Vegas dodgeball tournament in order to save their cherished local gym from the onslaught of a corporate health fitness chain.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "DodgeBall: A True Underdog Story",
+        "director": "Rawson Marshall Thurber",
+        "release_year": 2004,
+        "genres": [
+            "Comedy",
+            "Sport"
+        ],
+        "top_billed_actors": [
+            "Ben Stiller",
+            "Christine Taylor",
+            "Vince Vaughn"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A group of misfits enter a Las Vegas dodgeball tournament in order to save their cherished local gym from the onslaught of a corporate health fitness chain.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Collateral",
-    "director": "Michael Mann",
-    "release_year": 2004,
-    "genres": [
-      "Thriller",
-      "Crime",
-      "Drama"
-    ],
-    "top_billed_actors": [
-      "Tom Cruise",
-      "Jamie Foxx",
-      "Jada Pinkett Smith"
-    ],
-    "short_description": "A Los Angeles taxicab driver unwittingly becomes the chauffeur of a contract killer from one hit to another over the course of one night in the city.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Collateral",
+        "director": "Michael Mann",
+        "release_year": 2004,
+        "genres": [
+            "Thriller",
+            "Crime",
+            "Drama"
+        ],
+        "top_billed_actors": [
+            "Tom Cruise",
+            "Jamie Foxx",
+            "Jada Pinkett Smith"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A Los Angeles taxicab driver unwittingly becomes the chauffeur of a contract killer from one hit to another over the course of one night in the city.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

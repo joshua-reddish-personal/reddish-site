@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Jackie Brown",
-    "director": "Quentin Tarantino",
-    "release_year": 1997,
-    "genres": [
-      "crime",
-      "drama",
-      "thriller"
-    ],
-    "top_billed_actors": [
-      "Pam Grier",
-      "Samuel L. Jackson",
-      "Robert Forster"
-    ],
-    "short_description": "A middle-aged woman finds herself in the middle of a huge conflict that will either make her a profit or cost her life.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Jackie Brown",
+        "director": "Quentin Tarantino",
+        "release_year": 1997,
+        "genres": [
+            "crime",
+            "drama",
+            "thriller"
+        ],
+        "top_billed_actors": [
+            "Pam Grier",
+            "Samuel L. Jackson",
+            "Robert Forster"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A middle-aged woman finds herself in the middle of a huge conflict that will either make her a profit or cost her life.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

@@ -1,28 +1,27 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "The Waterboy",
-    "director": "Frank Coraci",
-    "release_year": 1998,
-    "genres": [
-      "Comedy",
-      "Sport"
-    ],
-    "top_billed_actors": [
-      "Adam Sandler",
-      "Kathy Bates",
-      "Henry Winkler"
-    ],
-    "short_description": "A waterboy for a college football team discovers he has a unique tackling ability and becomes a member of the team.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "The Waterboy",
+        "director": "Frank Coraci",
+        "release_year": 1998,
+        "genres": [
+            "Comedy",
+            "Sport"
+        ],
+        "top_billed_actors": [
+            "Adam Sandler",
+            "Kathy Bates",
+            "Henry Winkler"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A waterboy for a college football team discovers he has a unique tackling ability and becomes a member of the team.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

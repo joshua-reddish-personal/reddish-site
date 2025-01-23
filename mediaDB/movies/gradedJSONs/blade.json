@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Blade",
-    "director": "Stephen Norrington",
-    "release_year": 1998,
-    "genres": [
-      "action",
-      "horror",
-      "sci-fi"
-    ],
-    "top_billed_actors": [
-      "Wesley Snipes",
-      "Stephen Dorff",
-      "Kris Kristofferson"
-    ],
-    "short_description": "A half-vampire, half-mortal man becomes a protector of the mortal race, while slaying evil vampires.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Blade",
+        "director": "Stephen Norrington",
+        "release_year": 1998,
+        "genres": [
+            "action",
+            "horror",
+            "sci-fi"
+        ],
+        "top_billed_actors": [
+            "Wesley Snipes",
+            "Stephen Dorff",
+            "Kris Kristofferson"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A half-vampire, half-mortal man becomes a protector of the mortal race, while slaying evil vampires.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

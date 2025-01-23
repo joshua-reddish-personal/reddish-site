@@ -1,32 +1,31 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Monty Python and the Holy Grail",
-    "director": "Terry Gilliam, Terry Jones",
-    "release_year": 1975,
-    "genres": [
-      "Adventure",
-      "Comedy",
-      "Fantasy"
-    ],
-    "top_billed_actors": [
-      "Graham Chapman",
-      "John Cleese",
-      "Eric Idle",
-      "Terry Gilliam",
-      "Terry Jones",
-      "Michael Palin"
-    ],
-    "short_description": "King Arthur and his Knights of the Round Table embark on a surreal, low-budget search for the Holy Grail, encountering many, very silly obstacles.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Monty Python and the Holy Grail",
+        "director": "Terry Gilliam, Terry Jones",
+        "release_year": 1975,
+        "genres": [
+            "Adventure",
+            "Comedy",
+            "Fantasy"
+        ],
+        "top_billed_actors": [
+            "Graham Chapman",
+            "John Cleese",
+            "Eric Idle",
+            "Terry Gilliam",
+            "Terry Jones",
+            "Michael Palin"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "King Arthur and his Knights of the Round Table embark on a surreal, low-budget search for the Holy Grail, encountering many, very silly obstacles.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

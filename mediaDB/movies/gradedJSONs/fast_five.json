@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Fast Five",
-    "director": "Justin Lin",
-    "release_year": 2011,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Thriller"
-    ],
-    "top_billed_actors": [
-      "Vin Diesel",
-      "Paul Walker",
-      "Dwayne Johnson"
-    ],
-    "short_description": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Fast Five",
+        "director": "Justin Lin",
+        "release_year": 2011,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Thriller"
+        ],
+        "top_billed_actors": [
+            "Vin Diesel",
+            "Paul Walker",
+            "Dwayne Johnson"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

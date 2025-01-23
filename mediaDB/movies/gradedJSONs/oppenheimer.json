@@ -1,30 +1,29 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Oppenheimer",
-    "director": "Christopher Nolan",
-    "release_year": 2023,
-    "genres": [
-      "biography",
-      "drama",
-      "history"
-    ],
-    "top_billed_actors": [
-      "Cillian Murphy",
-      "Emily Blunt",
-      "Matt Damon",
-      "Robert Downey Jr."
-    ],
-    "short_description": "A biographical drama focusing on J. Robert Oppenheimer and his role in the development of the atomic bomb.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Oppenheimer",
+        "director": "Christopher Nolan",
+        "release_year": 2023,
+        "genres": [
+            "biography",
+            "drama",
+            "history"
+        ],
+        "top_billed_actors": [
+            "Cillian Murphy",
+            "Emily Blunt",
+            "Matt Damon",
+            "Robert Downey Jr."
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "notes": "Favorite Scenes, Favorite Lines",
-    "overall_grade": 0,
-    "quotes": []
-  }
+    "content": {
+        "short_description": "A biographical drama focusing on J. Robert Oppenheimer and his role in the development of the atomic bomb.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

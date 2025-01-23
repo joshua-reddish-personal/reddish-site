@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Inglourious Basterds",
-    "director": "Quentin Tarantino",
-    "release_year": 2009,
-    "genres": [
-      "Adventure",
-      "Drama",
-      "War"
-    ],
-    "top_billed_actors": [
-      "Brad Pitt",
-      "Diane Kruger",
-      "Eli Roth"
-    ],
-    "short_description": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Inglourious Basterds",
+        "director": "Quentin Tarantino",
+        "release_year": 2009,
+        "genres": [
+            "Adventure",
+            "Drama",
+            "War"
+        ],
+        "top_billed_actors": [
+            "Brad Pitt",
+            "Diane Kruger",
+            "Eli Roth"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

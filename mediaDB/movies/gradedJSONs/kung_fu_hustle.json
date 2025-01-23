@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Kung Fu Hustle",
-    "director": "Stephen Chow",
-    "release_year": 2004,
-    "genres": [
-      "action",
-      "comedy",
-      "fantasy"
-    ],
-    "top_billed_actors": [
-      "Stephen Chow",
-      "Wah Yuen",
-      "Qiu Yuen"
-    ],
-    "short_description": "In Shanghai, China in the 1940s, a wannabe gangster aspires to join the notorious 'Axe Gang' while residents of a housing complex exhibit extraordinary powers in defending their turf.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Kung Fu Hustle",
+        "director": "Stephen Chow",
+        "release_year": 2004,
+        "genres": [
+            "action",
+            "comedy",
+            "fantasy"
+        ],
+        "top_billed_actors": [
+            "Stephen Chow",
+            "Wah Yuen",
+            "Qiu Yuen"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "In Shanghai, China in the 1940s, a wannabe gangster aspires to join the notorious 'Axe Gang' while residents of a housing complex exhibit extraordinary powers in defending their turf.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

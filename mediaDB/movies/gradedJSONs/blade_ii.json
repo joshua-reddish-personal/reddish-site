@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Blade II",
-    "director": "Guillermo del Toro",
-    "release_year": 2002,
-    "genres": [
-      "Action",
-      "Horror",
-      "Sci-Fi"
-    ],
-    "top_billed_actors": [
-      "Wesley Snipes",
-      "Kris Kristofferson",
-      "Ron Perlman"
-    ],
-    "short_description": "Blade forms an uneasy alliance with the vampire council in order to combat the Reaper vampires who feed on vampires.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Blade II",
+        "director": "Guillermo del Toro",
+        "release_year": 2002,
+        "genres": [
+            "Action",
+            "Horror",
+            "Sci-Fi"
+        ],
+        "top_billed_actors": [
+            "Wesley Snipes",
+            "Kris Kristofferson",
+            "Ron Perlman"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Blade forms an uneasy alliance with the vampire council in order to combat the Reaper vampires who feed on vampires.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

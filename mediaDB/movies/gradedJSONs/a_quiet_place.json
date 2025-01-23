@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "A Quiet Place",
-    "director": "John Krasinski",
-    "release_year": 2018,
-    "genres": [
-      "Drama",
-      "Horror",
-      "Sci-Fi"
-    ],
-    "top_billed_actors": [
-      "Emily Blunt",
-      "John Krasinski",
-      "Millicent Simmonds"
-    ],
-    "short_description": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "A Quiet Place",
+        "director": "John Krasinski",
+        "release_year": 2018,
+        "genres": [
+            "Drama",
+            "Horror",
+            "Sci-Fi"
+        ],
+        "top_billed_actors": [
+            "Emily Blunt",
+            "John Krasinski",
+            "Millicent Simmonds"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

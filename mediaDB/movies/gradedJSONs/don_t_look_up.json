@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Don't Look Up",
-    "director": "Adam McKay",
-    "release_year": 2021,
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Sci-Fi"
-    ],
-    "top_billed_actors": [
-      "Leonardo DiCaprio",
-      "Jennifer Lawrence",
-      "Meryl Streep"
-    ],
-    "short_description": "Two low-level astronomers must go on a giant media tour to warn mankind of an approaching comet that will destroy planet Earth.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Don't Look Up",
+        "director": "Adam McKay",
+        "release_year": 2021,
+        "genres": [
+            "Comedy",
+            "Drama",
+            "Sci-Fi"
+        ],
+        "top_billed_actors": [
+            "Leonardo DiCaprio",
+            "Jennifer Lawrence",
+            "Meryl Streep"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Two low-level astronomers must go on a giant media tour to warn mankind of an approaching comet that will destroy planet Earth.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

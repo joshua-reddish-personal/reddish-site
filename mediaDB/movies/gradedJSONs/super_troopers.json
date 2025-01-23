@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Super Troopers",
-    "director": "Jay Chandrasekhar",
-    "release_year": 2001,
-    "genres": [
-      "Comedy",
-      "Crime",
-      "Mystery"
-    ],
-    "top_billed_actors": [
-      "Jay Chandrasekhar",
-      "Kevin Heffernan",
-      "Steve Lemme"
-    ],
-    "short_description": "Five Vermont state troopers, avid pranksters with a knack for screwing up, try to save their jobs and out-do the local police department by solving a crime.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Super Troopers",
+        "director": "Jay Chandrasekhar",
+        "release_year": 2001,
+        "genres": [
+            "Comedy",
+            "Crime",
+            "Mystery"
+        ],
+        "top_billed_actors": [
+            "Jay Chandrasekhar",
+            "Kevin Heffernan",
+            "Steve Lemme"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Five Vermont state troopers, avid pranksters with a knack for screwing up, try to save their jobs and out-do the local police department by solving a crime.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

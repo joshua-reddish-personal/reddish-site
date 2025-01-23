@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Deliver Us From Evil",
-    "director": "Scott Derrickson",
-    "release_year": 2014,
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Mystery"
-    ],
-    "top_billed_actors": [
-      "Eric Bana",
-      "Édgar Ramírez",
-      "Olivia Munn"
-    ],
-    "short_description": "New York police officer Ralph Sarchie investigates a series of crimes. He joins forces with an unconventional priest, schooled in the rites of exorcism, to combat the possessions that are terrorizing their city.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Deliver Us From Evil",
+        "director": "Scott Derrickson",
+        "release_year": 2014,
+        "genres": [
+            "Horror",
+            "Thriller",
+            "Mystery"
+        ],
+        "top_billed_actors": [
+            "Eric Bana",
+            "\u00c9dgar Ram\u00edrez",
+            "Olivia Munn"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "New York police officer Ralph Sarchie investigates a series of crimes. He joins forces with an unconventional priest, schooled in the rites of exorcism, to combat the possessions that are terrorizing their city.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

@@ -1,28 +1,27 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Up in the Air",
-    "director": "Jason Reitman",
-    "release_year": 2009,
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "top_billed_actors": [
-      "George Clooney",
-      "Vera Farmiga",
-      "Anna Kendrick"
-    ],
-    "short_description": "With a job that has him traveling around the country firing people, Ryan Bingham leads an empty life out of a suitcase, until his company does the unexpected: ground him.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Up in the Air",
+        "director": "Jason Reitman",
+        "release_year": 2009,
+        "genres": [
+            "Drama",
+            "Romance"
+        ],
+        "top_billed_actors": [
+            "George Clooney",
+            "Vera Farmiga",
+            "Anna Kendrick"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "With a job that has him traveling around the country firing people, Ryan Bingham leads an empty life out of a suitcase, until his company does the unexpected: ground him.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

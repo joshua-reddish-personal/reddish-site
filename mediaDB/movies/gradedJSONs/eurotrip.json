@@ -1,28 +1,27 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "EuroTrip",
-    "director": "Jeff Schaffer",
-    "release_year": 2004,
-    "genres": [
-      "Comedy",
-      "Adventure"
-    ],
-    "top_billed_actors": [
-      "Scott Mechlowicz",
-      "Jacob Pitts",
-      "Michelle Trachtenberg"
-    ],
-    "short_description": "Dumped by his girlfriend, a high school grad decides to embark on an overseas adventure in Europe with his friends.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "EuroTrip",
+        "director": "Jeff Schaffer",
+        "release_year": 2004,
+        "genres": [
+            "Comedy",
+            "Adventure"
+        ],
+        "top_billed_actors": [
+            "Scott Mechlowicz",
+            "Jacob Pitts",
+            "Michelle Trachtenberg"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Dumped by his girlfriend, a high school grad decides to embark on an overseas adventure in Europe with his friends.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

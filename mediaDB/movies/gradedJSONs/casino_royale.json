@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Casino Royale",
-    "director": "Martin Campbell",
-    "release_year": 2006,
-    "genres": [
-      "action",
-      "adventure",
-      "thriller"
-    ],
-    "top_billed_actors": [
-      "Daniel Craig",
-      "Eva Green",
-      "Mads Mikkelsen"
-    ],
-    "short_description": "After earning his 00 status with a masterful and daring assassination, James Bond must stop Le Chiffre, a banker to the world's terrorist organizations, from winning a high-stakes poker tournament at Casino Royale in Montenegro.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Casino Royale",
+        "director": "Martin Campbell",
+        "release_year": 2006,
+        "genres": [
+            "action",
+            "adventure",
+            "thriller"
+        ],
+        "top_billed_actors": [
+            "Daniel Craig",
+            "Eva Green",
+            "Mads Mikkelsen"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "After earning his 00 status with a masterful and daring assassination, James Bond must stop Le Chiffre, a banker to the world's terrorist organizations, from winning a high-stakes poker tournament at Casino Royale in Montenegro.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

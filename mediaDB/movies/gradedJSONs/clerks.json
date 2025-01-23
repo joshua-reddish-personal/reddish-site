@@ -1,28 +1,27 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Clerks",
-    "director": "Kevin Smith",
-    "release_year": 1994,
-    "genres": [
-      "comedy",
-      "drama"
-    ],
-    "top_billed_actors": [
-      "Brian O'Halloran",
-      "Jeff Anderson",
-      "Marilyn Ghigliotti"
-    ],
-    "short_description": "A day in the lives of two convenience clerks named Dante and Randal as they annoy customers, discuss movies, and play hockey on the store roof.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Clerks",
+        "director": "Kevin Smith",
+        "release_year": 1994,
+        "genres": [
+            "comedy",
+            "drama"
+        ],
+        "top_billed_actors": [
+            "Brian O'Halloran",
+            "Jeff Anderson",
+            "Marilyn Ghigliotti"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A day in the lives of two convenience clerks named Dante and Randal as they annoy customers, discuss movies, and play hockey on the store roof.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

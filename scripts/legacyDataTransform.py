@@ -11,18 +11,18 @@ def transform_legacy_to_new_format(file_path):
     # Transform the structure
     new_data = {
         "metadata": {
-            "media_type": data.media_data["media_type"],
-            "title": data.media_data["title"],
-            "director": data.media_data["director"],
-            "release_year": data.media_data["release_year"],
-            "genres": data.media_data["genres"],
-            "top_billed_actors": data.media_data["top_billed_actors"],
-            "criteria_grades": data.media_data["criteria_grades"]
+            "media_type": data["media_type"],
+            "title": data["media_data"]["title"],
+            "director": data["media_data"]["director"],
+            "release_year": data["media_data"]["release_year"],
+            "genres": data["media_data"]["genres"],
+            "top_billed_actors": data["media_data"]["top_billed_actors"],
+            "criteria_grades": data["media_data"]["criteria_grades"]
         },
         "content": {
-            "short_description": data.media_data["short_description"],
-            "quotes": data.media_data["quotes"],
-            "notes": data.media_data["notes"]
+            "short_description": data["media_data"]["short_description"],
+            "quotes": data["media_data"]["quotes"],
+            "notes": data["media_data"]["notes"]
         }
     }
 
@@ -34,7 +34,11 @@ def transform_all_files_in_directory(directory):
     for filename in os.listdir(directory):
         if filename.endswith('.json'):
             file_path = os.path.join(directory, filename)
-            transform_legacy_to_new_format(file_path)
+            print(file_path)
+            try:
+                transform_legacy_to_new_format(file_path)
+            except Exception as e:
+                print(f'Error transforming {filename}: {e}')
             print(f'Transformed {filename}')
 
 # Transform all files in the movie directory

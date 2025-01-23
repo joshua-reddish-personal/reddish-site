@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Dungeons and Dragons",
-    "director": "Jonathan Goldstein, John Francis Daley",
-    "release_year": 2023,
-    "genres": [
-      "action",
-      "adventure",
-      "fantasy"
-    ],
-    "top_billed_actors": [
-      "Chris Pine",
-      "Michelle Rodriguez",
-      "Justice Smith"
-    ],
-    "short_description": "A group of friends are thrown into a fantasy world and must learn to navigate its perils in an action-packed adventure based on the popular role-playing game.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Dungeons and Dragons",
+        "director": "Jonathan Goldstein, John Francis Daley",
+        "release_year": 2023,
+        "genres": [
+            "action",
+            "adventure",
+            "fantasy"
+        ],
+        "top_billed_actors": [
+            "Chris Pine",
+            "Michelle Rodriguez",
+            "Justice Smith"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A group of friends are thrown into a fantasy world and must learn to navigate its perils in an action-packed adventure based on the popular role-playing game.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

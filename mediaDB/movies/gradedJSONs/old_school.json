@@ -1,27 +1,26 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Old School",
-    "director": "Todd Phillips",
-    "release_year": 2003,
-    "genres": [
-      "Comedy"
-    ],
-    "top_billed_actors": [
-      "Luke Wilson",
-      "Vince Vaughn",
-      "Will Ferrell"
-    ],
-    "short_description": "Three friends attempt to recapture their glory days by opening up a fraternity near their alma mater.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Old School",
+        "director": "Todd Phillips",
+        "release_year": 2003,
+        "genres": [
+            "Comedy"
+        ],
+        "top_billed_actors": [
+            "Luke Wilson",
+            "Vince Vaughn",
+            "Will Ferrell"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Three friends attempt to recapture their glory days by opening up a fraternity near their alma mater.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Snitch",
-    "director": "Ric Roman Waugh",
-    "release_year": 2013,
-    "genres": [
-      "Action",
-      "Drama",
-      "Thriller"
-    ],
-    "top_billed_actors": [
-      "Dwayne Johnson",
-      "Susan Sarandon",
-      "Jon Bernthal"
-    ],
-    "short_description": "A father goes undercover for the DEA in order to free his son who was imprisoned after being set up in a drug deal.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Snitch",
+        "director": "Ric Roman Waugh",
+        "release_year": 2013,
+        "genres": [
+            "Action",
+            "Drama",
+            "Thriller"
+        ],
+        "top_billed_actors": [
+            "Dwayne Johnson",
+            "Susan Sarandon",
+            "Jon Bernthal"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A father goes undercover for the DEA in order to free his son who was imprisoned after being set up in a drug deal.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

@@ -1,28 +1,27 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Happy Gilmore",
-    "director": "Dennis Dugan",
-    "release_year": 1996,
-    "genres": [
-      "Comedy",
-      "Sport"
-    ],
-    "top_billed_actors": [
-      "Adam Sandler",
-      "Christopher McDonald",
-      "Julie Bowen"
-    ],
-    "short_description": "A rejected hockey player puts his skills to the golf course to save his grandmother's house.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Happy Gilmore",
+        "director": "Dennis Dugan",
+        "release_year": 1996,
+        "genres": [
+            "Comedy",
+            "Sport"
+        ],
+        "top_billed_actors": [
+            "Adam Sandler",
+            "Christopher McDonald",
+            "Julie Bowen"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A rejected hockey player puts his skills to the golf course to save his grandmother's house.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

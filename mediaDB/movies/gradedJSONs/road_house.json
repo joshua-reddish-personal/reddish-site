@@ -1,38 +1,37 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Road House",
-    "director": "Rowdy Herrington",
-    "release_year": 1989,
-    "genres": [
-      "action",
-      "thriller"
-    ],
-    "top_billed_actors": [
-      "Patrick Swayze",
-      "Kelly Lynch",
-      "Sam Elliott"
-    ],
-    "short_description": "A tough bouncer is hired to tame a dirty bar.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Road House",
+        "director": "Rowdy Herrington",
+        "release_year": 1989,
+        "genres": [
+            "action",
+            "thriller"
+        ],
+        "top_billed_actors": [
+            "Patrick Swayze",
+            "Kelly Lynch",
+            "Sam Elliott"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [
-      "What if somone calls my momma a whore? Well is she?",
-      "I thought you'de be bigger",
-      "Can you afford $100 a month? If it keeps you in the good graces of the church. Funny how money tends to do that",
-      "Pain don't hurt",
-      "Nobody ever wins a fight",
-      "Does a hobby horse have a wooden dick?",
-      "Ah shit hell I'm in hog heaven",
-      "The ones wh o go looking for trouble aren't much of a problem for the ones who are ready for it",
-      "I used to fuck guys like you in prison"
-    ],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A tough bouncer is hired to tame a dirty bar.",
+        "quotes": [
+            "What if somone calls my momma a whore? Well is she?",
+            "I thought you'de be bigger",
+            "Can you afford $100 a month? If it keeps you in the good graces of the church. Funny how money tends to do that",
+            "Pain don't hurt",
+            "Nobody ever wins a fight",
+            "Does a hobby horse have a wooden dick?",
+            "Ah shit hell I'm in hog heaven",
+            "The ones wh o go looking for trouble aren't much of a problem for the ones who are ready for it",
+            "I used to fuck guys like you in prison"
+        ],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

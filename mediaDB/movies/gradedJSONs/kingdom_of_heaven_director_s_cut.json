@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Kingdom of Heaven: Director's Cut",
-    "director": "Ridley Scott",
-    "release_year": 2005,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Drama"
-    ],
-    "top_billed_actors": [
-      "Orlando Bloom",
-      "Eva Green",
-      "Liam Neeson"
-    ],
-    "short_description": "Balian of Ibelin travels to Jerusalem during the Crusades of the 12th century and finds himself defending the city and its people.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Kingdom of Heaven: Director's Cut",
+        "director": "Ridley Scott",
+        "release_year": 2005,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "top_billed_actors": [
+            "Orlando Bloom",
+            "Eva Green",
+            "Liam Neeson"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Balian of Ibelin travels to Jerusalem during the Crusades of the 12th century and finds himself defending the city and its people.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

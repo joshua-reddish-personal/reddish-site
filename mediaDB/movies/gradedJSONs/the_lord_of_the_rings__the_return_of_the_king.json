@@ -1,30 +1,29 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "The Lord of the Rings: The Return of the King",
-    "director": "Peter Jackson",
-    "release_year": 2003,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "top_billed_actors": [
-      "Elijah Wood",
-      "Viggo Mortensen",
-      "Ian McKellen",
-      "Orlando Bloom"
-    ],
-    "short_description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "The Lord of the Rings: The Return of the King",
+        "director": "Peter Jackson",
+        "release_year": 2003,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "top_billed_actors": [
+            "Elijah Wood",
+            "Viggo Mortensen",
+            "Ian McKellen",
+            "Orlando Bloom"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "notes": "Favorite Scenes, Favorite Lines",
-    "overall_grade": 0,
-    "quotes": []
-  }
+    "content": {
+        "short_description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

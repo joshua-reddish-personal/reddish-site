@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Transformers",
-    "director": "Michael Bay",
-    "release_year": 2007,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "top_billed_actors": [
-      "Shia LaBeouf",
-      "Megan Fox",
-      "Josh Duhamel"
-    ],
-    "short_description": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Transformers",
+        "director": "Michael Bay",
+        "release_year": 2007,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "top_billed_actors": [
+            "Shia LaBeouf",
+            "Megan Fox",
+            "Josh Duhamel"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "notes": "Favorite Scenes, Favorite Lines",
-    "overall_grade": 0,
-    "quotes": []
-  }
+    "content": {
+        "short_description": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

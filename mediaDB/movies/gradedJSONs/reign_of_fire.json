@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Reign of Fire",
-    "director": "Rob Bowman",
-    "release_year": 2002,
-    "genres": [
-      "Action",
-      "Fantasy",
-      "Sci-Fi"
-    ],
-    "top_billed_actors": [
-      "Christian Bale",
-      "Matthew McConaughey",
-      "Izabella Scorupco"
-    ],
-    "short_description": "In post-apocalyptic England, survivors of a dragon-led destruction attempt to fight back against the creatures taking over the planet.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Reign of Fire",
+        "director": "Rob Bowman",
+        "release_year": 2002,
+        "genres": [
+            "Action",
+            "Fantasy",
+            "Sci-Fi"
+        ],
+        "top_billed_actors": [
+            "Christian Bale",
+            "Matthew McConaughey",
+            "Izabella Scorupco"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines",
-    "overall_grade": 0
-  }
+    "content": {
+        "short_description": "In post-apocalyptic England, survivors of a dragon-led destruction attempt to fight back against the creatures taking over the planet.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

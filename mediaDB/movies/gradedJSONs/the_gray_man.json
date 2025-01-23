@@ -1,28 +1,27 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "The Gray Man",
-    "director": "Anthony Russo, Joe Russo",
-    "release_year": 2022,
-    "genres": [
-      "Action",
-      "Thriller"
-    ],
-    "top_billed_actors": [
-      "Ryan Gosling",
-      "Chris Evans",
-      "Ana de Armas"
-    ],
-    "short_description": "A CIA operative turned assassin looks to stay alive long enough to stave off an international catastrophe while unexpectedly falling in love.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "The Gray Man",
+        "director": "Anthony Russo, Joe Russo",
+        "release_year": 2022,
+        "genres": [
+            "Action",
+            "Thriller"
+        ],
+        "top_billed_actors": [
+            "Ryan Gosling",
+            "Chris Evans",
+            "Ana de Armas"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A CIA operative turned assassin looks to stay alive long enough to stave off an international catastrophe while unexpectedly falling in love.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

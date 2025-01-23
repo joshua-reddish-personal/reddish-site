@@ -1,37 +1,36 @@
 {
-  "media_type": "movie",
-  "graded": false,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Remember the Titans",
-    "director": "Boaz Yakin",
-    "release_year": 2000,
-    "genres": [
-      "Biography",
-      "Drama",
-      "Sport"
-    ],
-    "top_billed_actors": [
-      "Denzel Washington",
-      "Will Patton",
-      "Wood Harris"
-    ],
-    "short_description": "The true story of a newly appointed African-American coach and his high school team on their first season as a racially integrated unit.",
-    "criteria_grades": {
-      "rewatchability": 0,
-      "casting": 0,
-      "attention_holding": 0,
-      "effects": 0,
-      "cinematography": 0,
-      "suspension_of_disbelief": 0,
-      "dialogue": 0,
-      "pacing": 0,
-      "soundtrack": 0,
-      "plot": 0,
-      "character_development": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Remember the Titans",
+        "director": "Boaz Yakin",
+        "release_year": 2000,
+        "genres": [
+            "Biography",
+            "Drama",
+            "Sport"
+        ],
+        "top_billed_actors": [
+            "Denzel Washington",
+            "Will Patton",
+            "Wood Harris"
+        ],
+        "criteria_grades": {
+            "rewatchability": 0,
+            "casting": 0,
+            "attention_holding": 0,
+            "effects": 0,
+            "cinematography": 0,
+            "suspension_of_disbelief": 0,
+            "dialogue": 0,
+            "pacing": 0,
+            "soundtrack": 0,
+            "plot": 0,
+            "character_development": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "The true story of a newly appointed African-American coach and his high school team on their first season as a racially integrated unit.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

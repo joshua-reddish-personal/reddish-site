@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Godzilla Minus One",
-    "director": "Takashi Yamazaki",
-    "release_year": 2023,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Drama"
-    ],
-    "top_billed_actors": [
-      "Minami Hamabe",
-      "Sakura Ando",
-      "Ryunosuke Kamiki"
-    ],
-    "short_description": "Post war Japan is at its lowest point when a new crisis emerges in the form of a giant monster, baptized in the horrific power of the atomic bomb.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Godzilla Minus One",
+        "director": "Takashi Yamazaki",
+        "release_year": 2023,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "top_billed_actors": [
+            "Minami Hamabe",
+            "Sakura Ando",
+            "Ryunosuke Kamiki"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Post war Japan is at its lowest point when a new crisis emerges in the form of a giant monster, baptized in the horrific power of the atomic bomb.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

@@ -1,28 +1,27 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Shaun Of The Dead",
-    "director": "Edgar Wright",
-    "release_year": 2004,
-    "genres": [
-      "Comedy",
-      "Horror"
-    ],
-    "top_billed_actors": [
-      "Simon Pegg",
-      "Nick Frost",
-      "Kate Ashfield"
-    ],
-    "short_description": "A man decides to turn his moribund life around by winning back his ex-girlfriend, reconciling his relationship with his mother and dealing with an entire community that has returned from the dead to eat the living.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Shaun Of The Dead",
+        "director": "Edgar Wright",
+        "release_year": 2004,
+        "genres": [
+            "Comedy",
+            "Horror"
+        ],
+        "top_billed_actors": [
+            "Simon Pegg",
+            "Nick Frost",
+            "Kate Ashfield"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A man decides to turn his moribund life around by winning back his ex-girlfriend, reconciling his relationship with his mother and dealing with an entire community that has returned from the dead to eat the living.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

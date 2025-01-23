@@ -1,25 +1,24 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Twisters",
-    "director": "DATA_NOT_FOUND",
-    "release_year": "DATA_NOT_FOUND",
-    "genres": [
-      "DATA_NOT_FOUND"
-    ],
-    "top_billed_actors": [
-      "DATA_NOT_FOUND"
-    ],
-    "short_description": "DATA_NOT_FOUND",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Twisters",
+        "director": "DATA_NOT_FOUND",
+        "release_year": "DATA_NOT_FOUND",
+        "genres": [
+            "DATA_NOT_FOUND"
+        ],
+        "top_billed_actors": [
+            "DATA_NOT_FOUND"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines",
-    "overall_grade": 0
-  }
+    "content": {
+        "short_description": "DATA_NOT_FOUND",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

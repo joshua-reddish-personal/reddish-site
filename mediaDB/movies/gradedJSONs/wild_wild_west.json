@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Wild Wild West",
-    "director": "Barry Sonnenfeld",
-    "release_year": 1999,
-    "genres": [
-      "Action",
-      "Comedy",
-      "Western"
-    ],
-    "top_billed_actors": [
-      "Will Smith",
-      "Kevin Kline",
-      "Kenneth Branagh"
-    ],
-    "short_description": "The two best special agents in the Wild West must save President Grant from a diabolical, wheelchair-bound, steampunk-savvy, Confederate scientist bent on revenge for losing the Civil War.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Wild Wild West",
+        "director": "Barry Sonnenfeld",
+        "release_year": 1999,
+        "genres": [
+            "Action",
+            "Comedy",
+            "Western"
+        ],
+        "top_billed_actors": [
+            "Will Smith",
+            "Kevin Kline",
+            "Kenneth Branagh"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "The two best special agents in the Wild West must save President Grant from a diabolical, wheelchair-bound, steampunk-savvy, Confederate scientist bent on revenge for losing the Civil War.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

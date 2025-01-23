@@ -1,28 +1,27 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Mid90s",
-    "director": "Jonah Hill",
-    "release_year": 2018,
-    "genres": [
-      "Comedy",
-      "Drama"
-    ],
-    "top_billed_actors": [
-      "Sunny Suljic",
-      "Katherine Waterston",
-      "Lucas Hedges"
-    ],
-    "short_description": "Follows Stevie, a thirteen-year-old in 1990s-era Los Angeles who spends his summer navigating between his troubled home life and a group of new friends that he meets at a Motor Avenue skate shop.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Mid90s",
+        "director": "Jonah Hill",
+        "release_year": 2018,
+        "genres": [
+            "Comedy",
+            "Drama"
+        ],
+        "top_billed_actors": [
+            "Sunny Suljic",
+            "Katherine Waterston",
+            "Lucas Hedges"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "notes": "Favorite Scenes, Favorite Lines",
-    "overall_grade": 0,
-    "quotes": []
-  }
+    "content": {
+        "short_description": "Follows Stevie, a thirteen-year-old in 1990s-era Los Angeles who spends his summer navigating between his troubled home life and a group of new friends that he meets at a Motor Avenue skate shop.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

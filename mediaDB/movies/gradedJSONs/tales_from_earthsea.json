@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Tales from Earthsea",
-    "director": "Goro Miyazaki",
-    "release_year": 2006,
-    "genres": [
-      "Animation",
-      "Adventure",
-      "Fantasy"
-    ],
-    "top_billed_actors": [
-      "Timothy Dalton",
-      "Willem Dafoe",
-      "Mariska Hargitay"
-    ],
-    "short_description": "Based on the Earthsea novel series by Ursula K. Le Guin, the story is set in a mythic world filled with magic and bewitchment. In the land of Earthsea, a mysterious force is unsettled the balance and the only hope is a young wizard, Sparrowhawk and a prince, Arren.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Tales from Earthsea",
+        "director": "Goro Miyazaki",
+        "release_year": 2006,
+        "genres": [
+            "Animation",
+            "Adventure",
+            "Fantasy"
+        ],
+        "top_billed_actors": [
+            "Timothy Dalton",
+            "Willem Dafoe",
+            "Mariska Hargitay"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Based on the Earthsea novel series by Ursula K. Le Guin, the story is set in a mythic world filled with magic and bewitchment. In the land of Earthsea, a mysterious force is unsettled the balance and the only hope is a young wizard, Sparrowhawk and a prince, Arren.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

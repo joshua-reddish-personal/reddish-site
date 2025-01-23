@@ -1,28 +1,27 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Pulp Fiction",
-    "director": "Quentin Tarantino",
-    "release_year": 1994,
-    "genres": [
-      "Crime",
-      "Drama"
-    ],
-    "top_billed_actors": [
-      "John Travolta",
-      "Uma Thurman",
-      "Samuel L. Jackson"
-    ],
-    "short_description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Pulp Fiction",
+        "director": "Quentin Tarantino",
+        "release_year": 1994,
+        "genres": [
+            "Crime",
+            "Drama"
+        ],
+        "top_billed_actors": [
+            "John Travolta",
+            "Uma Thurman",
+            "Samuel L. Jackson"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

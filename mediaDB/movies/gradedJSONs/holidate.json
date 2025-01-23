@@ -1,28 +1,27 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Holidate",
-    "director": "John Whitesell",
-    "release_year": 2020,
-    "genres": [
-      "Comedy",
-      "Romance"
-    ],
-    "top_billed_actors": [
-      "Emma Roberts",
-      "Luke Bracey",
-      "Kristin Chenoweth"
-    ],
-    "short_description": "Fed up with being single on holidays, two strangers agree to be each other's platonic plus-ones all year around, only to catch real feelings along the way.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Holidate",
+        "director": "John Whitesell",
+        "release_year": 2020,
+        "genres": [
+            "Comedy",
+            "Romance"
+        ],
+        "top_billed_actors": [
+            "Emma Roberts",
+            "Luke Bracey",
+            "Kristin Chenoweth"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Fed up with being single on holidays, two strangers agree to be each other's platonic plus-ones all year around, only to catch real feelings along the way.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

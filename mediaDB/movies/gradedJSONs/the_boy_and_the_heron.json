@@ -1,37 +1,36 @@
 {
-  "media_type": "movie",
-  "graded": false,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "The Boy and the Heron",
-    "director": "Hayao Miyazaki",
-    "release_year": 2023,
-    "genres": [
-      "animation",
-      "fantasy",
-      "adventure"
-    ],
-    "top_billed_actors": [
-      "N/A"
-    ],
-    "short_description": "The latest film from celebrated filmmaker Hayao Miyazaki, focusing on a boy's magical adventure.",
-    "criteria_grades": {
-      "Rewatchability": 0,
-      "Casting": 0,
-      "Attention Holding": 0,
-      "Effects": 0,
-      "Cinematography": 0,
-      "Suspension of Disbelief": 0,
-      "Dialogue": 0,
-      "Pacing": 0,
-      "Soundtrack": 0,
-      "Story/Plot": 0,
-      "Character Development": 0,
-      "Cultural/Artistic Impact": 0,
-      "Emotional Impact": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "The Boy and the Heron",
+        "director": "Hayao Miyazaki",
+        "release_year": 2023,
+        "genres": [
+            "animation",
+            "fantasy",
+            "adventure"
+        ],
+        "top_billed_actors": [
+            "N/A"
+        ],
+        "criteria_grades": {
+            "Rewatchability": 0,
+            "Casting": 0,
+            "Attention Holding": 0,
+            "Effects": 0,
+            "Cinematography": 0,
+            "Suspension of Disbelief": 0,
+            "Dialogue": 0,
+            "Pacing": 0,
+            "Soundtrack": 0,
+            "Story/Plot": 0,
+            "Character Development": 0,
+            "Cultural/Artistic Impact": 0,
+            "Emotional Impact": 0
+        }
     },
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines",
-    "overall_grade": 0
-  }
+    "content": {
+        "short_description": "The latest film from celebrated filmmaker Hayao Miyazaki, focusing on a boy's magical adventure.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

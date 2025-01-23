@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "The Wolf of Wall Street",
-    "director": "Martin Scorsese",
-    "release_year": 2013,
-    "genres": [
-      "Biography",
-      "Crime",
-      "Drama"
-    ],
-    "top_billed_actors": [
-      "Leonardo DiCaprio",
-      "Jonah Hill",
-      "Margot Robbie"
-    ],
-    "short_description": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "The Wolf of Wall Street",
+        "director": "Martin Scorsese",
+        "release_year": 2013,
+        "genres": [
+            "Biography",
+            "Crime",
+            "Drama"
+        ],
+        "top_billed_actors": [
+            "Leonardo DiCaprio",
+            "Jonah Hill",
+            "Margot Robbie"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Legion",
-    "director": "Scott Stewart",
-    "release_year": 2010,
-    "genres": [
-      "Action",
-      "Fantasy",
-      "Horror"
-    ],
-    "top_billed_actors": [
-      "Paul Bettany",
-      "Dennis Quaid",
-      "Charles S. Dutton"
-    ],
-    "short_description": "When a group of strangers at a dusty roadside diner come under attack by demonic forces, their only chance for survival lies with an archangel named Michael, who informs a pregnant waitress that her unborn child is humanity's last hope.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Legion",
+        "director": "Scott Stewart",
+        "release_year": 2010,
+        "genres": [
+            "Action",
+            "Fantasy",
+            "Horror"
+        ],
+        "top_billed_actors": [
+            "Paul Bettany",
+            "Dennis Quaid",
+            "Charles S. Dutton"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "When a group of strangers at a dusty roadside diner come under attack by demonic forces, their only chance for survival lies with an archangel named Michael, who informs a pregnant waitress that her unborn child is humanity's last hope.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

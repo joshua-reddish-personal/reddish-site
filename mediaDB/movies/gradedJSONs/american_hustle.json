@@ -1,28 +1,27 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "American Hustle",
-    "director": "David O. Russell",
-    "release_year": 2013,
-    "genres": [
-      "Crime",
-      "Drama"
-    ],
-    "top_billed_actors": [
-      "Christian Bale",
-      "Amy Adams",
-      "Bradley Cooper"
-    ],
-    "short_description": "A con man, Irving Rosenfeld, along with his seductive partner Sydney Prosser, is forced to work for a wild FBI agent, Richie DiMaso, who pushes them into a world of Jersey powerbrokers and the Mafia.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "American Hustle",
+        "director": "David O. Russell",
+        "release_year": 2013,
+        "genres": [
+            "Crime",
+            "Drama"
+        ],
+        "top_billed_actors": [
+            "Christian Bale",
+            "Amy Adams",
+            "Bradley Cooper"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A con man, Irving Rosenfeld, along with his seductive partner Sydney Prosser, is forced to work for a wild FBI agent, Richie DiMaso, who pushes them into a world of Jersey powerbrokers and the Mafia.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

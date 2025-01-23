@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Tombstone",
-    "director": "George P. Cosmatos",
-    "release_year": 1993,
-    "genres": [
-      "action",
-      "drama",
-      "biography"
-    ],
-    "top_billed_actors": [
-      "Kurt Russell",
-      "Val Kilmer",
-      "Sam Elliott"
-    ],
-    "short_description": "A successful lawman's plans to retire anonymously in Tombstone, Arizona are disrupted by the kind of outlaws he was famous for eliminating.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Tombstone",
+        "director": "George P. Cosmatos",
+        "release_year": 1993,
+        "genres": [
+            "action",
+            "drama",
+            "biography"
+        ],
+        "top_billed_actors": [
+            "Kurt Russell",
+            "Val Kilmer",
+            "Sam Elliott"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A successful lawman's plans to retire anonymously in Tombstone, Arizona are disrupted by the kind of outlaws he was famous for eliminating.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Unbroken",
-    "director": "Angelina Jolie",
-    "release_year": 2014,
-    "genres": [
-      "biography",
-      "drama",
-      "sport"
-    ],
-    "top_billed_actors": [
-      "Jack O'Connell",
-      "Miyavi",
-      "Domhnall Gleeson"
-    ],
-    "short_description": "Two years in the life of champion runner and professional airman Louie Zamperini, as he survives a plane crash in the Pacific during World War II, spends 47 days drifting on a raft, and is then captured and placed in prisoner-of-war camps by the Japanese.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Unbroken",
+        "director": "Angelina Jolie",
+        "release_year": 2014,
+        "genres": [
+            "biography",
+            "drama",
+            "sport"
+        ],
+        "top_billed_actors": [
+            "Jack O'Connell",
+            "Miyavi",
+            "Domhnall Gleeson"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Two years in the life of champion runner and professional airman Louie Zamperini, as he survives a plane crash in the Pacific during World War II, spends 47 days drifting on a raft, and is then captured and placed in prisoner-of-war camps by the Japanese.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

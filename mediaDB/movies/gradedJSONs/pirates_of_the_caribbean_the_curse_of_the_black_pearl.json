@@ -1,30 +1,29 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
-    "director": "Gore Verbinski",
-    "release_year": 2003,
-    "genres": [
-      "action",
-      "adventure",
-      "fantasy"
-    ],
-    "top_billed_actors": [
-      "Johnny Depp",
-      "Geoffrey Rush",
-      "Orlando Bloom",
-      "Keira Knightley"
-    ],
-    "short_description": "Blacksmith Will Turner teams up with eccentric pirate 'Captain' Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "director": "Gore Verbinski",
+        "release_year": 2003,
+        "genres": [
+            "action",
+            "adventure",
+            "fantasy"
+        ],
+        "top_billed_actors": [
+            "Johnny Depp",
+            "Geoffrey Rush",
+            "Orlando Bloom",
+            "Keira Knightley"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Blacksmith Will Turner teams up with eccentric pirate 'Captain' Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

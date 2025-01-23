@@ -1,29 +1,28 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": true,
-  "media_data": {
-    "title": "National Treasure",
-    "director": "Jon Turteltaub",
-    "release_year": 2004,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Mystery"
-    ],
-    "top_billed_actors": [
-      "Nicolas Cage",
-      "Diane Kruger",
-      "Justin Bartha"
-    ],
-    "short_description": "A historian races to find the legendary Templar Treasure before a team of mercenaries.",
-    "criteria_grades": {
-      "Story": 88,
-      "Character Development": 85,
-      "Visual Presentation": 83
+    "metadata": {
+        "media_type": "movie",
+        "title": "National Treasure",
+        "director": "Jon Turteltaub",
+        "release_year": 2004,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Mystery"
+        ],
+        "top_billed_actors": [
+            "Nicolas Cage",
+            "Diane Kruger",
+            "Justin Bartha"
+        ],
+        "criteria_grades": {
+            "Story": 88,
+            "Character Development": 85,
+            "Visual Presentation": 83
+        }
     },
-    "overall_grade": 85,
-    "quotes": [],
-    "notes": "favorite scenes are when they buy am extra declaration, adding lemon juice to back of doc, lighting the treasure room up"
-  }
+    "content": {
+        "short_description": "A historian races to find the legendary Templar Treasure before a team of mercenaries.",
+        "quotes": [],
+        "notes": "favorite scenes are when they buy am extra declaration, adding lemon juice to back of doc, lighting the treasure room up"
+    }
 }

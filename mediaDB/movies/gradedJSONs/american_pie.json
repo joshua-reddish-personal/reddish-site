@@ -1,27 +1,26 @@
 {
-  "media_type": "movie",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "American Pie",
-    "director": "Paul Weitz, Chris Weitz",
-    "release_year": 1999,
-    "genres": [
-      "Comedy"
-    ],
-    "top_billed_actors": [
-      "Jason Biggs",
-      "Chris Klein",
-      "Thomas Ian Nicholas"
-    ],
-    "short_description": "A comedic take on four high school friends who make a pact to lose their virginity by prom night.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "movie",
+        "title": "American Pie",
+        "director": "Paul Weitz, Chris Weitz",
+        "release_year": 1999,
+        "genres": [
+            "Comedy"
+        ],
+        "top_billed_actors": [
+            "Jason Biggs",
+            "Chris Klein",
+            "Thomas Ian Nicholas"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "quotes": [],
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A comedic take on four high school friends who make a pact to lose their virginity by prom night.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }
