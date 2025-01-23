@@ -13,15 +13,15 @@ def transform_legacy_to_new_format(file_path):
         "metadata": {
             "media_type": data["media_type"],
             "title": data["media_data"]["title"],
-            "director": data["media_data"]["director"],
-            "release_year": data["media_data"]["release_year"],
+            "author": data["media_data"]["author"],
+            "publication_year": data["media_data"]["publication_year"],
+            "publisher": data["media_data"]["publisher"],
             "genres": data["media_data"]["genres"],
-            "top_billed_actors": data["media_data"]["top_billed_actors"],
             "criteria_grades": data["media_data"]["criteria_grades"]
         },
         "content": {
             "short_description": data["media_data"]["short_description"],
-            "quotes": data["media_data"]["quotes"],
+            "quotes": [],
             "notes": data["media_data"]["notes"]
         }
     }

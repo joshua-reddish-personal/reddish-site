@@ -1,0 +1,23 @@
+{
+    "metadata": {
+        "media_type": "book",
+        "title": "The Moon is a Harsh Mistress",
+        "author": "Robert A. Heinlein",
+        "publication_year": 1966,
+        "publisher": "G.P. Putnam's Sons",
+        "genres": [
+            "Science Fiction",
+            "Speculative Fiction"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Immersion": 0
+        }
+    },
+    "content": {
+        "short_description": "A novel that explores the themes of revolution, libertarianism, and artificial intelligence through the story of a lunar colony's revolt against Earth's rule.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
+}

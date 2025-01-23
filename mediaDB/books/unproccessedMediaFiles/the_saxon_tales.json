@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "media_type": "book",
+        "title": "The Saxon Tales",
+        "author": "Bernard Cornwell",
+        "publication_year": 2005,
+        "publisher": "HarperCollins",
+        "genres": [
+            "Historical Fiction",
+            "Adventure",
+            "War",
+            "Drama"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Immersion": 0
+        }
+    },
+    "content": {
+        "short_description": "An epic historical fiction series set in the Danish Kingdom - England during the 9th and 10th century. It follows the life of Uhtred of Bebbanburg, a Saxon nobleman who is captured and raised by Vikings.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
+}

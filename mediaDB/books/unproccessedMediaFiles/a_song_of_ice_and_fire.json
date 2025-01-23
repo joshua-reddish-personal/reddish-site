@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "media_type": "book",
+        "title": "A Song of Ice and Fire",
+        "author": "George R. R. Martin",
+        "publication_year": 1996,
+        "publisher": "Bantam Books",
+        "genres": [
+            "fantasy",
+            "drama",
+            "adventure"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Immersion": 0
+        }
+    },
+    "content": {
+        "short_description": "Set in a fictitious continent reminiscent of medieval Europe, 'A Song of Ice and Fire' is an epic series of high fantasy novels which chronicles the power struggles among noble families as they fight for control of the Iron Throne.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
+}

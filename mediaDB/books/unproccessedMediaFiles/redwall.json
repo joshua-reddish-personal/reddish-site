@@ -1,0 +1,23 @@
+{
+    "metadata": {
+        "media_type": "book",
+        "title": "Redwall",
+        "author": "Brian Jacques",
+        "publication_year": 1986,
+        "publisher": "Ace Books",
+        "genres": [
+            "Fantasy",
+            "Children's fiction"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Immersion": 0
+        }
+    },
+    "content": {
+        "short_description": "The first book of the Redwall series, introduces the reader to the peaceful life in Redwall Abbey, which is threatened by the arrival of the evil rat, Cluny the Scourge.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
+}

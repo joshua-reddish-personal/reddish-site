@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "media_type": "book",
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "publication_year": 1965,
+        "publisher": "Chilton Books",
+        "genres": [
+            "Science Fiction",
+            "Fantasy",
+            "Adventure"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Immersion": 0
+        }
+    },
+    "content": {
+        "short_description": "Set in the distant future amidst a feudal interstellar society, Dune tells the story of young Paul Atreides as he and his family accept control of the desert planet Arrakis.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
+}

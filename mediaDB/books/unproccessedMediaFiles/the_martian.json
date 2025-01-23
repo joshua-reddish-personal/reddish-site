@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "media_type": "book",
+        "title": "The Martian",
+        "author": "Andy Weir",
+        "publication_year": 2011,
+        "publisher": "Crown",
+        "genres": [
+            "Science Fiction",
+            "Thriller",
+            "Adventure"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Immersion": 0
+        }
+    },
+    "content": {
+        "short_description": "Astronaut Mark Watney becomes stranded alone on Mars and must improvise in order to survive. It has been described as an Apollo 13 meets Cast Away.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
+}

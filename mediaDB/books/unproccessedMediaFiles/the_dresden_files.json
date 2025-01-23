@@ -1,8 +1,6 @@
 {
-  "media_type": "book",
-  "graded": false,
-  "criteria_graded": false,
-  "media_data": {
+  "metadata": {
+    "media_type": "book",
     "title": "The Dresden Files",
     "author": "Jim Butcher",
     "publication_year": 2000,
@@ -12,8 +10,15 @@
       "urban fantasy"
     ],
     "publisher": "Roc Books",
+    "criteria_grades": {
+      "Story": 0,
+      "Character Development": 0,
+      "Immersion": 0
+  }
+  },
+  "content": {
     "short_description": "A series following Harry Dresden, Chicago's first (and only) Wizard P.I., as he solves mysteries and battles dark magical forces.",
-    "overall_grade": 0,
+    "quotes": [],
     "notes": "Favorite Scenes, Favorite Lines"
   }
 }

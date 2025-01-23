@@ -1,0 +1,23 @@
+{
+    "metadata": {
+        "media_type": "book",
+        "title": "Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "publication_year": 1979,
+        "publisher": "Pan Books",
+        "genres": [
+            "science fiction",
+            "comedy"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Immersion": 0
+        }
+    },
+    "content": {
+        "short_description": "An eccentric galactic traveler named Ford Prefect brings Earthling Arthur Dent on a wild journey through space, after the annihilation of Earth.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
+}

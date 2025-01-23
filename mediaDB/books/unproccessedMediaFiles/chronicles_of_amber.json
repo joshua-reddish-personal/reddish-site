@@ -1,0 +1,23 @@
+{
+    "metadata": {
+        "media_type": "book",
+        "title": "Chronicles of Amber",
+        "author": "Roger Zelazny",
+        "publication_year": 1970,
+        "publisher": "Doubleday",
+        "genres": [
+            "Fantasy",
+            "Science Fiction"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Immersion": 0
+        }
+    },
+    "content": {
+        "short_description": "The Chronicles of Amber is a series of fantasy novels which revolves around the protagonist who must discover his royal heritage while navigating complex familial webs in a mysterious and compelling parallel universe.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
+}
