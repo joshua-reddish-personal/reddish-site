@@ -1,0 +1,22 @@
+{
+    "metadata": {
+        "media_type": "video_game",
+        "title": "League of Legends",
+        "developer": "Riot Games",
+        "release_year": 2009,
+        "genres": [
+            "Multiplayer online battle arena",
+            "Strategy"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Gameplay": 0,
+            "Graphics": 0
+        }
+    },
+    "content": {
+        "short_description": "League of Legends is a competitive online game that blends the speed and intensity of an RTS with RPG elements. Players take the role of a 'Summoner' who summon a 'Champion' to battle on their behalf in a multi-player online battle arena.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
+}

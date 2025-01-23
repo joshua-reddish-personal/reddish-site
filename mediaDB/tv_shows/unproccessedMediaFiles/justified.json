@@ -1,28 +1,28 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Justified",
-    "creator": "Graham Yost",
-    "release_year": 2010,
-    "genres": [
-      "Action",
-      "Crime",
-      "Drama"
-    ],
-    "top_billed_actors": [
-      "Timothy Olyphant",
-      "Nick Searcy",
-      "Joelle Carter"
-    ],
-    "short_description": "Old-school U.S. Marshal Raylan Givens is reassigned from Miami to his childhood home in the poor, rural coal-mining towns in Eastern Kentucky.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Justified",
+        "creator": "Graham Yost",
+        "release_year": 2010,
+        "top_billed_actors": [
+            "Timothy Olyphant",
+            "Nick Searcy",
+            "Joelle Carter"
+        ],
+        "genres": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Old-school U.S. Marshal Raylan Givens is reassigned from Miami to his childhood home in the poor, rural coal-mining towns in Eastern Kentucky.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

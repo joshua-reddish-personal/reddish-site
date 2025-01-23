@@ -1,28 +1,28 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Maniac",
-    "creator": "Patrick Somerville",
-    "release_year": 2018,
-    "genres": [
-      "Drama",
-      "Comedy",
-      "Sci-fi"
-    ],
-    "top_billed_actors": [
-      "Emma Stone",
-      "Jonah Hill",
-      "Sonoya Mizuno"
-    ],
-    "short_description": "Two strangers are drawn to a mysterious pharmaceutical trial for a drug that will, they're assured, with no complications or side-effects whatsoever, solve all of their problems permanently. Things do not go as planned.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Maniac",
+        "creator": "Patrick Somerville",
+        "release_year": 2018,
+        "top_billed_actors": [
+            "Emma Stone",
+            "Jonah Hill",
+            "Sonoya Mizuno"
+        ],
+        "genres": [
+            "Drama",
+            "Comedy",
+            "Sci-fi"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Two strangers are drawn to a mysterious pharmaceutical trial for a drug that will, they're assured, with no complications or side-effects whatsoever, solve all of their problems permanently. Things do not go as planned.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

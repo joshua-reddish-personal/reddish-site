@@ -1,27 +1,27 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Malcolm in the Middle",
-    "creator": "Linwood Boomer",
-    "release_year": 2000,
-    "genres": [
-      "comedy",
-      "family"
-    ],
-    "top_billed_actors": [
-      "Frankie Muniz",
-      "Bryan Cranston",
-      "Justin Berfield"
-    ],
-    "short_description": "A gifted young teen tries to survive life with his dimwitted, dysfunctional family.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Malcolm in the Middle",
+        "creator": "Linwood Boomer",
+        "release_year": 2000,
+        "top_billed_actors": [
+            "Frankie Muniz",
+            "Bryan Cranston",
+            "Justin Berfield"
+        ],
+        "genres": [
+            "comedy",
+            "family"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A gifted young teen tries to survive life with his dimwitted, dysfunctional family.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

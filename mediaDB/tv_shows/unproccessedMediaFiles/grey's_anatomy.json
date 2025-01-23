@@ -1,27 +1,27 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Grey's Anatomy",
-    "creator": "Shonda Rhimes",
-    "release_year": 2005,
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "top_billed_actors": [
-      "Ellen Pompeo",
-      "Chandra Wilson",
-      "James Pickens Jr."
-    ],
-    "short_description": "A drama centered on the personal and professional lives of five surgical interns and their supervisors at Grey Sloan Memorial Hospital.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Grey's Anatomy",
+        "creator": "Shonda Rhimes",
+        "release_year": 2005,
+        "top_billed_actors": [
+            "Ellen Pompeo",
+            "Chandra Wilson",
+            "James Pickens Jr."
+        ],
+        "genres": [
+            "Drama",
+            "Romance"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A drama centered on the personal and professional lives of five surgical interns and their supervisors at Grey Sloan Memorial Hospital.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

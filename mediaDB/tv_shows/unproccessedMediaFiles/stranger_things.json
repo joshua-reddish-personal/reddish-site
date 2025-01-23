@@ -1,29 +1,29 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Stranger Things",
-    "creator": "The Duffer Brothers",
-    "release_year": 2016,
-    "genres": [
-      "Drama",
-      "Fantasy",
-      "Horror"
-    ],
-    "top_billed_actors": [
-      "Millie Bobby Brown",
-      "Finn Wolfhard",
-      "Winona Ryder",
-      "David Harbour"
-    ],
-    "short_description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying supernatural forces in order to get him back.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Stranger Things",
+        "creator": "The Duffer Brothers",
+        "release_year": 2016,
+        "top_billed_actors": [
+            "Millie Bobby Brown",
+            "Finn Wolfhard",
+            "Winona Ryder",
+            "David Harbour"
+        ],
+        "genres": [
+            "Drama",
+            "Fantasy",
+            "Horror"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying supernatural forces in order to get him back.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

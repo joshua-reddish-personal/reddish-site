@@ -1,28 +1,28 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Invincible",
-    "creator": "Robert Kirkman",
-    "release_year": 2021,
-    "genres": [
-      "animation",
-      "action",
-      "adventure"
-    ],
-    "top_billed_actors": [
-      "Steven Yeun",
-      "J.K. Simmons",
-      "Sandra Oh"
-    ],
-    "short_description": "An adult animated series based on the Skybound/Image comic about a teenager whose father is the most powerful superhero on the planet.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Invincible",
+        "creator": "Robert Kirkman",
+        "release_year": 2021,
+        "top_billed_actors": [
+            "Steven Yeun",
+            "J.K. Simmons",
+            "Sandra Oh"
+        ],
+        "genres": [
+            "animation",
+            "action",
+            "adventure"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "An adult animated series based on the Skybound/Image comic about a teenager whose father is the most powerful superhero on the planet.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

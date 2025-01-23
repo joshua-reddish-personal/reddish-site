@@ -1,27 +1,27 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Masters of the Air",
-    "creator": "Steven Spielberg, Tom Hanks",
-    "release_year": 2023,
-    "genres": [
-      "Drama",
-      "War"
-    ],
-    "top_billed_actors": [
-      "Austin Butler",
-      "Callum Turner",
-      "Anthony Boyle"
-    ],
-    "short_description": "A miniseries focusing on the aerial wars fought by the men of the Eighth Air Force during World War II.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Masters of the Air",
+        "creator": "Steven Spielberg, Tom Hanks",
+        "release_year": 2023,
+        "top_billed_actors": [
+            "Austin Butler",
+            "Callum Turner",
+            "Anthony Boyle"
+        ],
+        "genres": [
+            "Drama",
+            "War"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A miniseries focusing on the aerial wars fought by the men of the Eighth Air Force during World War II.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

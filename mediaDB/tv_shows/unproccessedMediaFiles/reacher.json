@@ -1,28 +1,28 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Reacher",
-    "creator": "Nick Santora",
-    "release_year": 2022,
-    "genres": [
-      "crime",
-      "drama",
-      "thriller"
-    ],
-    "top_billed_actors": [
-      "Alan Ritchson",
-      "Willie C. Carpenter",
-      "Maria Sten"
-    ],
-    "short_description": "Jack Reacher was arrested for murder and now the police need his help. Based on the book series by Lee Child.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Reacher",
+        "creator": "Nick Santora",
+        "release_year": 2022,
+        "top_billed_actors": [
+            "Alan Ritchson",
+            "Willie C. Carpenter",
+            "Maria Sten"
+        ],
+        "genres": [
+            "crime",
+            "drama",
+            "thriller"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Jack Reacher was arrested for murder and now the police need his help. Based on the book series by Lee Child.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

@@ -1,28 +1,28 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Cyberpunk: Edgerunner",
-    "creator": "Hiroyuki Imaishi",
-    "release_year": 2022,
-    "genres": [
-      "Animation",
-      "Action",
-      "Sci-Fi"
-    ],
-    "top_billed_actors": [
-      "Cherami Leigh",
-      "Yūki Kaji",
-      "Rosa Salazar"
-    ],
-    "short_description": "An anime set in the same universe as Cyberpunk 2077, explores the struggle of the people living in a dystopian future, handling loss, trauma, and survival in Night City.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Cyberpunk: Edgerunner",
+        "creator": "Hiroyuki Imaishi",
+        "release_year": 2022,
+        "top_billed_actors": [
+            "Cherami Leigh",
+            "Y\u016bki Kaji",
+            "Rosa Salazar"
+        ],
+        "genres": [
+            "Animation",
+            "Action",
+            "Sci-Fi"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "An anime set in the same universe as Cyberpunk 2077, explores the struggle of the people living in a dystopian future, handling loss, trauma, and survival in Night City.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

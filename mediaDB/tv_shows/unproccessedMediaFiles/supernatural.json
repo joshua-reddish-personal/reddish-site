@@ -1,28 +1,28 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Supernatural",
-    "creator": "Eric Kripke",
-    "release_year": 2005,
-    "genres": [
-      "drama",
-      "fantasy",
-      "horror"
-    ],
-    "top_billed_actors": [
-      "Jared Padalecki",
-      "Jensen Ackles",
-      "Misha Collins"
-    ],
-    "short_description": "Two brothers follow their father's footsteps as hunters, fighting evil supernatural beings of many kinds, including monsters, demons, and gods that roam the earth.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Supernatural",
+        "creator": "Eric Kripke",
+        "release_year": 2005,
+        "top_billed_actors": [
+            "Jared Padalecki",
+            "Jensen Ackles",
+            "Misha Collins"
+        ],
+        "genres": [
+            "drama",
+            "fantasy",
+            "horror"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Two brothers follow their father's footsteps as hunters, fighting evil supernatural beings of many kinds, including monsters, demons, and gods that roam the earth.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

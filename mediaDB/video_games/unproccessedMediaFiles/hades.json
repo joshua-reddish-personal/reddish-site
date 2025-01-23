@@ -1,0 +1,22 @@
+{
+    "metadata": {
+        "media_type": "video_game",
+        "title": "Hades",
+        "developer": "Supergiant Games",
+        "release_year": 2020,
+        "genres": [
+            "action",
+            "role-playing"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Gameplay": 0,
+            "Graphics": 0
+        }
+    },
+    "content": {
+        "short_description": "Hades is a roguelike action role-playing video game focusing on protagonist Zagreus's escape from the Underworld to reach Mount Olympus, with assistance from the Olympian gods.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
+}

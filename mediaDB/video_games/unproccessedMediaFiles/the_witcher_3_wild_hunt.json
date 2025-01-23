@@ -1,0 +1,22 @@
+{
+    "metadata": {
+        "media_type": "video_game",
+        "title": "The Witcher 3: Wild Hunt",
+        "developer": "CD Projekt",
+        "release_year": 2015,
+        "genres": [
+            "action",
+            "role-playing"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Gameplay": 0,
+            "Graphics": 0
+        }
+    },
+    "content": {
+        "short_description": "The Witcher 3: Wild Hunt is an action role-playing game with a third-person perspective. Players control Geralt of Rivia, a monster slayer known as a Witcher, in a fantasy world based on Slavonic mythology.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
+}

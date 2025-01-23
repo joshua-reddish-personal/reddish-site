@@ -1,0 +1,23 @@
+{
+    "metadata": {
+        "media_type": "video_game",
+        "title": "Mass Effect",
+        "developer": "BioWare",
+        "release_year": 2007,
+        "genres": [
+            "action",
+            "role-playing",
+            "science fiction"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Gameplay": 0,
+            "Graphics": 0
+        }
+    },
+    "content": {
+        "short_description": "An action role-playing video game where player takes the role of Commander Shepard through a galaxy on the brink of destruction.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
+}

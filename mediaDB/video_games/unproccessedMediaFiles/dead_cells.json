@@ -1,0 +1,23 @@
+{
+    "metadata": {
+        "media_type": "video_game",
+        "title": "Dead Cells",
+        "developer": "Motion Twin",
+        "release_year": 2018,
+        "genres": [
+            "action",
+            "indie",
+            "roguelite"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Gameplay": 0,
+            "Graphics": 0
+        }
+    },
+    "content": {
+        "short_description": "In this rogue-like metroidvania, players assume the role of a body of cells that control a corpse in a dungeon, through which they must fight their way out.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
+}

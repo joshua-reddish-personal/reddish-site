@@ -1,0 +1,23 @@
+{
+    "metadata": {
+        "media_type": "video_game",
+        "title": "Warzone",
+        "developer": "Infinity Ward",
+        "release_year": 2020,
+        "genres": [
+            "action",
+            "strategy",
+            "shooter"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Gameplay": 0,
+            "Graphics": 0
+        }
+    },
+    "content": {
+        "short_description": "Warzone is a free-to-play battle royale game, part of the 2019 title Call of Duty: Modern Warfare. It features up to 150 players fighting to be the last person standing, in matches that incorporate both the series' close-quarters gunplay and larger, vehicle-centric warfare.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "metadata": {
+        "media_type": "video_game",
+        "title": "Elder Scrolls III: Morrowind",
+        "developer": "Bethesda Game Studios",
+        "release_year": 2002,
+        "genres": [
+            "Action",
+            "Role-playing"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Gameplay": 0,
+            "Graphics": 0
+        }
+    },
+    "content": {
+        "short_description": "Elder Scrolls III: Morrowind is an open-world action role-playing video game where the player's character is tasked with resolving a prophecy of a legendary hero.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
+}

@@ -1,26 +1,26 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Survivor",
-    "creator": "Charlie Parsons",
-    "release_year": 2000,
-    "genres": [
-      "reality tv",
-      "game-show",
-      "adventure"
-    ],
-    "top_billed_actors": [
-      "Jeff Probst"
-    ],
-    "short_description": "A reality show where a group of contestants are stranded in a remote location with little more than the clothes on their back. The lone survivor of this contest takes home a million dollars.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Survivor",
+        "creator": "Charlie Parsons",
+        "release_year": 2000,
+        "top_billed_actors": [
+            "Jeff Probst"
+        ],
+        "genres": [
+            "reality tv",
+            "game-show",
+            "adventure"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A reality show where a group of contestants are stranded in a remote location with little more than the clothes on their back. The lone survivor of this contest takes home a million dollars.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

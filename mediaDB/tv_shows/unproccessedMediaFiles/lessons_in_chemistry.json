@@ -1,26 +1,26 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Lessons in Chemistry",
-    "creator": "Susannah Grant",
-    "release_year": 2023,
-    "genres": [
-      "Drama"
-    ],
-    "top_billed_actors": [
-      "Brie Larson",
-      "Lewis Pullman",
-      "Aja Naomi King"
-    ],
-    "short_description": "Set in the 1960s, 'Lessons in Chemistry' follows Elizabeth Zott, a chemist whose career takes an unexpected turn.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Lessons in Chemistry",
+        "creator": "Susannah Grant",
+        "release_year": 2023,
+        "top_billed_actors": [
+            "Brie Larson",
+            "Lewis Pullman",
+            "Aja Naomi King"
+        ],
+        "genres": [
+            "Drama"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Set in the 1960s, 'Lessons in Chemistry' follows Elizabeth Zott, a chemist whose career takes an unexpected turn.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

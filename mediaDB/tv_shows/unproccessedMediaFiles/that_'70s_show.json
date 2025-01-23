@@ -1,28 +1,28 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "That '70s Show",
-    "creator": "Bonnie Turner, Terry Turner, Mark Brazill",
-    "release_year": 1998,
-    "genres": [
-      "Comedy",
-      "Romance"
-    ],
-    "top_billed_actors": [
-      "Topher Grace",
-      "Laura Prepon",
-      "Mila Kunis",
-      "Ashton Kutcher"
-    ],
-    "short_description": "A comedy revolving around a group of teenage friends, their mishaps, and their coming of age, set in 1970's Wisconsin.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "That '70s Show",
+        "creator": "Bonnie Turner, Terry Turner, Mark Brazill",
+        "release_year": 1998,
+        "top_billed_actors": [
+            "Topher Grace",
+            "Laura Prepon",
+            "Mila Kunis",
+            "Ashton Kutcher"
+        ],
+        "genres": [
+            "Comedy",
+            "Romance"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A comedy revolving around a group of teenage friends, their mishaps, and their coming of age, set in 1970's Wisconsin.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

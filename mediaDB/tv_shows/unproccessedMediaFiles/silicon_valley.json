@@ -1,27 +1,27 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Silicon Valley",
-    "creator": "Mike Judge, John Altschuler, Dave Krinsky",
-    "release_year": 2014,
-    "genres": [
-      "Comedy"
-    ],
-    "top_billed_actors": [
-      "Thomas Middleditch",
-      "T.J. Miller",
-      "Josh Brener",
-      "Martin Starr"
-    ],
-    "short_description": "Follows the struggle of Richard Hendricks, a Silicon Valley engineer trying to build his own company called Pied Piper.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Silicon Valley",
+        "creator": "Mike Judge, John Altschuler, Dave Krinsky",
+        "release_year": 2014,
+        "top_billed_actors": [
+            "Thomas Middleditch",
+            "T.J. Miller",
+            "Josh Brener",
+            "Martin Starr"
+        ],
+        "genres": [
+            "Comedy"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Follows the struggle of Richard Hendricks, a Silicon Valley engineer trying to build his own company called Pied Piper.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

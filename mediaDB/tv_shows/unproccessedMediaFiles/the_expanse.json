@@ -1,29 +1,29 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "The Expanse",
-    "creator": "Mark Fergus and Hawk Ostby",
-    "release_year": 2015,
-    "genres": [
-      "Drama",
-      "Mystery",
-      "Sci-Fi"
-    ],
-    "top_billed_actors": [
-      "Steven Strait",
-      "Dominique Tipper",
-      "Wes Chatham",
-      "Cas Anvar"
-    ],
-    "short_description": "In a future where humanity has colonized the Solar System, a conspiracy threatens peace and the survival of humanity across Earth, Mars, and the Belt.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "The Expanse",
+        "creator": "Mark Fergus and Hawk Ostby",
+        "release_year": 2015,
+        "top_billed_actors": [
+            "Steven Strait",
+            "Dominique Tipper",
+            "Wes Chatham",
+            "Cas Anvar"
+        ],
+        "genres": [
+            "Drama",
+            "Mystery",
+            "Sci-Fi"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "In a future where humanity has colonized the Solar System, a conspiracy threatens peace and the survival of humanity across Earth, Mars, and the Belt.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

@@ -1,27 +1,27 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Silo",
-    "creator": "Graham Yost",
-    "release_year": 2023,
-    "genres": [
-      "Drama",
-      "Sci-Fi"
-    ],
-    "top_billed_actors": [
-      "Rebecca Ferguson",
-      "Tim Robbins",
-      "Rashida Jones"
-    ],
-    "short_description": "Set in a ruined and toxic future where a community exists in a giant silo underground, hundreds of stories deep, Silo is a high-intensity drama that explores the lives of the residents who believe they are protected from the toxic atmosphere outside.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Silo",
+        "creator": "Graham Yost",
+        "release_year": 2023,
+        "top_billed_actors": [
+            "Rebecca Ferguson",
+            "Tim Robbins",
+            "Rashida Jones"
+        ],
+        "genres": [
+            "Drama",
+            "Sci-Fi"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Set in a ruined and toxic future where a community exists in a giant silo underground, hundreds of stories deep, Silo is a high-intensity drama that explores the lives of the residents who believe they are protected from the toxic atmosphere outside.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

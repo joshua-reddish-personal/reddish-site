@@ -1,28 +1,28 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Futurama",
-    "creator": "Matt Groening",
-    "release_year": 1999,
-    "genres": [
-      "Comedy",
-      "Science Fiction",
-      "Animation"
-    ],
-    "top_billed_actors": [
-      "Billy West",
-      "Katey Sagal",
-      "John DiMaggio"
-    ],
-    "short_description": "Futurama is a scientifically accurate animation that follows the journey of Philip J. Fry, a pizza delivery boy who is frozen and wakes up a thousand years into a technologically advanced future.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Futurama",
+        "creator": "Matt Groening",
+        "release_year": 1999,
+        "top_billed_actors": [
+            "Billy West",
+            "Katey Sagal",
+            "John DiMaggio"
+        ],
+        "genres": [
+            "Comedy",
+            "Science Fiction",
+            "Animation"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Futurama is a scientifically accurate animation that follows the journey of Philip J. Fry, a pizza delivery boy who is frozen and wakes up a thousand years into a technologically advanced future.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

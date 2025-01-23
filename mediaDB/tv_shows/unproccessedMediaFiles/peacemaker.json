@@ -1,28 +1,28 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Peacemaker",
-    "creator": "James Gunn",
-    "release_year": 2022,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Comedy"
-    ],
-    "top_billed_actors": [
-      "John Cena",
-      "Steve Agee",
-      "Danielle Brooks"
-    ],
-    "short_description": "Picking up where The Suicide Squad (2021) left off, the series follows the brilliant but insanely deadly super-villain, Peacemaker, in his own adventures.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Peacemaker",
+        "creator": "James Gunn",
+        "release_year": 2022,
+        "top_billed_actors": [
+            "John Cena",
+            "Steve Agee",
+            "Danielle Brooks"
+        ],
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Picking up where The Suicide Squad (2021) left off, the series follows the brilliant but insanely deadly super-villain, Peacemaker, in his own adventures.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

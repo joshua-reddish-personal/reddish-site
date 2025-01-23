@@ -1,27 +1,27 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Foundation",
-    "creator": "David S. Goyer, Josh Friedman",
-    "release_year": 2021,
-    "genres": [
-      "Drama",
-      "Sci-Fi"
-    ],
-    "top_billed_actors": [
-      "Jared Harris",
-      "Lee Pace",
-      "Lou Llobell"
-    ],
-    "short_description": "A complex saga of humans scattered on planets throughout the galaxy all living under the rule of the Galactic Empire.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Foundation",
+        "creator": "David S. Goyer, Josh Friedman",
+        "release_year": 2021,
+        "top_billed_actors": [
+            "Jared Harris",
+            "Lee Pace",
+            "Lou Llobell"
+        ],
+        "genres": [
+            "Drama",
+            "Sci-Fi"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A complex saga of humans scattered on planets throughout the galaxy all living under the rule of the Galactic Empire.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

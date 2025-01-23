@@ -1,28 +1,28 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Chernobyl",
-    "creator": "Craig Mazin",
-    "release_year": 2019,
-    "genres": [
-      "Drama",
-      "History",
-      "Thriller"
-    ],
-    "top_billed_actors": [
-      "Jared Harris",
-      "Stellan Skarsgård",
-      "Emily Watson"
-    ],
-    "short_description": "A dramatization of the true story of the April 1986 nuclear plant disaster at Chernobyl, focusing on the men and women who sacrificed to save Europe from unimaginable disaster.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Chernobyl",
+        "creator": "Craig Mazin",
+        "release_year": 2019,
+        "top_billed_actors": [
+            "Jared Harris",
+            "Stellan Skarsg\u00e5rd",
+            "Emily Watson"
+        ],
+        "genres": [
+            "Drama",
+            "History",
+            "Thriller"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "A dramatization of the true story of the April 1986 nuclear plant disaster at Chernobyl, focusing on the men and women who sacrificed to save Europe from unimaginable disaster.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

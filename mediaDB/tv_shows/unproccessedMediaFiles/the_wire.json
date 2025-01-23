@@ -1,28 +1,28 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "The Wire",
-    "creator": "David Simon",
-    "release_year": 2002,
-    "genres": [
-      "crime",
-      "drama",
-      "thriller"
-    ],
-    "top_billed_actors": [
-      "Dominic West",
-      "Lance Reddick",
-      "Sonja Sohn"
-    ],
-    "short_description": "Set in Baltimore, this show centers around the city's inner-city drug scene. It starts as mid-level drug dealer, D'Angelo Barksdale beats a murder rap. After a conversation with a judge, Det. James McNulty has been assigned to lead a joint homicide and narcotics team, in order to bring down drug kingpin Avon Barksdale.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "The Wire",
+        "creator": "David Simon",
+        "release_year": 2002,
+        "top_billed_actors": [
+            "Dominic West",
+            "Lance Reddick",
+            "Sonja Sohn"
+        ],
+        "genres": [
+            "crime",
+            "drama",
+            "thriller"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Set in Baltimore, this show centers around the city's inner-city drug scene. It starts as mid-level drug dealer, D'Angelo Barksdale beats a murder rap. After a conversation with a judge, Det. James McNulty has been assigned to lead a joint homicide and narcotics team, in order to bring down drug kingpin Avon Barksdale.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }

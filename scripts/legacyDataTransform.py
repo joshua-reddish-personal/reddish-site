@@ -2,7 +2,7 @@ import os
 import json
 
 # Define the directory containing the legacy JSON files
-movie_dir = '/Users/joshreddish/development/reddish-site/mediaDB/books/gradedJSONs'
+movie_dir = '/Users/joshreddish/development/reddish-site/mediaDB/video_games/unproccessedMediaFiles'
 
 def transform_legacy_to_new_format(file_path):
     with open(file_path, 'r') as file:
@@ -13,9 +13,8 @@ def transform_legacy_to_new_format(file_path):
         "metadata": {
             "media_type": data["media_type"],
             "title": data["media_data"]["title"],
-            "author": data["media_data"]["author"],
-            "publication_year": data["media_data"]["publication_year"],
-            "publisher": data["media_data"]["publisher"],
+            "developer": data["media_data"]["developer"],
+            "release_year": data["media_data"]["release_year"],
             "genres": data["media_data"]["genres"],
             "criteria_grades": data["media_data"]["criteria_grades"]
         },

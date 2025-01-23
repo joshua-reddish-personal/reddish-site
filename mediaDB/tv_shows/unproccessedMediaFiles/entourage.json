@@ -1,29 +1,29 @@
 {
-  "media_type": "tv_show",
-  "graded": true,
-  "criteria_graded": false,
-  "media_data": {
-    "title": "Entourage",
-    "creator": "Doug Ellin",
-    "release_year": 2004,
-    "genres": [
-      "Comedy",
-      "Drama"
-    ],
-    "top_billed_actors": [
-      "Kevin Connolly",
-      "Adrian Grenier",
-      "Kevin Dillon",
-      "Jerry Ferrara",
-      "Jeremy Piven"
-    ],
-    "short_description": "Film star Vince Chase navigates the vapid terrain of Los Angeles with a close circle of friends and his trusty agent.",
-    "criteria_grades": {
-      "Story": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "Entourage",
+        "creator": "Doug Ellin",
+        "release_year": 2004,
+        "top_billed_actors": [
+            "Kevin Connolly",
+            "Adrian Grenier",
+            "Kevin Dillon",
+            "Jerry Ferrara",
+            "Jeremy Piven"
+        ],
+        "genres": [
+            "Comedy",
+            "Drama"
+        ],
+        "criteria_grades": {
+            "Story": 0,
+            "Character Development": 0,
+            "Visual Presentation": 0
+        }
     },
-    "overall_grade": 0,
-    "notes": "Favorite Scenes, Favorite Lines"
-  }
+    "content": {
+        "short_description": "Film star Vince Chase navigates the vapid terrain of Los Angeles with a close circle of friends and his trusty agent.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
 }
