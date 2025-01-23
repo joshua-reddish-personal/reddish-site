@@ -31,75 +31,73 @@ book_criteria = {
     "Immersion": 0
 }
 
-# Define the required keys for video games
 required_keys_video_game = {
-    "media_type": "video_game",
-    "graded": True,
-    "criteria_graded": False,
-    "media_data": {
+    "metadata": {
+        "media_type": "video_game",
         "title": "",
         "developer": "",
         "release_year": 0,
         "genres": [],
+        "criteria_grades": video_game_criteria
+    },
+    "content": {
         "short_description": "",
-        "criteria_grades": video_game_criteria,
-        "overall_grade": 0,
-        "notes": "Favorite Scenes, Favorite Lines"
+        "notes": "Favorite Scenes, Favorite Lines",
+        "quotes": []
     }
 }
 
 # Define the required keys for TV shows
 required_keys_tv_show = {
-    "media_type": "tv_show",
-    "graded": True,
-    "criteria_graded": False,
-    "media_data": {
+    "metadata": {
+        "media_type": "tv_show",
         "title": "",
         "creator": "",
         "release_year": 0,
         "genres": [],
         "top_billed_actors": [],
+        "criteria_grades": tv_show_criteria
+    },
+    "content": {
         "short_description": "",
-        "criteria_grades": tv_show_criteria,
-        "overall_grade": 0,
-        "notes": "Favorite Scenes, Favorite Lines"
+        "notes": "Favorite Scenes, Favorite Lines",
+        "quotes": []
     }
 }
 
 # Define the required keys for movies
 required_keys_movie = {
-    "media_type": "movie",
-    "graded": True,
-    "criteria_graded": False,
-    "media_data": {
+    "metadata": {
+        "media_type": "movie",
         "title": "",
         "director": "",
         "release_year": 0,
         "genres": [],
         "top_billed_actors": [],
+        "criteria_grades": movie_criteria
+    },
+    "content": {
         "short_description": "",
-        "criteria_grades": movie_criteria,
-        "overall_grade": 0,
-        "quotes": [],
-        "notes": "Favorite Scenes, Favorite Lines"
+        "notes": "Favorite Scenes, Favorite Lines",
+        "quotes": []
     }
 }
 
 # Define the required keys for books
 required_keys_book = {
-    "media_type": "book",
-    "graded": True,
-    "criteria_graded": False,
-    "media_data": {
+    "metadata": {
+        "media_type": "book",
         "title": "",
         "author": "",
         "publication_year": 0,
         "genres": [],
         "publisher": "",
+        "criteria_grades": book_criteria
+    },
+    "content": {
         "short_description": "",
-        "criteria_grades": book_criteria,
-        "overall_grade": 0,
-        "notes": "Favorite Scenes, Favorite Lines"
+        "notes": "Favorite Scenes, Favorite Lines",
+        "quotes": []
     }
 }
 

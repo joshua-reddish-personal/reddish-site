@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
 import MediaTable from 'app/components/mediaTable'
 import { getMovies } from 'app/reddish-reviews/utils'
-import { baseUrl } from 'app/sitemap'
+
 
 export async function generateStaticParams() {
   let movies = getMovies()
@@ -21,15 +21,19 @@ export function generateMetadata({ params }) {
   let {
     title,
     mediaType,
-    // image,
+    director,
+    release_year,
+    genres, 
+    criteria_grades,
   } = movie.metadata
-  // let ogImage = image
-  //   ? image
-  //   : `${baseUrl}/og?title=${encodeURIComponent(title)}`
 
   return {
     title,
     mediaType,
+    director,
+    release_year,
+    genres,
+    criteria_grades,
   }
 }
 
@@ -40,28 +44,39 @@ export default function Movie({ params }) {
     notFound()
   }
 
+  const criteriaGrades = Object.values(movie.metadata.criteria_grades);
+  const overall_grade = Math.round(criteriaGrades.reduce((acc, grade) => acc + grade, 0) / criteriaGrades.length);
+
   return (
     <section>
    <MediaTable></MediaTable>
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BlogPosting',
-            headline: movie.metadata.title,
-            mediaType: movie.metadata.mediaType,
-            // image: movie.metadata.image
-            //   ? `${baseUrl}${movie.metadata.image}`
-            //   : `/og?title=${encodeURIComponent(movie.metadata.title)}`,
-            url: `${baseUrl}/reddish-reviews/movies/${movie.slug}`,
-          }),
-        }}
-      />
-      <h1 className="title font-semibold text-2xl tracking-tighter">
-        {movie.metadata.title}
+      <h1 className="title font-semibold text-2xl tracking-tighter mb-4">
+        {movie.metadata.title} ({movie.metadata.release_year})
       </h1>
+      <h2 className="releaseYear font-semibold text-2xl tracking-tighter mb-4">
+        Director: {movie.metadata.director}
+      </h2>
+      <h3 className="title font-semibold text-2xl tracking-tighter mb-4">
+        Genres:
+      </h3>
+      <ul className="list-disc pl-5 mb-4">
+        {movie.metadata.genres.map((genre, index) => (
+          <li key={index}>{genre}</li>
+        ))}
+      </ul>
+      <h3 className="title font-semibold text-2xl tracking-tighter mb-4">
+        Criteria Grades:
+      </h3>
+      <ul className="list-disc pl-5 mb-4">
+        {Object.entries(movie.metadata.criteria_grades).map(([criteria, grade], index) => (
+          <li key={index}>
+            {criteria}: {grade}
+          </li>
+        ))}
+      </ul>
+      <h3 className="title font-semibold text-2xl tracking-tighter mb-4">
+        Overall Grade: {overall_grade}
+      </h3>
       <div className="flex justify-between items-center mt-2 mb-8 text-sm">
       </div>
       <article className="prose">

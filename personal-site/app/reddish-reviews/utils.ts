@@ -1,56 +1,91 @@
 import fs from 'fs'
 import path from 'path'
 
-export type BlogMetadata = {
+export type MovieMetaData = {
+  mediaType: 'movie'
   title: string
-  publishedAt: string
-  summary: string
-  image?: string
-}
-
-export type MediaMetadata = {
-  mediaType: string
-  title: string
-  image?: string
-}
-
-export type Metadata = BlogMetadata | MediaMetadata
-
-function parseFrontmatter(fileContent: string): { metadata: Metadata, content: string } {
-  let frontmatterRegex = /---\s*([\s\S]*?)\s*---/
-  let match = frontmatterRegex.exec(fileContent)
-  if (!match) {
-    throw new Error('Invalid frontmatter format')
+  director: string
+  release_year: number
+  genres: string[]
+  top_billed_actors: string[]
+  criteria_grades: {
+    storytelling: number
+    characterDevelopment: number
+    emotionalAndArtisticImpact: number
   }
-  let frontMatterBlock = match[1]
-  let content = fileContent.replace(frontmatterRegex, '').trim()
-  let frontMatterLines = frontMatterBlock.trim().split('\n')
+  overall_grade: number
+}
 
-  let metadata: Partial<Metadata> = {}
+export type TVShowMetaData = {
+  mediaType: 'tv_show'
+  title: string
+  creator: string
+  release_year: number
+  genres: string[]
+  top_billed_actors: string[]
+  criteria_grades: {
+    storytelling: number
+    characterDevelopment: number
+    emotionalAndArtisticImpact: number
+  }
+  overall_grade: number
+}
 
-  frontMatterLines.forEach((line) => {
-    let [key, ...valueArr] = line.split(': ')
-    let value = valueArr.join(': ').trim()
-    value = value.replace(/^['"](.*)['"]$/, '$1') // Remove quotes
-    metadata[key.trim() as keyof (Metadata)] = value as any
-  })
+export type BookMetaData = {
+  mediaType: 'book'
+  title: string
+  author: string
+  publicationYear: number
+  genres: string[]
+  publisher: string
+  criteria_grades: {
+    story: number
+    characterDevelopment: number
+    immersion: number
+  }
+  overall_grade: number
+}
+
+export type VideoGameMetaData = {
+  mediaType: 'video_game'
+  title: string
+  developer: string
+  release_year: number
+  genres: string[]
+  criteria_grades: {
+    story: number
+    gameplay: number
+    graphics: number
+  }
+  overall_grade: number
+}
+
+export type Metadata = MovieMetaData | TVShowMetaData | BookMetaData | VideoGameMetaData
+
+function parseJSONFile(fileContent: string): { metadata: Metadata, content: any } {
+  // Parse the entire file content as JSON
+  const parsedData = JSON.parse(fileContent)
+
+  // Extract metadata and content from the parsed JSON
+  const metadata: Metadata = parsedData.metadata
+  const content: any = parsedData.content
 
   return { metadata: metadata as Metadata, content }
 }
 
-function getMDXFiles(dir) {
-  return fs.readdirSync(dir).filter((file) => path.extname(file) === '.mdx')
+function getMediaFiles(dir) {
+  return fs.readdirSync(dir).filter((file) => path.extname(file) === '.json')
 }
 
-function readMDXFile(filePath) {
+function readMediaFile(filePath) {
   let rawContent = fs.readFileSync(filePath, 'utf-8')
-  return parseFrontmatter(rawContent)
+  return parseJSONFile(rawContent)
 }
 
-function getMDXData(dir) {
-  let mdxFiles = getMDXFiles(dir)
-  return mdxFiles.map((file) => {
-    let { metadata, content } = readMDXFile(path.join(dir, file))
+function getMediaData(dir) {
+  let mediaFiles = getMediaFiles(dir)
+  return mediaFiles.map((file) => {
+    let { metadata, content } = readMediaFile(path.join(dir, file))
     let slug = path.basename(file, path.extname(file))
 
     return {
@@ -62,40 +97,40 @@ function getMDXData(dir) {
 }
 
 export function getMovies() {
-  const mediaData = getMDXData(path.join(process.cwd(), 'app', 'reddish-reviews', 'movies', 'media'))
+  const mediaData = getMediaData(path.join(process.cwd(), 'app', 'reddish-reviews', 'movies', 'media'))
 
   return mediaData.map((data) => ({
-      metadata: data.metadata as MediaMetadata,
+      metadata: data.metadata as MovieMetaData,
       slug: data.slug,
       content: data.content,
     }))
 }
 
 export function getVideoGames() {
-  const mediaData = getMDXData(path.join(process.cwd(), 'app', 'reddish-reviews', 'video-games', 'media'))
+  const mediaData = getMediaData(path.join(process.cwd(), 'app', 'reddish-reviews', 'video-games', 'media'))
 
   return mediaData.map((data) => ({
-      metadata: data.metadata as MediaMetadata,
+      metadata: data.metadata as VideoGameMetaData,
       slug: data.slug,
       content: data.content,
     }))
 }
 
 export function getBooks() {
-  const mediaData = getMDXData(path.join(process.cwd(), 'app', 'reddish-reviews', 'books', 'media'))
+  const mediaData = getMediaData(path.join(process.cwd(), 'app', 'reddish-reviews', 'books', 'media'))
 
   return mediaData.map((data) => ({
-      metadata: data.metadata as MediaMetadata,
+      metadata: data.metadata as BookMetaData,
       slug: data.slug,
       content: data.content,
     }))
 }
 
 export function getTVShows() {
-  const mediaData = getMDXData(path.join(process.cwd(), 'app', 'reddish-reviews', 'tv-shows', 'media'))
+  const mediaData = getMediaData(path.join(process.cwd(), 'app', 'reddish-reviews', 'tv-shows', 'media'))
 
   return mediaData.map((data) => ({
-      metadata: data.metadata as MediaMetadata,
+      metadata: data.metadata as TVShowMetaData,
       slug: data.slug,
       content: data.content,
     }))
