@@ -1,5 +1,4 @@
 import { notFound } from 'next/navigation'
-import { CustomMDX } from 'app/components/mdx'
 import MediaTable from 'app/components/mediaTable'
 import { getMovies } from 'app/reddish-reviews/utils'
 
@@ -79,9 +78,6 @@ export default function Movie({ params }) {
       </h3>
       <div className="flex justify-between items-center mt-2 mb-8 text-sm">
       </div>
-      <article className="prose">
-        <CustomMDX source={movie.content} />
-      </article>
     </section>
   )
 }

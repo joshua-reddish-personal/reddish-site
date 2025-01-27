@@ -13,7 +13,6 @@ export type MovieMetaData = {
     characterDevelopment: number
     emotionalAndArtisticImpact: number
   }
-  overall_grade: number
 }
 
 export type TVShowMetaData = {
@@ -28,14 +27,13 @@ export type TVShowMetaData = {
     characterDevelopment: number
     emotionalAndArtisticImpact: number
   }
-  overall_grade: number
 }
 
 export type BookMetaData = {
   mediaType: 'book'
   title: string
   author: string
-  publicationYear: number
+  publication_year: number
   genres: string[]
   publisher: string
   criteria_grades: {
@@ -43,7 +41,6 @@ export type BookMetaData = {
     characterDevelopment: number
     immersion: number
   }
-  overall_grade: number
 }
 
 export type VideoGameMetaData = {
@@ -57,7 +54,6 @@ export type VideoGameMetaData = {
     gameplay: number
     graphics: number
   }
-  overall_grade: number
 }
 
 export type Metadata = MovieMetaData | TVShowMetaData | BookMetaData | VideoGameMetaData

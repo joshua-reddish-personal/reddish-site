@@ -1,0 +1,28 @@
+{
+    "metadata": {
+        "media_type": "tv_show",
+        "title": "The Legend of Vox Machina",
+        "creator": "Matthew Mercer",
+        "release_year": 2022,
+        "top_billed_actors": [
+            "Ashley Johnson",
+            "Laura Bailey",
+            "Liam O'Brien"
+        ],
+        "genres": [
+            "adventure",
+            "fantasy",
+            "animation"
+        ],
+        "criteria_grades": {
+            "Storytelling": 92,
+            "Character Development": 98,
+            "Emotional and Artistic Impact": 88
+        }
+    },
+    "content": {
+        "short_description": "A group of professional voice actors play Dungeons & Dragons, leading to a campaign and characters that have a life of their own.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
+}

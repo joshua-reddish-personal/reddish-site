@@ -1,72 +1,83 @@
 import { notFound } from 'next/navigation'
-import { CustomMDX } from 'app/components/mdx'
 import MediaTable from 'app/components/mediaTable'
 import { getVideoGames } from 'app/reddish-reviews/utils'
-import { baseUrl } from 'app/sitemap'
+
 
 export async function generateStaticParams() {
-  let videoGames = getVideoGames()
+  let tvshows = getVideoGames()
 
-  return videoGames.map((post) => ({
+  return tvshows.map((post) => ({
     slug: post.slug,
   }))
 }
 
 export function generateMetadata({ params }) {
-  let videoGame = getVideoGames().find((videoGame) => videoGame.slug === params.slug)
-  if (!videoGame) {
+  let tvshow = getVideoGames().find((tvshow) => tvshow.slug === params.slug)
+  if (!tvshow) {
     return
   }
 
   let {
     title,
     mediaType,
-    // image,
-  } = videoGame.metadata
-  // let ogImage = image
-  //   ? image
-  //   : `${baseUrl}/og?title=${encodeURIComponent(title)}`
+    developer,
+    release_year,
+    genres, 
+    criteria_grades,
+  } = tvshow.metadata
 
   return {
     title,
     mediaType,
+    developer,
+    release_year,
+    genres,
+    criteria_grades,
   }
 }
 
-export default function VideoGame({ params }) {
-  let videoGame = getVideoGames().find((videoGame) => videoGame.slug === params.slug)
+export default function TVShow({ params }) {
+  let tvshow = getVideoGames().find((tvshow) => tvshow.slug === params.slug)
 
-  if (!videoGame) {
+  if (!tvshow) {
     notFound()
   }
+
+  const criteriaGrades = Object.values(tvshow.metadata.criteria_grades);
+  const overall_grade = Math.round(criteriaGrades.reduce((acc, grade) => acc + grade, 0) / criteriaGrades.length);
 
   return (
     <section>
    <MediaTable></MediaTable>
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BlogPosting',
-            headline: videoGame.metadata.title,
-            mediaType: videoGame.metadata.mediaType,
-            // image: videoGame.metadata.image
-            //   ? `${baseUrl}${videoGame.metadata.image}`
-            //   : `/og?title=${encodeURIComponent(videoGame.metadata.title)}`,
-            url: `${baseUrl}/reddish-reviews/video-games/${videoGame.slug}`,
-          }),
-        }}
-      />
-      <h1 className="title font-semibold text-2xl tracking-tighter">
-        {videoGame.metadata.title}
+      <h1 className="title font-semibold text-2xl tracking-tighter mb-4">
+        {tvshow.metadata.title} ({tvshow.metadata.release_year})
       </h1>
+      <h2 className="releaseYear font-semibold text-2xl tracking-tighter mb-4">
+        Developer: {tvshow.metadata.developer}
+      </h2>
+      <h3 className="title font-semibold text-2xl tracking-tighter mb-4">
+        Genres:
+      </h3>
+      <ul className="list-disc pl-5 mb-4">
+        {tvshow.metadata.genres.map((genre, index) => (
+          <li key={index}>{genre}</li>
+        ))}
+      </ul>
+      <h3 className="title font-semibold text-2xl tracking-tighter mb-4">
+        Criteria Grades:
+      </h3>
+      <ul className="list-disc pl-5 mb-4">
+        {Object.entries(tvshow.metadata.criteria_grades).map(([criteria, grade], index) => (
+          <li key={index}>
+            {criteria}: {grade}
+          </li>
+        ))}
+      </ul>
+      <h3 className="title font-semibold text-2xl tracking-tighter mb-4">
+        Overall Grade: {overall_grade}
+      </h3>
       <div className="flex justify-between items-center mt-2 mb-8 text-sm">
       </div>
-      <article className="prose">
-        <CustomMDX source={videoGame.content} />
-      </article>
     </section>
   )
 }
