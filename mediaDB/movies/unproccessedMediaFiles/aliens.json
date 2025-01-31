@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "title": "Aliens",
+    "director": "James Cameron",
+    "release_year": 1986,
+    "genres": [
+      "action",
+      "sci-fi",
+      "thriller"
+    ],
+    "top_billed_actors": [
+      "Sigourney Weaver",
+      "Michael Biehn",
+      "Carrie Henn"
+    ],
+    "criteria_grades": {
+      "Story": 0,
+      "Character Development": 0,
+      "Visual Presentation": 0
+    },
+    "media_type": "movie"
+  },
+  "content": {
+    "short_description": "Ellen Ripley is rescued by a deep salvage team after being in hypersleep for 57 years. The moon that the Nostromo visited has been colonized, but contact is lost. This time, colonial marines have impressive firepower, but will that be enough?",
+    "quotes": [],
+    "notes": ""
+  }
+}
