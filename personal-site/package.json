@@ -1,8 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "node copyProcessedFiles && next dev",
+    "build": "node copyProcessedFiles && next build",
     "start": "next start"
   },
   "dependencies": {
