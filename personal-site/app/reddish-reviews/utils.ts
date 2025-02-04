@@ -11,8 +11,9 @@ export type MovieMetaData = {
   criteria_grades: {
     storytelling: number
     characterDevelopment: number
-    emotionalAndArtisticImpact: number
+    visualPresentation: number
   }
+  overall_grade: number
 }
 
 export type TVShowMetaData = {
@@ -25,8 +26,9 @@ export type TVShowMetaData = {
   criteria_grades: {
     storytelling: number
     characterDevelopment: number
-    emotionalAndArtisticImpact: number
+    visualPresentation: number
   }
+  overall_grade: number
 }
 
 export type BookMetaData = {
@@ -41,6 +43,7 @@ export type BookMetaData = {
     characterDevelopment: number
     immersion: number
   }
+  overall_grade: number
 }
 
 export type VideoGameMetaData = {
@@ -52,8 +55,9 @@ export type VideoGameMetaData = {
   criteria_grades: {
     story: number
     gameplay: number
-    graphics: number
+    visualPresentation: number
   }
+  overall_grade: number
 }
 
 export type Metadata = MovieMetaData | TVShowMetaData | BookMetaData | VideoGameMetaData
@@ -92,78 +96,59 @@ function getMediaData(dir) {
   })
 }
 
+function calculateOverallGrade(criteriaGrades: Record<string, number>): number {
+  const grades = Object.values(criteriaGrades)
+  return Math.round(grades.reduce((acc, grade) => acc + grade, 0) / grades.length)
+}
+
 export function getMovies() {
   const mediaData = getMediaData(path.join(process.cwd(), 'app', 'reddish-reviews', 'movies', 'media'))
 
-  return mediaData.map((data) => ({
-      metadata: data.metadata as MovieMetaData,
+  return mediaData.map((data) => {
+    const overallGrade = calculateOverallGrade(data.metadata.criteria_grades)
+    return {
+      metadata: { ...data.metadata, overall_grade: overallGrade } as MovieMetaData,
       slug: data.slug,
       content: data.content,
-    }))
+    }
+  })
 }
 
 export function getVideoGames() {
   const mediaData = getMediaData(path.join(process.cwd(), 'app', 'reddish-reviews', 'video-games', 'media'))
 
-  return mediaData.map((data) => ({
-      metadata: data.metadata as VideoGameMetaData,
+  return mediaData.map((data) => {
+    const overallGrade = calculateOverallGrade(data.metadata.criteria_grades)
+    return {
+      metadata: { ...data.metadata, overall_grade: overallGrade } as VideoGameMetaData,
       slug: data.slug,
       content: data.content,
-    }))
+    }
+  })
 }
 
 export function getBooks() {
   const mediaData = getMediaData(path.join(process.cwd(), 'app', 'reddish-reviews', 'books', 'media'))
 
-  return mediaData.map((data) => ({
-      metadata: data.metadata as BookMetaData,
+  return mediaData.map((data) => {
+    const overallGrade = calculateOverallGrade(data.metadata.criteria_grades)
+    return {
+      metadata: { ...data.metadata, overall_grade: overallGrade } as BookMetaData,
       slug: data.slug,
       content: data.content,
-    }))
+    }
+  })
 }
 
 export function getTVShows() {
   const mediaData = getMediaData(path.join(process.cwd(), 'app', 'reddish-reviews', 'tv-shows', 'media'))
 
-  return mediaData.map((data) => ({
-      metadata: data.metadata as TVShowMetaData,
+  return mediaData.map((data) => {
+    const overallGrade = calculateOverallGrade(data.metadata.criteria_grades)
+    return {
+      metadata: { ...data.metadata, overall_grade: overallGrade } as TVShowMetaData,
       slug: data.slug,
       content: data.content,
-    }))
-}
-
-export function formatDate(date: string, includeRelative = false) {
-  let currentDate = new Date()
-  if (!date.includes('T')) {
-    date = `${date}T00:00:00`
-  }
-  let targetDate = new Date(date)
-
-  let yearsAgo = currentDate.getFullYear() - targetDate.getFullYear()
-  let monthsAgo = currentDate.getMonth() - targetDate.getMonth()
-  let daysAgo = currentDate.getDate() - targetDate.getDate()
-
-  let formattedDate = ''
-
-  if (yearsAgo > 0) {
-    formattedDate = `${yearsAgo}y ago`
-  } else if (monthsAgo > 0) {
-    formattedDate = `${monthsAgo}mo ago`
-  } else if (daysAgo > 0) {
-    formattedDate = `${daysAgo}d ago`
-  } else {
-    formattedDate = 'Today'
-  }
-
-  let fullDate = targetDate.toLocaleString('en-us', {
-    month: 'long',
-    day: 'numeric',
-    year: 'numeric',
+    }
   })
-
-  if (!includeRelative) {
-    return fullDate
-  }
-
-  return `${fullDate} (${formattedDate})`
 }

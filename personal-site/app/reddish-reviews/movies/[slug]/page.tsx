@@ -43,9 +43,6 @@ export default function Movie({ params }) {
     notFound()
   }
 
-  const criteriaGrades = Object.values(movie.metadata.criteria_grades);
-  const overall_grade = Math.round(criteriaGrades.reduce((acc, grade) => acc + grade, 0) / criteriaGrades.length);
-
   return (
     <section>
    <MediaTable></MediaTable>
@@ -74,7 +71,7 @@ export default function Movie({ params }) {
         ))}
       </ul>
       <h3 className="title font-semibold text-2xl tracking-tighter mb-4">
-        Overall Grade: {overall_grade}
+        Overall Grade: {movie.metadata.overall_grade}
       </h3>
       <div className="flex justify-between items-center mt-2 mb-8 text-sm">
       </div>

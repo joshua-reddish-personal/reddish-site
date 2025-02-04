@@ -22,15 +22,7 @@ export function MediaList({ mediaType }: { mediaType: MediaType }) {
   return (
     <div>
       {allMedia
-        .sort((a, b) => {
-          if (a.metadata.title.toLowerCase() < b.metadata.title.toLowerCase()) {
-            return -1
-          }
-          if (a.metadata.title.toLowerCase() > b.metadata.title.toLowerCase()) {
-            return 1
-          }
-          return 0
-        })
+        .sort((a, b) => b.metadata.overall_grade - a.metadata.overall_grade)
         .map((post) => (
           <Link
             key={post.slug}
@@ -39,7 +31,7 @@ export function MediaList({ mediaType }: { mediaType: MediaType }) {
           >
             <div className="w-full flex flex-col md:flex-row space-x-0 md:space-x-2">
               <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-                {post.metadata.title}
+                - {post.metadata.title} - {post.metadata.overall_grade}
               </p>
             </div>
           </Link>
