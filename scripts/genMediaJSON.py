@@ -168,7 +168,7 @@ CONTENT = {
 
 MOVIE_ADDITIONAL_DATA = {
     "criteria_grades": {
-        "Story": 0,
+        "Storytelling": 0,
         "Character Development": 0,
         "Visual Presentation": 0,
     }
@@ -176,18 +176,18 @@ MOVIE_ADDITIONAL_DATA = {
 
 TV_ADDITIONAL_DATA = {
     "criteria_grades": {
-        "Story": 0,
+        "Storytelling": 0,
         "Character Development": 0,
         "Visual Presentation": 0,
     }
 }
 
 BOOK_ADDITIONAL_DATA = {
-    "criteria_grades": {"Story": 0, "Character Development": 0, "Immersion": 0}
+    "criteria_grades": {"Storytelling": 0, "Character Development": 0, "Immersion": 0}
 }
 
 VIDEO_GAME_ADDITIONAL_DATA = {
-    "criteria_grades": {"Story": 0, "Gameplay": 0, "Graphics": 0}
+    "criteria_grades": {"Storytelling": 0, "Gameplay": 0, "Visual Presentation": 0}
 }
 
 

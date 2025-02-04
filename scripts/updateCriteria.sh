@@ -2,7 +2,7 @@
 
 # Define the new criteria with default values
 new_criteria='{
-    "Story": 0,
+    "Storytelling": 0,
     "Character Development": 0,
     "Visual Presentation": 0
 }'

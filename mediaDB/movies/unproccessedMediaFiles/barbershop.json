@@ -2,7 +2,7 @@
     "metadata": {
         "media_type": "movie",
         "title": "Barbershop",
-        "director": "Tim Story",
+        "director": "Tim Storytelling",
         "release_year": 2002,
         "genres": [
             "Comedy",
@@ -14,7 +14,7 @@
             "Eve"
         ],
         "criteria_grades": {
-            "Story": 0,
+            "Storytelling": 0,
             "Character Development": 0,
             "Visual Presentation": 0
         }

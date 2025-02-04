@@ -5,28 +5,28 @@ import argparse
 
 # Define the new criteria for video games
 video_game_criteria = {
-    "Story": 0,
+    "Storytelling": 0,
     "Gameplay": 0,
-    "Graphics": 0
+    "Visual Presentation": 0
 }
 
 # Define the new criteria for TV shows
 tv_show_criteria = {
-    "Story": 0,
+    "Storytelling": 0,
     "Character Development": 0,
     "Visual Presentation": 0
 }
 
 # Define the new criteria for movies
 movie_criteria = {
-    "Story": 0,
+    "Storytelling": 0,
     "Character Development": 0,
     "Visual Presentation": 0
 }
 
 # Define the new criteria for books
 book_criteria = {
-    "Story": 0,
+    "Storytelling": 0,
     "Character Development": 0,
     "Immersion": 0
 }
