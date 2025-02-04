@@ -103,10 +103,10 @@ required_keys_book = {
 
 # Directories containing the JSON files
 directories = {
-    "video-game": "./mediaDB/video-games/gradedJSONs",
-    "tv-show": "./mediaDB/tv-shows/gradedJSONs",
-    "movie": "./mediaDB/movies/gradedJSONs",
-    "book": "./mediaDB/books/gradedJSONs"
+    "video-game": "./mediaDB/video-games/unprocessedMediaFiles",
+    "tv-show": "./mediaDB/tv-shows/unprocessedMediaFiles",
+    "movie": "./mediaDB/movies/unprocessedMediaFiles",
+    "book": "./mediaDB/books/unprocessedMediaFiles",
 }
 
 def issue_exists(title):
@@ -173,7 +173,7 @@ def process_files(directory, required_keys, dry_run, log_file):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Check JSON files for missing keys and create GitHub issues or log to a file.")
     parser.add_argument("--dry-run", action="store_true", help="Log missing keys to a file instead of creating GitHub issues.")
-    parser.add_argument("--media-type", choices=["video_game", "tv_show", "movie", "book"], help="Specify the media type to check.")
+    parser.add_argument("--media-type", choices=["video-game", "tv-show", "movie", "book"], help="Specify the media type to check.")
     parser.add_argument("--title", help="Specify the title of the media to check.")
     args = parser.parse_args()
 
@@ -196,8 +196,8 @@ if __name__ == "__main__":
             print(f"File not found: {filepath}")
     else:
         # Process files for each media type
-        process_files(directories["video_game"], required_keys_video_game, dry_run, log_file)
-        process_files(directories["tv_show"], required_keys_tv_show, dry_run, log_file)
+        process_files(directories["video-game"], required_keys_video_game, dry_run, log_file)
+        process_files(directories["tv-show"], required_keys_tv_show, dry_run, log_file)
         process_files(directories["movie"], required_keys_movie, dry_run, log_file)
         process_files(directories["book"], required_keys_book, dry_run, log_file)
     
