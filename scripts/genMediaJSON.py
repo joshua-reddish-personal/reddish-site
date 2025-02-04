@@ -20,14 +20,14 @@ async def generate_media_data(title, media_type):
             'The returned JSON format should be: {"metadata": {"title": "string", "director": "string", "release_year": "number", "genres": ["action", "adventure", "sci-fi"], "top_billed_actors": ["John Smith", "Jane Doe"]}, "content": {"short_description": "string"}}'
             "If you can't find valid data, respond with 'DATA_NOT_FOUND'",
         )
-    elif media_type == "tv_show":
+    elif media_type == "tv-show":
         system_message = (
             "Generate metadata for a TV show.",
             "Provide information similar to what can be found on IMDB or when googling the title.",
             'The returned JSON format should be: {"metadata": {"title": "string", "creator": "string", "release_year": "number", "genres": ["action", "adventure", "sci-fi"], "top_billed_actors": ["John Smith", "Jane Doe"]}, "content": {"short_description": "string"}}'
             "If you can't find valid data, respond with 'DATA_NOT_FOUND'",
         )
-    elif media_type == "video_game":
+    elif media_type == "video-game":
         system_message = (
             "Generate metadata for a video game.",
             "Provide information similar to what can be found on Wikipedia or when googling the title.",
@@ -116,9 +116,9 @@ async def process_media_title(media_type, title, proceed, retry=False):
             metadata.update(MOVIE_ADDITIONAL_DATA)
         elif media_type == "book":
             metadata.update(BOOK_ADDITIONAL_DATA)
-        elif media_type == "video_game":
+        elif media_type == "video-game":
             metadata.update(VIDEO_GAME_ADDITIONAL_DATA)
-        elif media_type == "tv_show":
+        elif media_type == "tv-show":
             metadata.update(TV_ADDITIONAL_DATA)
         content.update(CONTENT)
         final_output = {
@@ -146,19 +146,23 @@ async def process_media_title(media_type, title, proceed, retry=False):
 
 
 MEDIA_TYPE_MAP = {
-    "tv": "tv_show",
-    "tv show": "tv_show",
-    "tv shows": "tv_show",
-    "tv_show": "tv_show",
-    "tv_shows": "tv_show",
+    "tv": "tv-show",
+    "tv show": "tv-show",
+    "tv shows": "tv-show",
+    "tv-show": "tv-show",
+    "tv-shows": "tv-show",
+    "tv_show": "tv-show",
+    "tv_shows": "tv-show",
     "movie": "movie",
     "movies": "movie",
     "book": "book",
     "books": "book",
-    "video game": "video_game",
-    "video games": "video_game",
-    "video_game": "video_game",
-    "video_games": "video_game",
+    "video game": "video-game",
+    "video games": "video-game",
+    "video_game": "video-game",
+    "video_games": "video-game",
+    "video-game": "video-game",
+    "video-games": "video-game",
 }
 
 CONTENT = {

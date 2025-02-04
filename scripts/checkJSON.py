@@ -103,8 +103,8 @@ required_keys_book = {
 
 # Directories containing the JSON files
 directories = {
-    "video_game": "./mediaDB/video_games/gradedJSONs",
-    "tv_show": "./mediaDB/tv_shows/gradedJSONs",
+    "video-game": "./mediaDB/video-games/gradedJSONs",
+    "tv-show": "./mediaDB/tv-shows/gradedJSONs",
     "movie": "./mediaDB/movies/gradedJSONs",
     "book": "./mediaDB/books/gradedJSONs"
 }
