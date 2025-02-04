@@ -1,0 +1,28 @@
+{
+    "metadata": {
+        "media_type": "movie",
+        "title": "10 Things I Hate About You",
+        "director": "Gil Junger",
+        "release_year": 1999,
+        "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
+        ],
+        "top_billed_actors": [
+            "Heath Ledger",
+            "Julia Stiles",
+            "Joseph Gordon-Levitt"
+        ],
+        "criteria_grades": {
+            "Storytelling": 97,
+            "Character Development": 98,
+            "Visual Presentation": 94
+        }
+    },
+    "content": {
+        "short_description": "A new student must find a guy to date the meanest girl in school, the older sister of the girl he has a crush on, who cannot date until her older sister does.",
+        "quotes": [],
+        "notes": "Favorite Scenes, Favorite Lines"
+    }
+}
