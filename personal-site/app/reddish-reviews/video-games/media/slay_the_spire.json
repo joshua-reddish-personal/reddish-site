@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "title": "Slay the Spire",
+    "developer": "MegaCrit",
+    "release_year": 2019,
+    "genres": [
+      "roguelike",
+      "deck-building"
+    ],
+    "criteria_grades": {
+      "Gameplay": 100,
+      "Visual Presentation": 95
+    },
+    "media_type": "video_game"
+  },
+  "content": {
+    "short_description": "Slay the Spire is a fusion of card game and roguelike genres where players craft a unique deck, encounter bizarre creatures, discover relics of immense power, and slay the spire. The game features multiple playable characters, each with their own unique set of cards.",
+    "quotes": [],
+    "notes": ""
+  }
+}
