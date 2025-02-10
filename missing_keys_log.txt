@@ -1,11 +1,4 @@
 ./mediaDB/movies/unprocessedMediaFiles/brick.json
 Missing keys:
 metadata.criteria_grades
-content.notes
-
-./mediaDB/movies/unprocessedMediaFiles/remember_the_titans.json
-Missing keys:
-metadata.criteria_grades.Storytelling
-metadata.criteria_grades.Character Development
-metadata.criteria_grades.Visual Presentation
 
