@@ -42,6 +42,11 @@ jobs:
       working-directory: ./scripts
       run: |
         python ./genMediaJSON.py --media_type "${{ github.event.inputs.media_type }}" --title "${{ github.event.inputs.media_title }}" --proceed
+  
+    - name: Check for JSON Errors
+      working-directory: ./scripts
+      run: |
+        python ./checkJSON.py
 
     - name: Commit Changes
       run: |
