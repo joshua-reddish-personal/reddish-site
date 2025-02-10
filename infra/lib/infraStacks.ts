@@ -9,7 +9,10 @@ import {
   OriginRequestPolicy,
 } from 'aws-cdk-lib/aws-cloudfront';
 import { S3StaticWebsiteOrigin } from 'aws-cdk-lib/aws-cloudfront-origins';
-import { Certificate } from 'aws-cdk-lib/aws-certificatemanager';
+import {
+  Certificate,
+  CertificateValidation,
+} from 'aws-cdk-lib/aws-certificatemanager';
 import { RecordTarget, ARecord, HostedZone } from 'aws-cdk-lib/aws-route53';
 import { CloudFrontTarget } from 'aws-cdk-lib/aws-route53-targets';
 import { join } from 'path';
@@ -18,11 +21,15 @@ export class InfraStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
-    const certificate = Certificate.fromCertificateArn(
-      this,
-      'certificate',
-      'arn:aws:acm:us-east-1:xxxx:certificate/dff3bf1d-1684-40e2-a6ba-ab08cfcbc2d4',
-    );
+    const zone = HostedZone.fromLookup(this, 'zone', {
+      domainName: 'reddish.me',
+    });
+
+    const certificate = new Certificate(this, 'certificate', {
+      domainName: 'joshua.blue.reddish.me',
+      subjectAlternativeNames: ['joshua.reddish.me'],
+      validation: CertificateValidation.fromDns(zone),
+    });
 
     const bucket = new Bucket(this, 'frontEndBucket', {
       publicReadAccess: true,
@@ -55,7 +62,7 @@ export class InfraStack extends cdk.Stack {
       },
       certificate: certificate,
       defaultRootObject: 'index.html',
-      domainNames: ['joshua.reddish.me'],
+      domainNames: ['joshua.reddish.me', 'joshua.blue.reddish.me'],
     });
 
     const s3SourcePath = join(__dirname, '../../personal-site/out');
@@ -67,13 +74,9 @@ export class InfraStack extends cdk.Stack {
       memoryLimit: 512,
     });
 
-    const zone = HostedZone.fromLookup(this, 'zone', {
-      domainName: 'reddish.me',
-    });
-
     new ARecord(this, 'aliasRecord', {
       zone: zone,
-      recordName: 'joshua.reddish.me',
+      recordName: 'joshua.blue.reddish.me',
       target: RecordTarget.fromAlias(new CloudFrontTarget(distribution)),
     });
 
