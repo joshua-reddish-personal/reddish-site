@@ -15,13 +15,14 @@
       "Emilie de Ravin"
     ]
   },
+  "criteria_grades": {
+    "Storytelling": 0,
+    "Character Development": 0,
+    "Visual Presentation": 0
+  },
   "content": {
-    "short_description": "A teenage loner pushes his way into the underworld of a high school crime ring to investigate the disappearance of his ex-girlfriend.",
-    "criteria_grades": {
-      "Storytelling": 0,
-      "Character Development": 0,
-      "Visual Presentation": 0
-    },
-    "quotes": []
+    "short_description": "Fed up with being single on holidays, two strangers agree to be each other's platonic plus-ones all year around, only to catch real feelings along the way.",
+    "quotes": [],
+    "notes": "Favorite Scenes, Favorite Lines"
   }
 }
