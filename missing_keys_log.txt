@@ -1,71 +1,11 @@
-./mediaDB/movies/unprocessedMediaFiles/hell_or_high_water.json
-Missing keys:
-metadata.criteria_grades.Storytelling
-metadata.criteria_grades.Visual Presentation
-
-./mediaDB/movies/unprocessedMediaFiles/mad_max__fury_road copy.json
-Missing keys:
-metadata.criteria_grades.Storytelling
-metadata.criteria_grades.Visual Presentation
-
-./mediaDB/movies/unprocessedMediaFiles/the_rock.json
-Missing keys:
-metadata.criteria_grades.Storytelling
-metadata.criteria_grades.Visual Presentation
-
 ./mediaDB/movies/unprocessedMediaFiles/brick.json
 Missing keys:
 metadata.criteria_grades
 content.notes
 
-./mediaDB/movies/unprocessedMediaFiles/the_boy_and_the_heron.json
-Missing keys:
-metadata.criteria_grades.Storytelling
-metadata.criteria_grades.Visual Presentation
-
-./mediaDB/movies/unprocessedMediaFiles/sinbad_of_the_seven_seas.json
-Missing keys:
-metadata.criteria_grades.Storytelling
-metadata.criteria_grades.Visual Presentation
-
-./mediaDB/movies/unprocessedMediaFiles/the_holdovers.json
-Missing keys:
-metadata.criteria_grades.Storytelling
-metadata.criteria_grades.Visual Presentation
-
-./mediaDB/movies/unprocessedMediaFiles/threads.json
-Missing keys:
-metadata.criteria_grades.Storytelling
-metadata.criteria_grades.Visual Presentation
-
-./mediaDB/movies/unprocessedMediaFiles/highlander.json
-Missing keys:
-metadata.criteria_grades.Storytelling
-metadata.criteria_grades.Visual Presentation
-
-./mediaDB/movies/unprocessedMediaFiles/the_outsiders.json
-Missing keys:
-metadata.criteria_grades.Storytelling
-metadata.criteria_grades.Visual Presentation
-
-./mediaDB/movies/unprocessedMediaFiles/good_will_hunting.json
-Missing keys:
-metadata.criteria_grades.Storytelling
-metadata.criteria_grades.Visual Presentation
-
-./mediaDB/movies/unprocessedMediaFiles/the_exorcist_iii.json
-Missing keys:
-metadata.criteria_grades.Storytelling
-metadata.criteria_grades.Visual Presentation
-
 ./mediaDB/movies/unprocessedMediaFiles/remember_the_titans.json
 Missing keys:
 metadata.criteria_grades.Storytelling
 metadata.criteria_grades.Character Development
-metadata.criteria_grades.Visual Presentation
-
-./mediaDB/movies/unprocessedMediaFiles/a_streetcar_named_desire.json
-Missing keys:
-metadata.criteria_grades.Storytelling
 metadata.criteria_grades.Visual Presentation
 
