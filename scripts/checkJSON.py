@@ -42,7 +42,7 @@ required_keys_video_game = {
     },
     "content": {
         "short_description": "",
-        "notes": "Favorite Scenes, Favorite Lines",
+        "notes": "",
         "quotes": []
     }
 }
@@ -60,7 +60,7 @@ required_keys_tv_show = {
     },
     "content": {
         "short_description": "",
-        "notes": "Favorite Scenes, Favorite Lines",
+        "notes": "",
         "quotes": []
     }
 }
@@ -78,7 +78,7 @@ required_keys_movie = {
     },
     "content": {
         "short_description": "",
-        "notes": "Favorite Scenes, Favorite Lines",
+        "notes": "",
         "quotes": []
     }
 }
@@ -96,7 +96,7 @@ required_keys_book = {
     },
     "content": {
         "short_description": "",
-        "notes": "Favorite Scenes, Favorite Lines",
+        "notes": "",
         "quotes": []
     }
 }
