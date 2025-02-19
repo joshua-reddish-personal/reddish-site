@@ -128,7 +128,7 @@ async def process_media_title(media_type, title, proceed, retry=False):
 
     # Determine the output folder based on whether the media
     output_folder = (
-        f"../mediaDB/{media_type}s/unproccessedMediaFiles"
+        f"../mediaDB/{media_type}s/unprocessedMediaFiles"
     )
 
     # Create the output folder if it doesn't exist
