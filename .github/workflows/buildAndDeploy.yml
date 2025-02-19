@@ -3,7 +3,13 @@ name: Deploy App Infra
 
 # Controls when the action will run. Invokes the workflow on push events but only for the main branch
 on:
-  workflow_dispatch
+  workflow_dispatch:
+    inputs: 
+      deploy:
+        description: 'Deploy the App Infra'
+        required: true
+        default: false
+        type: boolean
 
 env:
   AWS_REGION : us-east-1 #Change to reflect your Region
@@ -15,17 +21,17 @@ permissions:
   contents: read    # This is required for actions/checkout
 
 jobs:
-  buildAndDeployPersistent:
+  buildAndDeploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Git clone the repository
+      - name: Checkout the Repo
         uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
 
-      - name: Install Persistent Infra Dependencies
+      - name: Install Infra Dependencies
         working-directory: app/infra
         run: npm install
 
@@ -33,21 +39,23 @@ jobs:
         working-directory: app/infra
         run: npm run build
 
-      - name: configure aws credentials
+      - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: ${{env.AWS_ROLE_ARN}}
           role-session-name: GitHub_to_AWS_via_FederatedOIDC
           aws-region: ${{ env.AWS_REGION }}
-  
+
+      # - name: Sts GetCallerIdentity
+      #   run: |
+      #     aws sts get-caller-identity
+
       - name: Synth Infra
+        if: ${{ inputs.deploy == false }}
         working-directory: app/infra
         run: npm run synth
 
-      - name: Sts GetCallerIdentity
-        run: |
-          aws sts get-caller-identity
-
       - name: Deploy Infra
+        if: ${{ inputs.deploy == false }}
         working-directory: app/infra
         run: npm run deploy

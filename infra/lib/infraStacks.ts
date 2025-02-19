@@ -21,12 +21,14 @@ export class InfraStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
+    const substage = this.node.tryGetContext('substage');
+
     const zone = HostedZone.fromLookup(this, 'zone', {
       domainName: 'reddish.me',
     });
 
     const certificate = new Certificate(this, 'certificate', {
-      domainName: 'joshua.blue.reddish.me',
+      domainName: `joshua.${substage}.reddish.me`,
       subjectAlternativeNames: ['joshua.reddish.me'],
       validation: CertificateValidation.fromDns(zone),
     });
@@ -62,7 +64,7 @@ export class InfraStack extends cdk.Stack {
       },
       certificate: certificate,
       defaultRootObject: 'index.html',
-      domainNames: ['joshua.reddish.me', 'joshua.blue.reddish.me'],
+      domainNames: ['joshua.reddish.me', `joshua.${substage}.reddish.me`],
     });
 
     const s3SourcePath = join(__dirname, '../../personal-site/out');
@@ -71,12 +73,11 @@ export class InfraStack extends cdk.Stack {
       sources: [Source.asset(s3SourcePath)],
       destinationBucket: bucket,
       distribution: distribution,
-      memoryLimit: 512,
     });
 
     new ARecord(this, 'aliasRecord', {
       zone: zone,
-      recordName: 'joshua.blue.reddish.me',
+      recordName: `joshua.${substage}.reddish.me`,
       target: RecordTarget.fromAlias(new CloudFrontTarget(distribution)),
     });
 
