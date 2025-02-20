@@ -1,11 +1,6 @@
 # Ignore built files and directories
-cdk/cdk.out/
-cdk/cdk.context.json
-lambdas/*/dist/
-lambdas/*/node_modules/
-infrastructure/dynamodb/cdk.out
-infrastructure/dynamodb/
-infrastructure/dynamodb/node_modules/
+cdk.out/
+cdk.context.json
 node_modules/
 *.js
 *.js.map
@@ -15,6 +10,7 @@ node_modules/
 cdk/node_modules/
 cdk/.env
 cdk/.aws-sam/
+infra/cdk.context.json
 
 # Ignore IDE and editor files
 .idea/
