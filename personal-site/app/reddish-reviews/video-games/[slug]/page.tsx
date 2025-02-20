@@ -11,32 +11,33 @@ export async function generateStaticParams() {
   }))
 }
 
-export function generateMetadata({ params }) {
-  let tvshow = getVideoGames().find((tvshow) => tvshow.slug === params.slug)
-  if (!tvshow) {
-    return
-  }
+// export function generateMetadata({ params }) {
+//   let tvshow = getVideoGames().find((tvshow) => tvshow.slug === params.slug)
+//   if (!tvshow) {
+//     return
+//   }
 
-  let {
-    title,
-    mediaType,
-    developer,
-    release_year,
-    genres, 
-    criteria_grades,
-  } = tvshow.metadata
+//   let {
+//     title,
+//     mediaType,
+//     developer,
+//     release_year,
+//     genres, 
+//     criteria_grades,
+//   } = tvshow.metadata
 
-  return {
-    title,
-    mediaType,
-    developer,
-    release_year,
-    genres,
-    criteria_grades,
-  }
-}
+//   return {
+//     title,
+//     mediaType,
+//     developer,
+//     release_year,
+//     genres,
+//     criteria_grades,
+//   }
+// }
 
-export default function TVShow({ params }) {
+export default async function TVShow({ params }) {
+  const { slug } = await params;
   let tvshow = getVideoGames().find((tvshow) => tvshow.slug === params.slug)
 
   if (!tvshow) {

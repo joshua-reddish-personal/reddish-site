@@ -2,7 +2,6 @@ import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
   output: 'export',
   // images: {
   //   domains: ['example.com'], // Add your image domains here

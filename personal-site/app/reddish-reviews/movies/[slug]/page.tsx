@@ -11,41 +11,43 @@ export async function generateStaticParams() {
   }))
 }
 
-export function generateMetadata({ params }) {
-  let movie = getMovies().find((movie) => movie.slug === params.slug)
+// export async function generateMetadata({ params }) {
+//   const slug = await params.slug;
+//   let movie = getMovies().find((movie) => movie.slug === slug)
+//   if (!movie) {
+//     return
+//   }
+
+//   let {
+//     title,
+//     mediaType,
+//     director,
+//     release_year,
+//     genres, 
+//     criteria_grades,
+//   } = movie.metadata
+
+//   return {
+//     title,
+//     mediaType,
+//     director,
+//     release_year,
+//     genres,
+//     criteria_grades,
+//   }
+// }
+
+export default async function Movie({ params }) {
+  const { slug } = await params;
+  let movie = await getMovies().find((movie) => movie.slug === slug);
+
   if (!movie) {
-    return
-  }
-
-  let {
-    title,
-    mediaType,
-    director,
-    release_year,
-    genres, 
-    criteria_grades,
-  } = movie.metadata
-
-  return {
-    title,
-    mediaType,
-    director,
-    release_year,
-    genres,
-    criteria_grades,
-  }
-}
-
-export default function Movie({ params }) {
-  let movie = getMovies().find((movie) => movie.slug === params.slug)
-
-  if (!movie) {
-    notFound()
+    notFound();
   }
 
   return (
     <section>
-   <MediaTable></MediaTable>
+      <MediaTable></MediaTable>
       <h1 className="title font-semibold text-2xl tracking-tighter mb-4">
         {movie.metadata.title} ({movie.metadata.release_year})
       </h1>
@@ -76,5 +78,5 @@ export default function Movie({ params }) {
       <div className="flex justify-between items-center mt-2 mb-8 text-sm">
       </div>
     </section>
-  )
+  );
 }

@@ -1,3 +1,4 @@
+export const dynamic = 'force-static';
 import { getMovies } from 'app/reddish-reviews/utils'
 
 // TO DO: Set the base URL for the site

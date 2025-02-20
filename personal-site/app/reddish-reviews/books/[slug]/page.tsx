@@ -10,33 +10,34 @@ export async function generateStaticParams() {
   }))
 }
 
-export function generateMetadata({ params }) {
-  let movie = getBooks().find((movie) => movie.slug === params.slug)
-  if (!movie) {
-    return
-  }
+// export function generateMetadata({ params }) {
+//   let movie = getBooks().find((movie) => movie.slug === params.slug)
+//   if (!movie) {
+//     return
+//   }
 
-  let {
-    title,
-    mediaType,
-    author,
-    publication_year,
-    genres, 
-    criteria_grades,
-  } = movie.metadata
+//   let {
+//     title,
+//     mediaType,
+//     author,
+//     publication_year,
+//     genres, 
+//     criteria_grades,
+//   } = movie.metadata
 
-  return {
-    title,
-    mediaType,
-    author,
-    publication_year,
-    genres,
-    criteria_grades,
-  }
-}
+//   return {
+//     title,
+//     mediaType,
+//     author,
+//     publication_year,
+//     genres,
+//     criteria_grades,
+//   }
+// }
 
-export default function Book({ params }) {
-  let book = getBooks().find((book) => book.slug === params.slug)
+export default async function Book({ params }) {
+  const { slug } = await params;
+  let book = getBooks().find((book) => book.slug === slug)
 
   if (!book) {
     notFound()
