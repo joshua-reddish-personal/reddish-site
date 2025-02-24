@@ -17,7 +17,11 @@
     ]
   },
   "context": {
-    "substage": "blue",
+    "stage": "",
+    "substage": "",
+    "primaryRegion": "",
+    "secondaryRegion": "",
+    "awsAccount": "",
     "@aws-cdk/core:checkSecretUsage": true,
     "@aws-cdk/core:target-partitions": [
       "aws",

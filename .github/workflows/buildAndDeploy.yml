@@ -10,10 +10,19 @@ on:
         required: true
         default: false
         type: boolean
+      stage:
+        description: 'Stage to deploy'
+        required: true
+        type: choice
+        options:
+          - npr
+          - prd
 
 env:
-  AWS_REGION : us-east-1 #Change to reflect your Region
-  AWS_ROLE_ARN: arn:aws:iam::xxxx:role/GitHubAction-AssumeRoleWithAction
+  PRIMARY_REGION : us-east-1 #Change to reflect your Region
+  SECONDARY_REGION : us-east-2 #Change to reflect your Region
+  AWS_ROLE_ARN: arn:aws:iam::xxxx:role/GitHubAction-AssumeRoleWithAction # TODO remove when change to secret
+  STAGE: ${{ inputs.stage }}
 
 # Permission can be added at job level or workflow level    
 permissions:
@@ -35,20 +44,35 @@ jobs:
         working-directory: app/infra
         run: npm install
 
-      - name: Build CDK
-        working-directory: app/infra
-        run: npm run build
-
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: ${{env.AWS_ROLE_ARN}}
+          role-to-assume: ${{env.AWS_ROLE_ARN}} # TODO change to secret
           role-session-name: GitHub_to_AWS_via_FederatedOIDC
           aws-region: ${{ env.AWS_REGION }}
 
-      # - name: Sts GetCallerIdentity
-      #   run: |
-      #     aws sts get-caller-identity
+      - name: Check Substage
+        if: ${{ inputs.stage == 'prd' }}
+        run: |
+          sh ./scripts/updateSubstage.sh 
+          export SUBSTAGE=blue
+          echo "SUBSTAGE=$SUBSTAGE" >> $GITHUB_ENV
+
+      - name: Update cdk.json
+        working-directory: app/infra
+        run: |
+            jq --arg PRIMARY_REGION "$PRIMARY_REGION" \
+             --arg SECONDARY_REGION "$SECONDARY_REGION" \
+             --arg SUBSTAGE "$SUBSTAGE" \
+             '.context.awsAccount = ${{ secrets.AWS_ACCOUNT }} |
+              .context.stage = $STAGE | 
+              .context.substage = $SUBSTAGE |
+              .context.primaryRegion = $PRIMARY_REGION | 
+              .context.secondaryRegion = $SECONDARY_REGION' cdk.json > cdk.json.tmp && mv cdk.json.tmp cdk.json
+
+      - name: Build CDK
+        working-directory: app/infra
+        run: npm run build
 
       - name: Synth Infra
         if: ${{ inputs.deploy == false }}
