@@ -2,45 +2,43 @@
 name: Delete Infra
 
 # Controls when the action will run. Invokes the workflow on push events but only for the main branch
-on:
-  workflow_dispatch
+on: workflow_dispatch
 
 env:
-  AWS_REGION : us-east-1 #Change to reflect your Region
-  AWS_ROLE_ARN: arn:aws:iam::xxxx:role/GitHubAction-AssumeRoleWithAction
-
-# Permission can be added at job level or workflow level    
+    AWS_REGION: us-east-1 #Change to reflect your Region
+    AWS_ROLE_ARN: ${{ secrets.AWS_ROLE_ARN }} # This is the ARN of the role that the workflow will assume
+# Permission can be added at job level or workflow level
 permissions:
-  id-token: write   # This is required for requesting the JWT
-  contents: read    # This is required for actions/checkout
+    id-token: write # This is required for requesting the JWT
+    contents: read # This is required for actions/checkout
 
 jobs:
-  delete:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Git clone the repository
-        uses: actions/checkout@v4
+    delete:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Git clone the repository
+              uses: actions/checkout@v4
 
-      - name: Install Node
-        uses: actions/setup-node@v4
-        with:
-          node-version-file: '.nvmrc'
+            - name: Install Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version-file: '.nvmrc'
 
-      - name: Install Infra Dependencies
-        working-directory: app/infra
-        run: npm install
+            - name: Install Infra Dependencies
+              working-directory: app/infra
+              run: npm install
 
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          role-to-assume: ${{env.AWS_ROLE_ARN}}
-          role-session-name: GitHub_to_AWS_via_FederatedOIDC
-          aws-region: ${{ env.AWS_REGION }}
+            - name: Configure AWS Credentials
+              uses: aws-actions/configure-aws-credentials@v4
+              with:
+                  role-to-assume: ${{env.AWS_ROLE_ARN}}
+                  role-session-name: GitHub_to_AWS_via_FederatedOIDC
+                  aws-region: ${{ env.AWS_REGION }}
 
-      - name: Sts GetCallerIdentity
-        run: |
-          aws sts get-caller-identity
+            - name: Sts GetCallerIdentity
+              run: |
+                  aws sts get-caller-identity
 
-      - name: Delete Infra
-        working-directory: app/infra
-        run: npm run destroy
+            - name: Delete Infra
+              working-directory: app/infra
+              run: npm run destroy
