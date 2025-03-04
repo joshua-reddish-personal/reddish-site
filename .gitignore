@@ -13,6 +13,9 @@ cdk/.aws-sam/
 infra/cdk.context.json
 cdk.context.json
 
+# Ignore media files not in mediaDB
+personal-site/app/reddish-reviews/*/media/*.json
+
 # Ignore IDE and editor files
 .idea/
 .vscode/
