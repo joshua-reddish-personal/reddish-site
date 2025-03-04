@@ -13,4 +13,3 @@ parserOptions:
 plugins:
   - '@typescript-eslint'
   - react
-rules: {}

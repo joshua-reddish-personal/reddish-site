@@ -2,6 +2,7 @@
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
 import { InfraStack } from '../lib/infraStacks';
+import { CDNStack } from '../lib/CDNStack';
 
 const app = new cdk.App();
 const stage = app.node.tryGetContext('stage');
@@ -12,27 +13,30 @@ const awsAccount = app.node.tryGetContext('awsAccount');
 
 const environment = substage ? `${stage}-${substage}` : stage;
 
-// TODO Need to rework creation of cloudfront, since its global only need one, but both S3 buckets should already be created
+const primaryStack = new InfraStack(
+    app,
+    `${environment}-${primaryRegion}-InfraStack`,
+    {
+        env: { account: awsAccount, region: primaryRegion },
+        stackName: `reddish-site-${environment}-${primaryRegion}`,
+        environment: environment,
+    },
+);
 
-new InfraStack(app, `${environment}-${primaryRegion}-InfraStack`, {
-  env: { account: awsAccount, region: primaryRegion },
-  stackName: `reddish-site-${environment}-${primaryRegion}`, // Add this line
+const secondaryStack = new InfraStack(
+    app,
+    `${environment}-${secondaryRegion}-InfraStack`,
+    {
+        env: { account: awsAccount, region: secondaryRegion },
+        stackName: `reddish-site-${environment}-${secondaryRegion}`,
+        environment: environment,
+    },
+);
 
-  /* If you don't specify 'env', this stack will be environment-agnostic.
-   * Account/Region-dependent features and context lookups will not work,
-   * but a single synthesized template can be deployed anywhere. */
-
-  /* Uncomment the next line to specialize this stack for the AWS Account
-   * and Region that are implied by the current CLI configuration. */
-  // env: { account: process.env.CDK_DEFAULT_ACCOUNT, region: process.env.CDK_DEFAULT_REGION },
-
-  /* Uncomment the next line if you know exactly what Account and Region you
-   * want to deploy the stack to. */
-
-  /* For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html */
-});
-
-new InfraStack(app, `${environment}-${secondaryRegion}-InfraStack`, {
-  env: { account: awsAccount, region: secondaryRegion },
-  stackName: `reddish-site-${environment}-${secondaryRegion}`, // Add this line
+new CDNStack(app, `${environment}-CDNStack`, {
+    env: { account: awsAccount, region: primaryRegion },
+    stackName: `reddish-site-${environment}-CDN`,
+    environment: environment,
+    primaryBucketArn: primaryStack.bucketArn,
+    secondaryBucketArn: secondaryStack.bucketArn,
 });

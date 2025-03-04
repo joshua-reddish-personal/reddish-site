@@ -1,85 +1,82 @@
-# This is a basic workflow to help you get started with Actions
 name: Deploy App Infra
 
-# Controls when the action will run. Invokes the workflow on push events but only for the main branch
 on:
-  workflow_dispatch:
-    inputs: 
-      deploy:
-        description: 'Deploy the App Infra'
-        required: true
-        default: false
-        type: boolean
-      stage:
-        description: 'Stage to deploy'
-        required: true
-        type: choice
-        options:
-          - npr
-          - prd
+    workflow_dispatch:
+        inputs:
+            deploy:
+                description: 'Deploy the App Infra'
+                required: true
+                default: false
+                type: boolean
+            stage:
+                description: 'Stage to deploy'
+                required: true
+                type: choice
+                options:
+                    - npr
+                    - prd
 
 env:
-  PRIMARY_REGION : us-east-1 #Change to reflect your Region
-  SECONDARY_REGION : us-east-2 #Change to reflect your Region
-  AWS_ROLE_ARN: arn:aws:iam::xxxx:role/GitHubAction-AssumeRoleWithAction # TODO remove when change to secret
-  STAGE: ${{ inputs.stage }}
+    PRIMARY_REGION: us-east-1
+    SECONDARY_REGION: us-east-2
+    AWS_ROLE_ARN: ${{ secrets.AWS_ROLE_ARN }}
+    STAGE: ${{ inputs.stage }}
 
-# Permission can be added at job level or workflow level    
 permissions:
-  id-token: write   # This is required for requesting the JWT
-  contents: read    # This is required for actions/checkout
+    id-token: write # This is required for requesting the JWT
+    contents: read # This is required for actions/checkout
 
 jobs:
-  buildAndDeploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout the Repo
-        uses: actions/checkout@v4
+    buildAndDeploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout the Repo
+              uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version-file: '.nvmrc'
+            - uses: actions/setup-node@v4
+              with:
+                  node-version-file: '.nvmrc'
 
-      - name: Install Infra Dependencies
-        working-directory: app/infra
-        run: npm install
+            - name: Install Infra Dependencies
+              working-directory: app/infra
+              run: npm install
 
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          role-to-assume: ${{env.AWS_ROLE_ARN}} # TODO change to secret
-          role-session-name: GitHub_to_AWS_via_FederatedOIDC
-          aws-region: ${{ env.AWS_REGION }}
+            - name: Configure AWS Credentials
+              uses: aws-actions/configure-aws-credentials@v4
+              with:
+                  role-to-assume: ${{env.AWS_ROLE_ARN}}
+                  role-session-name: GitHub_to_AWS_via_FederatedOIDC
+                  aws-region: ${{ env.AWS_REGION }}
 
-      - name: Check Substage
-        if: ${{ inputs.stage == 'prd' }}
-        run: |
-          sh ./scripts/updateSubstage.sh 
-          export SUBSTAGE=blue
-          echo "SUBSTAGE=$SUBSTAGE" >> $GITHUB_ENV
+            - name: Check Substage
+              if: ${{ inputs.stage == 'prd' }}
+              run: |
+                  sh ./scripts/updateSubstage.sh 
+                  export SUBSTAGE=blue
+                  echo "SUBSTAGE=$SUBSTAGE" >> $GITHUB_ENV
 
-      - name: Update cdk.json
-        working-directory: app/infra
-        run: |
-            jq --arg PRIMARY_REGION "$PRIMARY_REGION" \
-             --arg SECONDARY_REGION "$SECONDARY_REGION" \
-             --arg SUBSTAGE "$SUBSTAGE" \
-             '.context.awsAccount = ${{ secrets.AWS_ACCOUNT }} |
-              .context.stage = $STAGE | 
-              .context.substage = $SUBSTAGE |
-              .context.primaryRegion = $PRIMARY_REGION | 
-              .context.secondaryRegion = $SECONDARY_REGION' cdk.json > cdk.json.tmp && mv cdk.json.tmp cdk.json
+            - name: Update cdk.json
+              working-directory: app/infra
+              run: |
+                  jq --arg PRIMARY_REGION "$PRIMARY_REGION" \
+                   --arg SECONDARY_REGION "$SECONDARY_REGION" \
+                   --arg SUBSTAGE "$SUBSTAGE" \
+                   '.context.awsAccount = ${{ secrets.AWS_ACCOUNT }} |
+                    .context.stage = $STAGE | 
+                    .context.substage = $SUBSTAGE |
+                    .context.primaryRegion = $PRIMARY_REGION | 
+                    .context.secondaryRegion = $SECONDARY_REGION' cdk.json > cdk.json.tmp && mv cdk.json.tmp cdk.json
 
-      - name: Build CDK
-        working-directory: app/infra
-        run: npm run build
+            - name: Build CDK
+              working-directory: app/infra
+              run: npm run build
 
-      - name: Synth Infra
-        if: ${{ inputs.deploy == false }}
-        working-directory: app/infra
-        run: npm run synth
+            - name: Synth Infra
+              if: ${{ inputs.deploy == false }}
+              working-directory: app/infra
+              run: npm run synth
 
-      - name: Deploy Infra
-        if: ${{ inputs.deploy == false }}
-        working-directory: app/infra
-        run: npm run deploy
+            - name: Deploy Infra
+              if: ${{ inputs.deploy == false }}
+              working-directory: app/infra
+              run: npm run deploy
