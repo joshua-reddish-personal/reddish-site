@@ -75,17 +75,19 @@ jobs:
                     .context.stage = "${{ env.STAGE }}" | 
                     .context.primaryRegion = "${{ env.PRIMARY_REGION }}" | 
                     .context.secondaryRegion = "${{ env.SECONDARY_REGION }}"' cdk.json > cdk.json.tmp && mv cdk.json.tmp cdk.json
+                  
+                  cat cdk.json
 
             - name: Build CDK
-              working-directory: app/infra
+              working-directory: infra
               run: npm run build
 
             - name: Diff Infra
               if: ${{ inputs.deploy == false }}
-              working-directory: app/infra
+              working-directory: infra
               run: npm run diff
 
             - name: Deploy Infra
               if: ${{ inputs.deploy == false }}
-              working-directory: app/infra
+              working-directory: infra
               run: npm run deploy
