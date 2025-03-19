@@ -71,10 +71,10 @@ jobs:
             - name: Update cdk.json
               working-directory: infra
               run: |
-                  jq '.context.awsAccount = ${{ secrets.AWS_ACCOUNT }} |
-                    .context.stage = ${{ env.STAGE }} | 
-                    .context.primaryRegion = ${{ env.PRIMARY_REGION }} | 
-                    .context.secondaryRegion = ${{ env.SECONDARY_REGION }}' cdk.json > cdk.json.tmp && mv cdk.json.tmp cdk.json
+                  jq '.context.awsAccount = "${{ secrets.AWS_ACCOUNT }}" |
+                    .context.stage = "${{ env.STAGE }}" | 
+                    .context.primaryRegion = "${{ env.PRIMARY_REGION }}" | 
+                    .context.secondaryRegion = "${{ env.SECONDARY_REGION }}"' cdk.json > cdk.json.tmp && mv cdk.json.tmp cdk.json
 
             - name: Build CDK
               working-directory: app/infra
