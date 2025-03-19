@@ -37,8 +37,16 @@ jobs:
               with:
                   node-version-file: '.nvmrc'
 
+            - name: Install App Dependencies
+              working-directory: personal-site
+              run: pnpm install
+          
+            - name: Build App
+              working-directory: personal-site
+              run: pnpm run build
+
             - name: Install Infra Dependencies
-              working-directory: app/infra
+              working-directory: infra
               run: npm install
 
             - name: Configure AWS Credentials
@@ -56,12 +64,9 @@ jobs:
                   echo "SUBSTAGE=$SUBSTAGE" >> $GITHUB_ENV
 
             - name: Update cdk.json
-              working-directory: app/infra
+              working-directory: infra
               run: |
-                  jq --arg PRIMARY_REGION "$PRIMARY_REGION" \
-                   --arg SECONDARY_REGION "$SECONDARY_REGION" \
-                   --arg SUBSTAGE "$SUBSTAGE" \
-                   '.context.awsAccount = ${{ secrets.AWS_ACCOUNT }} |
+                  jq '.context.awsAccount = ${{ secrets.AWS_ACCOUNT }} |
                     .context.stage = $STAGE | 
                     .context.substage = $SUBSTAGE |
                     .context.primaryRegion = $PRIMARY_REGION | 
@@ -71,10 +76,10 @@ jobs:
               working-directory: app/infra
               run: npm run build
 
-            - name: Synth Infra
+            - name: Diff Infra
               if: ${{ inputs.deploy == false }}
               working-directory: app/infra
-              run: npm run synth
+              run: npm run diff
 
             - name: Deploy Infra
               if: ${{ inputs.deploy == false }}
