@@ -16,6 +16,7 @@ on:
                     - npr
                     - prd
 
+
 env:
     PRIMARY_REGION: us-east-1
     SECONDARY_REGION: us-east-2
@@ -27,6 +28,7 @@ permissions:
 
 jobs:
     buildAndDeploy:
+        environment: ${{ inputs.stage }}
         runs-on: ubuntu-latest
         steps:
             - name: Checkout the Repo
