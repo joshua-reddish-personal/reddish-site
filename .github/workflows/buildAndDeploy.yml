@@ -37,6 +37,9 @@ jobs:
               with:
                   node-version-file: '.nvmrc'
 
+            - name: Install pnpm
+              run: npm install -g pnpm
+
             - name: Install App Dependencies
               working-directory: personal-site
               run: pnpm install
