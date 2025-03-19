@@ -67,12 +67,12 @@ jobs:
                   export SUBSTAGE=blue
                   echo "SUBSTAGE=$SUBSTAGE" >> $GITHUB_ENV
 
+            # .context.substage = ${{ env.SUBSTAGE }} |
             - name: Update cdk.json
               working-directory: infra
               run: |
                   jq '.context.awsAccount = ${{ secrets.AWS_ACCOUNT }} |
                     .context.stage = ${{ env.STAGE }} | 
-                    .context.substage = ${{ env.SUBSTAGE }} |
                     .context.primaryRegion = ${{ env.PRIMARY_REGION }} | 
                     .context.secondaryRegion = ${{ env.SECONDARY_REGION }}' cdk.json > cdk.json.tmp && mv cdk.json.tmp cdk.json
 
