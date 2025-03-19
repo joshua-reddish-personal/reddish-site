@@ -19,7 +19,6 @@ on:
 env:
     PRIMARY_REGION: us-east-1
     SECONDARY_REGION: us-east-2
-    AWS_ROLE_ARN: ${{ secrets.AWS_ROLE_ARN }}
     STAGE: ${{ inputs.stage }}
 
 permissions:
@@ -55,9 +54,9 @@ jobs:
             - name: Configure AWS Credentials
               uses: aws-actions/configure-aws-credentials@v4
               with:
-                  role-to-assume: ${{env.AWS_ROLE_ARN}}
+                  role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
                   role-session-name: GitHub_to_AWS_via_FederatedOIDC
-                  aws-region: ${{ env.AWS_REGION }}
+                  aws-region: ${{ env.PRIMARY_REGION }}
 
             - name: Check Substage
               if: ${{ inputs.stage == 'prd' }}
